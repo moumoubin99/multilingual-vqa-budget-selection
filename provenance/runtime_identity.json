@@ -1,0 +1,45 @@
+{
+  "runtime_role": "Later inspected primary miniconda runtime used by v3 queue; not a complete receipt for each historical run.",
+  "packages": {
+    "transformers": {
+      "distribution_version": "4.57.1",
+      "literal_module_version": "4.57.1",
+      "init_sha256": "4ef5187b5f66c564aa575ddab9ce94342630d40fe874d0464d790c6f6b748647"
+    },
+    "tokenizers": {
+      "distribution_version": "0.22.2",
+      "init_sha256": "148ecb122f3fee03be9abb1fe213dd85fbc691bf2ad2b437ff531533781a6a3a"
+    },
+    "peft": {
+      "distribution_version": "0.21.0",
+      "literal_module_version": "0.21.0",
+      "init_sha256": "a68ffbaa8b3b0777597c7c48077080a890aca8a31acffcfc1c7469f4d08f7a57"
+    },
+    "accelerate": {
+      "distribution_version": "1.15.0",
+      "literal_module_version": "1.15.0",
+      "init_sha256": "a479388e26b653f219788e744c45e73d0c172f021d441725ff2af89bf6ee7a8f"
+    },
+    "torch": {
+      "distribution_version": "2.8.0+cu128",
+      "init_sha256": "2f0deb66d5dff6b9c02a62832c3bf3824c2ee031c462a3afeb9ca170466da5bf"
+    },
+    "torchvision": {
+      "distribution_version": "0.23.0+cu128",
+      "init_sha256": "ee2c9f4110cf1203db48c42601607329ac1f19709fa91c152f8d95eb53437a73"
+    },
+    "numpy": {
+      "distribution_version": "2.2.6",
+      "init_sha256": "6ae17b070c0f70a8e3cad89a510a256942e5a1f37ea5feb120cec167ed2a6236"
+    },
+    "PIL": {
+      "distribution_version": "11.3.0",
+      "init_sha256": "43828e12947b4bf5ec8f7d1fbceb2f47de311295f8294b15794c1a54fd5f53cd"
+    }
+  },
+  "separate_early_g4_environment": {
+    "transformers": "5.17.0",
+    "tokenizers": "0.23.2",
+    "note": "Earlier formula/deployment check environment, not interchangeable with main v3 miniconda."
+  }
+}

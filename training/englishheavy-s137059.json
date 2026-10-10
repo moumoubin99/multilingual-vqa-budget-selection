@@ -1,0 +1,40 @@
+{
+  "status": "completed",
+  "pilot_only": false,
+  "seed": 137059,
+  "examples": 2000,
+  "updates": 63,
+  "micro_steps": 3984,
+  "target_tokens": 11952,
+  "mean_loss": 0.305164550225326,
+  "last_loss": 0.48590075969696045,
+  "elapsed_seconds": 2212.841788291931,
+  "gpu_hours": 0.6146782745255365,
+  "max_memory_bytes": 9385138688,
+  "checkpoint_updates": [],
+  "input_sha256": "d6ae428cbce366ec8df62b889121059d6d82dc3b0eba443aa2c9aaf578571c36",
+  "torch_version": "2.8.0+cu128",
+  "cuda_device": "NVIDIA GeForce RTX 4090",
+  "code_sha256": "c153ec2e262f89efb9bec8e692261a107f4ff6a5712b7188de9b81b385ed4a2a",
+  "recipe": {
+    "rank": 16,
+    "alpha": 32,
+    "dropout": 0.05,
+    "learning_rate": 0.0001,
+    "epochs": 2.0,
+    "effective_batch": 64,
+    "warmup_ratio": 0.03,
+    "vision_frozen": true,
+    "optimizer": "AdamW",
+    "optimizer_betas": [
+      0.9,
+      0.999
+    ],
+    "optimizer_eps": 1e-08,
+    "optimizer_weight_decay": 0.01,
+    "gradient_clip_norm": 1.0,
+    "attention": "sdpa",
+    "max_pixels": 401408,
+    "gradient_checkpointing": true
+  }
+}

@@ -1,0 +1,3695 @@
+{
+  "format_version": 1,
+  "files": [
+    {
+      "path": "analysis/CONTRAST_TABLE.json",
+      "bytes": 137270,
+      "sha256": "416f58766792f8ed2b766292f7558553286fee406293032216d5bb7bc0465615"
+    },
+    {
+      "path": "analysis/replayed_table2.csv",
+      "bytes": 718,
+      "sha256": "6b22304ee70ed19b5592216b5cdf04f9a7aff0021070e729cdbb3ea32b7e45c0"
+    },
+    {
+      "path": "analysis/replayed_table3.csv",
+      "bytes": 668,
+      "sha256": "e31d548bc848bb6d9edb603eb4b859daf119e2d1d5887bf29b7a0012661a5fb4"
+    },
+    {
+      "path": "analysis/SIGN_COUNTS_TIES.json",
+      "bytes": 1258,
+      "sha256": "ed33ccf08a1dd642b0a348a10b58041da7f7ee0cad9243804f6e5cfc9fc21c3f"
+    },
+    {
+      "path": "analysis/TRANSFER_PARTIAL.json",
+      "bytes": 2627,
+      "sha256": "f6a50c51152f9ee1c70280f7ad91e1366fc3bce20f3eda905709cc2d54fce394"
+    },
+    {
+      "path": "code/scripts/analyze_registered_tests.py",
+      "bytes": 9469,
+      "sha256": "f7b5203b79fb6f39af6b4c3e365a7c5f9122a5485b1a82afbf219a7ad602fc0a"
+    },
+    {
+      "path": "code/scripts/build_contrast_table.py",
+      "bytes": 17619,
+      "sha256": "6453914ba26c71e3d11f0d94fd6c8c47dbf8f17751f5847173181df8a59a90c6"
+    },
+    {
+      "path": "code/scripts/build_selection_subsets.py",
+      "bytes": 19930,
+      "sha256": "d54f2f49b47eb97c1748d0b2f7f13dd63f673a14ec967c38bd4e7174713feb8e"
+    },
+    {
+      "path": "code/scripts/evaluate_vqa.py",
+      "bytes": 24005,
+      "sha256": "087dfbe153eafe941494d3d1269798cd456518a207594eabfdd8dfea4040bbe9"
+    },
+    {
+      "path": "code/scripts/prepare_cvqa_transfer.py",
+      "bytes": 12951,
+      "sha256": "3166f8b13a840554bd8ce11bff69539c7e32d7e9864215b678a03b3b4cce6305"
+    },
+    {
+      "path": "code/scripts/prepare_worldcuisines_endpoint.py",
+      "bytes": 9177,
+      "sha256": "bb8f91e24248fffb167978f21a7476f75e2cd85456e0beb7d84179f7a4b04d38"
+    },
+    {
+      "path": "code/scripts/prepare_worldcuisines_pool.py",
+      "bytes": 14239,
+      "sha256": "b508d926a496be301112cacf551d5c6b32f1f0de7507837e56ed5e9470333ac5"
+    },
+    {
+      "path": "code/scripts/train_lora.py",
+      "bytes": 17907,
+      "sha256": "c153ec2e262f89efb9bec8e692261a107f4ff6a5712b7188de9b81b385ed4a2a"
+    },
+    {
+      "path": "code/src/ccmvqa/__init__.py",
+      "bytes": 520,
+      "sha256": "f5b4fdbb318350af73cb28773eef358864df45ca37402e6faea8e978be0079b6"
+    },
+    {
+      "path": "code/src/ccmvqa/authorization.py",
+      "bytes": 8209,
+      "sha256": "1daaa23b7d9581b447a77b59910709e6ddf11f9983777cae4c2147d3451e5aa9"
+    },
+    {
+      "path": "code/src/ccmvqa/formulas.py",
+      "bytes": 32627,
+      "sha256": "9664fdcc3db706625dc10af11dc08784b90f750894ee42e42afcd084a83a049c"
+    },
+    {
+      "path": "code/src/ccmvqa/runtime_env.py",
+      "bytes": 3350,
+      "sha256": "156e003bf8702f763dff1863837034c42f389d3e200591d9d6549c08511e0fca"
+    },
+    {
+      "path": "data/cvqa_metadata.jsonl.gz",
+      "bytes": 82151,
+      "sha256": "92fda8769ab6d563f7bf6cabf276caac339ed79c21f32f10f6b81e75b6729933"
+    },
+    {
+      "path": "data/cvqa_receipt.json",
+      "bytes": 4213,
+      "sha256": "e24f8d7079d8240f1e445f39369ec526adeb336d7c30196877181b385bdc5a54"
+    },
+    {
+      "path": "data/endpoint_metadata.jsonl.gz",
+      "bytes": 164814,
+      "sha256": "4225220f46e120270d74f444a91fe80793f71d8091e041a1ebb63e5fc0998e19"
+    },
+    {
+      "path": "data/endpoint_receipt.json",
+      "bytes": 1595,
+      "sha256": "bcf54bcebda110dedee1fae504c95d0ebd84ab11ff07c8f9813725ab706e1779"
+    },
+    {
+      "path": "data/pool_metadata.jsonl.gz",
+      "bytes": 1626960,
+      "sha256": "2bdf6ef28a8748c713e76123bfa1a61ec9de3454a595d27c631ef8dc2fe0bf8c"
+    },
+    {
+      "path": "data/pool_receipt.json",
+      "bytes": 2311,
+      "sha256": "e9c840b521e3446e2e62200a82d564f01b774bf82d485ec8d2dfaa22b2e2a940"
+    },
+    {
+      "path": "data/subset_registry.json",
+      "bytes": 130537,
+      "sha256": "5fdd339221949c3251590ea1353756778e12064e04e39ce8d4ac65e905193ab2"
+    },
+    {
+      "path": "data/subsets/ConceptOnly/seed_137059.json",
+      "bytes": 88800,
+      "sha256": "f801ee43ac444f0e4363633c27cddc178071839f2e01467fa49ccc64eda5cb4d"
+    },
+    {
+      "path": "data/subsets/ConceptOnly/seed_149937.json",
+      "bytes": 88780,
+      "sha256": "e80b96cd13a34c4af6ba0b0f156a2faab87abf02236b9fecb45a9121bf859e14"
+    },
+    {
+      "path": "data/subsets/ConceptOnly/seed_247841.json",
+      "bytes": 88724,
+      "sha256": "693f002c56bd19279762c99702e837091c7fe394ef53693e160bc7af61dc0c5a"
+    },
+    {
+      "path": "data/subsets/ConceptOnly/seed_272874.json",
+      "bytes": 88664,
+      "sha256": "599f647b4ca2b805b7d893e89c37725829b687c291b487a4b0fdce83b0933dca"
+    },
+    {
+      "path": "data/subsets/ConceptOnly/seed_325511.json",
+      "bytes": 88679,
+      "sha256": "5208e27b1a65b92d504767849d17fd2f0a3c5673e7e6399341b0b15324f81a0f"
+    },
+    {
+      "path": "data/subsets/ConceptOnly/seed_344247.json",
+      "bytes": 88617,
+      "sha256": "659808dc9e9b444fa70a4966bfec60fb7806a5f9be63a8c6e4fc861be212fa84"
+    },
+    {
+      "path": "data/subsets/ConceptOnly/seed_391118.json",
+      "bytes": 88861,
+      "sha256": "588a27ff9f111135867e94ce9d4ba9cb073d94fcf8443152816ab2653c678d71"
+    },
+    {
+      "path": "data/subsets/ConceptOnly/seed_4823.json",
+      "bytes": 88863,
+      "sha256": "02246d791bdb31ee70b4b5da363b638a0bfb15abbd2590329fe389fbe94c20c5"
+    },
+    {
+      "path": "data/subsets/ConceptOnly/seed_570526.json",
+      "bytes": 88762,
+      "sha256": "fab0f942253d024b878e6339329f2eda950a9f578e5a77e1ab64e55260f2371e"
+    },
+    {
+      "path": "data/subsets/ConceptOnly/seed_577312.json",
+      "bytes": 88697,
+      "sha256": "45920bd5903c43e52d6c94af54d66e7d261fee4c3773b4a3223042af311b2dfc"
+    },
+    {
+      "path": "data/subsets/ConceptOnly/seed_582885.json",
+      "bytes": 88794,
+      "sha256": "df0f2591b1ed87496819f09784bc30e0a5c874850a8e776b993f3b787821d0f3"
+    },
+    {
+      "path": "data/subsets/ConceptOnly/seed_646616.json",
+      "bytes": 88736,
+      "sha256": "6aa360d4c54f0c260df8d8a13e24588a681bcc329989ad36d3cb988a912ff8fc"
+    },
+    {
+      "path": "data/subsets/ConceptOnly/seed_686691.json",
+      "bytes": 88716,
+      "sha256": "57916664fd40d208e1477c85e9afdc8c9f7cc05793c96aae1879ba4a54156964"
+    },
+    {
+      "path": "data/subsets/ConceptOnly/seed_789563.json",
+      "bytes": 88945,
+      "sha256": "070b841d2cabc6257ea8f0fc195f19710c591614705c2b2f4e91b55887cce98c"
+    },
+    {
+      "path": "data/subsets/ConceptOnly/seed_794325.json",
+      "bytes": 88599,
+      "sha256": "d3d85418340fce9a512c6d31c2f1c0d7aae7013efad1f33700c103dd8b1c6a9d"
+    },
+    {
+      "path": "data/subsets/ConceptOnly/seed_911605.json",
+      "bytes": 88735,
+      "sha256": "057dd07f8a20075f76b618d4233e5b489213b25820610c48ed2b8415770989bd"
+    },
+    {
+      "path": "data/subsets/ConceptOnly/seed_911974.json",
+      "bytes": 89011,
+      "sha256": "c443b24a397f132b621f69db5abbe76e04be7eea4040c67699ee0e77515147b5"
+    },
+    {
+      "path": "data/subsets/ConceptOnly/seed_928775.json",
+      "bytes": 88712,
+      "sha256": "025201e13d82cbac75755f8de8b276a740497fa78032ffdfe9982d0a693ab2d8"
+    },
+    {
+      "path": "data/subsets/EnglishHeavy/seed_137059.json",
+      "bytes": 86945,
+      "sha256": "38fd5b6620e4e4de872e59d50ffaf79844d2fc9125993ad860227c20ad0e8d2b"
+    },
+    {
+      "path": "data/subsets/EnglishHeavy/seed_149937.json",
+      "bytes": 87017,
+      "sha256": "c11372cf6d629b80b4ef0dce6eb1a4dd7dd1b18a2f52deb8e5aff6386cf14ad4"
+    },
+    {
+      "path": "data/subsets/EnglishHeavy/seed_247841.json",
+      "bytes": 86990,
+      "sha256": "0c32fd2f1f5bb4fda414e41685d2d479d599d1b150a865091b84cf7727545375"
+    },
+    {
+      "path": "data/subsets/EnglishHeavy/seed_272874.json",
+      "bytes": 86931,
+      "sha256": "40589a85f92f9bcc1587b6ab0163d1fc0d0230f49a3c1769aebad6d87b57f907"
+    },
+    {
+      "path": "data/subsets/EnglishHeavy/seed_325511.json",
+      "bytes": 86928,
+      "sha256": "9a5d6ebc3d73a74e2fd8857ea2f8b7f585144bcb06a4fd53373be638c3e1ef53"
+    },
+    {
+      "path": "data/subsets/EnglishHeavy/seed_344247.json",
+      "bytes": 87046,
+      "sha256": "9b2ff97ed119404a6214c16ea46894421737c1c7882a721c27006eb70326582b"
+    },
+    {
+      "path": "data/subsets/EnglishHeavy/seed_391118.json",
+      "bytes": 86980,
+      "sha256": "cf53a0bfb9d75c66fc7762134811f332e18cdb2de67e043e9d8d7ce702a64a2b"
+    },
+    {
+      "path": "data/subsets/EnglishHeavy/seed_4823.json",
+      "bytes": 87004,
+      "sha256": "7ff558d776ec625bd51104b8e80cd559c3134b66b9f43604a5c8d1c4a9b94bff"
+    },
+    {
+      "path": "data/subsets/EnglishHeavy/seed_570526.json",
+      "bytes": 86974,
+      "sha256": "b54968d417113b8be0b666b0620357829574d2b1d1bb2ac2079edafff7389bf1"
+    },
+    {
+      "path": "data/subsets/EnglishHeavy/seed_577312.json",
+      "bytes": 86919,
+      "sha256": "cca2d9977a569493b78ca0b86992f6533dd85c2d36afa3823e70d9c2c75fa478"
+    },
+    {
+      "path": "data/subsets/EnglishHeavy/seed_582885.json",
+      "bytes": 86865,
+      "sha256": "5fe6b82d22866f12e24b0284c79b48eaf3f69bbfb95a485a3cd5457f924f06d5"
+    },
+    {
+      "path": "data/subsets/EnglishHeavy/seed_646616.json",
+      "bytes": 86880,
+      "sha256": "04ebca74039637cafc7f941a073d77743c0384ec36a5c82c12a7be8e1b73b957"
+    },
+    {
+      "path": "data/subsets/EnglishHeavy/seed_686691.json",
+      "bytes": 86822,
+      "sha256": "efa45c862d738d92c1e3acdb0b42ad1eaa836f0dbeefe7994045a9f4a46acbed"
+    },
+    {
+      "path": "data/subsets/EnglishHeavy/seed_789563.json",
+      "bytes": 86891,
+      "sha256": "a5ccad9e943b14ab79fa686ba0790c7236b99a4f3f96921fb4c7dc330989297a"
+    },
+    {
+      "path": "data/subsets/EnglishHeavy/seed_794325.json",
+      "bytes": 86921,
+      "sha256": "5fcfbdd7e6a74f8d4b039daf696bc4ddaf1c771c10016e2024e881522698e51d"
+    },
+    {
+      "path": "data/subsets/EnglishHeavy/seed_911605.json",
+      "bytes": 86933,
+      "sha256": "cf1053a2bed90b4a8b7ed16ebd12817bcd983c81e3663d4f5b7924b938474cef"
+    },
+    {
+      "path": "data/subsets/EnglishHeavy/seed_911974.json",
+      "bytes": 86928,
+      "sha256": "5d98bfde73a555ff97921b6cfc22679460ec61e6bf768621061bb0c0af214b5f"
+    },
+    {
+      "path": "data/subsets/EnglishHeavy/seed_928775.json",
+      "bytes": 86855,
+      "sha256": "03c84edd3452e4e4d9d9e36f68510f4b9905d25b35b8864694879d2dcfdb17c8"
+    },
+    {
+      "path": "data/subsets/HighOcc/seed_137059.json",
+      "bytes": 88748,
+      "sha256": "4a966e6a01c6f59628df11b9e5d4f7a9c26a540c9f37110e602097f3b580e4d0"
+    },
+    {
+      "path": "data/subsets/HighOcc/seed_149937.json",
+      "bytes": 88987,
+      "sha256": "0abe73545300fff55b9d461f2e68ece248ee9e79dabb9f6326c88239f2cf339b"
+    },
+    {
+      "path": "data/subsets/HighOcc/seed_247841.json",
+      "bytes": 88983,
+      "sha256": "3ddc3388e9ed7f562073f564187ae580e971171f27e97b6f6d635a993e944d43"
+    },
+    {
+      "path": "data/subsets/HighOcc/seed_272874.json",
+      "bytes": 88868,
+      "sha256": "ee4a8a8d9bdf1b50996a3d36d51bcf6fd9a7b92f8cceb38be9c1831591131819"
+    },
+    {
+      "path": "data/subsets/HighOcc/seed_325511.json",
+      "bytes": 88730,
+      "sha256": "e682fac5f0b3ef473e65bf37a737043a68dcb64c27f6e7b6f9a1549da6fe094f"
+    },
+    {
+      "path": "data/subsets/HighOcc/seed_344247.json",
+      "bytes": 88706,
+      "sha256": "db8342b038fb8b6c86d25a1f3b0545aad9c81354dd3906dfda045f14896bf4ba"
+    },
+    {
+      "path": "data/subsets/HighOcc/seed_391118.json",
+      "bytes": 88716,
+      "sha256": "3825c1dccb439a8c0669bc296f7da698ac8af9fa582104202afc5a2bb8fa58d3"
+    },
+    {
+      "path": "data/subsets/HighOcc/seed_4823.json",
+      "bytes": 88664,
+      "sha256": "e7aec321937691123217196efcd6f1908d904474a7c2fb016d0428b9ce0d8726"
+    },
+    {
+      "path": "data/subsets/HighOcc/seed_570526.json",
+      "bytes": 89070,
+      "sha256": "584db9e8acee7c683ec92e4ba7e95051fc6a418f8709879489f6c864ce1203a9"
+    },
+    {
+      "path": "data/subsets/HighOcc/seed_577312.json",
+      "bytes": 88817,
+      "sha256": "c305629f37d2c6bf839edff36688920e869a93e56b4dc98b4488bb47709b01dd"
+    },
+    {
+      "path": "data/subsets/HighOcc/seed_582885.json",
+      "bytes": 88917,
+      "sha256": "d374b420b7f7b72cb1fa989453b150e643ceb4e139d27045b2ae98aebd9294bf"
+    },
+    {
+      "path": "data/subsets/HighOcc/seed_646616.json",
+      "bytes": 88682,
+      "sha256": "2725aefd5a0781deafee33c9651631059cf999aa8412142094cd5b35ee828e06"
+    },
+    {
+      "path": "data/subsets/HighOcc/seed_686691.json",
+      "bytes": 88810,
+      "sha256": "a2c62c8f02badf6e39b7a46f82503487b32c50e031f2bd11e5d0ea040c1045fa"
+    },
+    {
+      "path": "data/subsets/HighOcc/seed_789563.json",
+      "bytes": 89069,
+      "sha256": "4ef6f5f69b1e3dd8e329eae056ed8180f50b6235f0ac4d0be4ad67a24ea43ee4"
+    },
+    {
+      "path": "data/subsets/HighOcc/seed_794325.json",
+      "bytes": 88929,
+      "sha256": "8cc8e02e6a488b98c1eafa5ce2437f31c15047a7166759c749ead9cb036fdb4f"
+    },
+    {
+      "path": "data/subsets/HighOcc/seed_911605.json",
+      "bytes": 88859,
+      "sha256": "33ad8db6ed6e73fb5969c8c45aef3ad733c276fd868c2e2d0af75f490f61d6b3"
+    },
+    {
+      "path": "data/subsets/HighOcc/seed_911974.json",
+      "bytes": 88738,
+      "sha256": "cad7076238c2da81cc9093a026ab81fc6e1ef892733c81e76d3fc8580d575185"
+    },
+    {
+      "path": "data/subsets/HighOcc/seed_928775.json",
+      "bytes": 88903,
+      "sha256": "22ed3353bd5bc4afe33cac9b50b40676358c0354ca433bb6c6c9d3a314c2fe6f"
+    },
+    {
+      "path": "data/subsets/Joint/seed_137059.json",
+      "bytes": 89605,
+      "sha256": "d74d720942ec37c9591d4f8aee9d6c0f77bb3ecff491f26edd513d05a6fe196c"
+    },
+    {
+      "path": "data/subsets/Joint/seed_149937.json",
+      "bytes": 89607,
+      "sha256": "18524e79f23979cec8981bfe005a212c5e88ebdad564a56fd1f19c14e7e80965"
+    },
+    {
+      "path": "data/subsets/Joint/seed_247841.json",
+      "bytes": 89647,
+      "sha256": "78417c3f91ba446e362dfa01fdbeba94127da42875e08ce316db228f0d87255c"
+    },
+    {
+      "path": "data/subsets/Joint/seed_272874.json",
+      "bytes": 89832,
+      "sha256": "7b08208dfc6458d0b1f674c05282fb6db5e201e9b4c6030b2f2720e0323fb5b9"
+    },
+    {
+      "path": "data/subsets/Joint/seed_325511.json",
+      "bytes": 89712,
+      "sha256": "0d9cb28c1b5287c8d694fdefd208161b8e167bac2376d5d76e46d4ef084eff03"
+    },
+    {
+      "path": "data/subsets/Joint/seed_344247.json",
+      "bytes": 89545,
+      "sha256": "45f10929ffb328763baf6c904ed26c503640e20b843625e609d8fb4c80a77cf0"
+    },
+    {
+      "path": "data/subsets/Joint/seed_391118.json",
+      "bytes": 89961,
+      "sha256": "7345cc05fbaed013746a9a3ee8b549ccdba565f28ae3248d0931bba3541918c8"
+    },
+    {
+      "path": "data/subsets/Joint/seed_4823.json",
+      "bytes": 89789,
+      "sha256": "4588fddd474e887b948fdfc0d055fb22472d24b70957f0984a646adc95d283b5"
+    },
+    {
+      "path": "data/subsets/Joint/seed_570526.json",
+      "bytes": 89594,
+      "sha256": "396ca106d2496abd99a452ca6c0e6cbceba7bac619c51e27f42f2d31f65d3d8f"
+    },
+    {
+      "path": "data/subsets/Joint/seed_577312.json",
+      "bytes": 89740,
+      "sha256": "b1b815ca9602788f039154785e873105dc4cdc074601b8dd6d53cb15793507d6"
+    },
+    {
+      "path": "data/subsets/Joint/seed_582885.json",
+      "bytes": 89522,
+      "sha256": "c607bd31acb0b759ac80578db333c5bcd2827387b0ad4224c00657766be988fa"
+    },
+    {
+      "path": "data/subsets/Joint/seed_646616.json",
+      "bytes": 89534,
+      "sha256": "3b494bd31a036f06c373c7033e2701e6f457e647f778995eea03903727b4e14b"
+    },
+    {
+      "path": "data/subsets/Joint/seed_686691.json",
+      "bytes": 89882,
+      "sha256": "b1a976dfa0d2d56f02d5a9dba40fc8674835bb0e370c1b2e8a0006834aaf0b3f"
+    },
+    {
+      "path": "data/subsets/Joint/seed_789563.json",
+      "bytes": 89632,
+      "sha256": "d2436d870e460bb3d6111c8d03a35abad8b7a833d636c6aa21b81d9b7407834f"
+    },
+    {
+      "path": "data/subsets/Joint/seed_794325.json",
+      "bytes": 89752,
+      "sha256": "ee50d5bdcccc7370bd4e4ff7f96336e6c1c4f32726b7b158f600fe5c7d785ea9"
+    },
+    {
+      "path": "data/subsets/Joint/seed_911605.json",
+      "bytes": 89590,
+      "sha256": "6c3da5b680480c004ff274c985bba4cb5151b810c8e4f091db7eb32012397e70"
+    },
+    {
+      "path": "data/subsets/Joint/seed_911974.json",
+      "bytes": 89727,
+      "sha256": "b80bbb1c188dd33ab5b9441b7cdbb3047da1ee7c37f1ad5593eee5c9cf017e49"
+    },
+    {
+      "path": "data/subsets/Joint/seed_928775.json",
+      "bytes": 89527,
+      "sha256": "f6edf13a22bddc6def6bd1ef043555cf1d75d05da5c1227f9fb12d16c0d0f03e"
+    },
+    {
+      "path": "data/subsets/LangOnly/seed_137059.json",
+      "bytes": 90393,
+      "sha256": "4b6be5ed326c27ccfd7e6bfb0e834fd45fea09fd474b3c435e1f899f67521abc"
+    },
+    {
+      "path": "data/subsets/LangOnly/seed_149937.json",
+      "bytes": 90396,
+      "sha256": "c5aa7313649dd8df35e2368dd4d4bb57d606d73d904b75b47c84a4de9c540066"
+    },
+    {
+      "path": "data/subsets/LangOnly/seed_247841.json",
+      "bytes": 90439,
+      "sha256": "1bc8a40b2b983b364d9378fbdafcd4f7974871bd07d0b07872596d4038094b03"
+    },
+    {
+      "path": "data/subsets/LangOnly/seed_272874.json",
+      "bytes": 90390,
+      "sha256": "aa7282c2d2f02e72e58e63f9bac93a9996a3fcb984ce5ead4cc3efb3276d3a2c"
+    },
+    {
+      "path": "data/subsets/LangOnly/seed_325511.json",
+      "bytes": 90404,
+      "sha256": "b088b5a340e7803a41b3cb8e70e56991fef37cadd9fdc8cf2db33aa8fca0a0c4"
+    },
+    {
+      "path": "data/subsets/LangOnly/seed_344247.json",
+      "bytes": 90376,
+      "sha256": "177874608744e4a78b858667963d5b4bcf2c996e996b2e829124b127ad92bc72"
+    },
+    {
+      "path": "data/subsets/LangOnly/seed_391118.json",
+      "bytes": 90412,
+      "sha256": "0bc0c1f8ae8dfe454ad9d08c6c60ed94e193a791b1006c76141a0470cc0195ec"
+    },
+    {
+      "path": "data/subsets/LangOnly/seed_4823.json",
+      "bytes": 90415,
+      "sha256": "03147b61c1a4b0a07a2fac8653b02e2e71e3f51c611d7b821e221cebe49954c0"
+    },
+    {
+      "path": "data/subsets/LangOnly/seed_570526.json",
+      "bytes": 90407,
+      "sha256": "87c564c9000f55016c4e7bfabf2e686a7531fc6449c40bcaa63ea2832681841e"
+    },
+    {
+      "path": "data/subsets/LangOnly/seed_577312.json",
+      "bytes": 90374,
+      "sha256": "c699090c39c23580ec154ac8924e8cfb7d09b45c0866c708a6c96c6bb27cd8bb"
+    },
+    {
+      "path": "data/subsets/LangOnly/seed_582885.json",
+      "bytes": 90428,
+      "sha256": "1d83eaa6198e9e45ab7261503a52d7b990aa7abc8f88c488508b1c3110f5fbc3"
+    },
+    {
+      "path": "data/subsets/LangOnly/seed_646616.json",
+      "bytes": 90410,
+      "sha256": "e2034ac448e8ef4566f00b3693115c2eed917569828edbe75d10a8c1052890de"
+    },
+    {
+      "path": "data/subsets/LangOnly/seed_686691.json",
+      "bytes": 90399,
+      "sha256": "d41f4a6c22092d55569de68bab22a498f0571009a99e609b9cbf8a016b70c5e6"
+    },
+    {
+      "path": "data/subsets/LangOnly/seed_789563.json",
+      "bytes": 90400,
+      "sha256": "750b803fca246599804795355e109c8631b8efb1c1323a0975737c4bcbf66a0d"
+    },
+    {
+      "path": "data/subsets/LangOnly/seed_794325.json",
+      "bytes": 90375,
+      "sha256": "7651cd74b21cb50ba8254f6590e1aac28c614cc85c7c3f62c8a0bfd0d9f95556"
+    },
+    {
+      "path": "data/subsets/LangOnly/seed_911605.json",
+      "bytes": 90399,
+      "sha256": "2d02fb045fd5bfc2e0deb737d9fea27930ac168dd2cd9b2486557510b49298af"
+    },
+    {
+      "path": "data/subsets/LangOnly/seed_911974.json",
+      "bytes": 90425,
+      "sha256": "de69b5e336b6146f5909209e891abdb3a790051560d225e95e6d968d3d0c73ca"
+    },
+    {
+      "path": "data/subsets/LangOnly/seed_928775.json",
+      "bytes": 90396,
+      "sha256": "610d8fe5732c3579796ac5e01f0e70f32267f2e2d92f0db00d3fd0dc2ec38096"
+    },
+    {
+      "path": "data/subsets/LangOnlyCond/seed_137059.json",
+      "bytes": 89642,
+      "sha256": "1dc0ae2082748bc465f2fb8704091131031b73cfdb2a7fb20b8a25baeaec82da"
+    },
+    {
+      "path": "data/subsets/LangOnlyCond/seed_149937.json",
+      "bytes": 89547,
+      "sha256": "31f965086c3b3d927ceb3eb4f88333de993517aa0288273f7efec7ada22f23e3"
+    },
+    {
+      "path": "data/subsets/LangOnlyCond/seed_247841.json",
+      "bytes": 89691,
+      "sha256": "4f6add977a9171504a25aee7d54623d02515657e0dd9aa5d06a6c2a17691d5c0"
+    },
+    {
+      "path": "data/subsets/LangOnlyCond/seed_272874.json",
+      "bytes": 89877,
+      "sha256": "95e4905f49cdff5011f6b63e63bb2f2ee60f3351c43334f6a82272077980d1c2"
+    },
+    {
+      "path": "data/subsets/LangOnlyCond/seed_325511.json",
+      "bytes": 89738,
+      "sha256": "09b70c565e3d3611e94c3d4aa89889336aa9cc42acd6313d99d2bcc8b049ed42"
+    },
+    {
+      "path": "data/subsets/LangOnlyCond/seed_344247.json",
+      "bytes": 89599,
+      "sha256": "ccd6c464082ee20bdd0aa752ef9532e31cea2aff2cc131ec603ff41a481754e4"
+    },
+    {
+      "path": "data/subsets/LangOnlyCond/seed_391118.json",
+      "bytes": 89946,
+      "sha256": "94d43f04ead31f4a3c239dc4ed216b809b9ebbe90252661a2d4cc0cdb88a5e12"
+    },
+    {
+      "path": "data/subsets/LangOnlyCond/seed_4823.json",
+      "bytes": 89833,
+      "sha256": "1dddbeb96e6b128ec3f863bbf0b6281e21c9bdd50405d1c96ebbf504d06da50e"
+    },
+    {
+      "path": "data/subsets/LangOnlyCond/seed_570526.json",
+      "bytes": 89586,
+      "sha256": "73620ed10db8180db7fe4c7d382c9703fbdcb7c0ec7f08f5da6745587c59752a"
+    },
+    {
+      "path": "data/subsets/LangOnlyCond/seed_577312.json",
+      "bytes": 89755,
+      "sha256": "8cc295ec6bc7b607bc8f81f4b92240c4395c9e1b2528c1f0b18865c7ef3c2afb"
+    },
+    {
+      "path": "data/subsets/LangOnlyCond/seed_582885.json",
+      "bytes": 89524,
+      "sha256": "67441bed7e4c93122f07328d2203a55c078eb48e7d603601d397505082ea91c9"
+    },
+    {
+      "path": "data/subsets/LangOnlyCond/seed_646616.json",
+      "bytes": 89587,
+      "sha256": "fb02896399f329120648dcc4f8d5f27b8f1b79f42980293fb2fc336cec0b03e0"
+    },
+    {
+      "path": "data/subsets/LangOnlyCond/seed_686691.json",
+      "bytes": 89905,
+      "sha256": "98d8a984a77ce22b5845a0b6cd1b8d88eabb6970b0e777b3e1242afcae2aa05c"
+    },
+    {
+      "path": "data/subsets/LangOnlyCond/seed_789563.json",
+      "bytes": 89607,
+      "sha256": "7b71f6eaf30d33f708bd4e001c3707b11baeaa79404df07f0eed506e0f7ffdc5"
+    },
+    {
+      "path": "data/subsets/LangOnlyCond/seed_794325.json",
+      "bytes": 89749,
+      "sha256": "d31502f3b55dd5e81882af69af2bedcabedbf0b01d2334215c79d73d9caa4c42"
+    },
+    {
+      "path": "data/subsets/LangOnlyCond/seed_911605.json",
+      "bytes": 89603,
+      "sha256": "75c30bd752da8c3c93f816c605d0f4db5288fa6cbb9ffbd89937b1ee1dbd739b"
+    },
+    {
+      "path": "data/subsets/LangOnlyCond/seed_911974.json",
+      "bytes": 89724,
+      "sha256": "e5b5813c50a3f4ad5ef38a72bed57f07f28d1e7952d56ca36ac7ea1e30d660a6"
+    },
+    {
+      "path": "data/subsets/LangOnlyCond/seed_928775.json",
+      "bytes": 89565,
+      "sha256": "3aef68b5b31b2f983a84002a72d0fbb8f541689e831b415bc6ec3d1642b55cdd"
+    },
+    {
+      "path": "data/subsets/LowOcc/seed_137059.json",
+      "bytes": 88809,
+      "sha256": "1ca584bcfc916940430a77bd3258dee791ed1308ab5b8a1fde11e2b2a78a64a1"
+    },
+    {
+      "path": "data/subsets/LowOcc/seed_149937.json",
+      "bytes": 88908,
+      "sha256": "29b079a76e84272ba4074447f747c211e55e4f6e9a2581a846bed88dded9eed7"
+    },
+    {
+      "path": "data/subsets/LowOcc/seed_247841.json",
+      "bytes": 88729,
+      "sha256": "38d76714481f17051409f2d1f9336fd68f4026581d7bf2c4738281b2fbba0322"
+    },
+    {
+      "path": "data/subsets/LowOcc/seed_272874.json",
+      "bytes": 88721,
+      "sha256": "9af5ca345dbba12f94ee6841db576962e901811dd9b0b0cd5a4cb0a2c7421e6f"
+    },
+    {
+      "path": "data/subsets/LowOcc/seed_325511.json",
+      "bytes": 88960,
+      "sha256": "ad67b3a4ccd09eac6786599e23c2fb594d03dbf6304c11833b5e68876bda0e4e"
+    },
+    {
+      "path": "data/subsets/LowOcc/seed_344247.json",
+      "bytes": 88866,
+      "sha256": "8f41e55ecf5901da089b6639d4958b7d5c6219e10073d80c2c50c287657c196e"
+    },
+    {
+      "path": "data/subsets/LowOcc/seed_391118.json",
+      "bytes": 88735,
+      "sha256": "7f27be59a993d4f6e2071a99aee092ee8ab7c17073680a1b94b9f3a902c228d6"
+    },
+    {
+      "path": "data/subsets/LowOcc/seed_4823.json",
+      "bytes": 88794,
+      "sha256": "7f9c46cc404d1e821fe307f205cced4ecb9fc3d7eb323af4bc878e7fc4b48f80"
+    },
+    {
+      "path": "data/subsets/LowOcc/seed_570526.json",
+      "bytes": 88848,
+      "sha256": "2f3c38e8a812a7b67d0ae1fb5789abf91e4cebc75b671bded94311be55bf63a8"
+    },
+    {
+      "path": "data/subsets/LowOcc/seed_577312.json",
+      "bytes": 88825,
+      "sha256": "46807785c6f90f59f57dd29139de4908d6436457a1db10ac11aaad7458c6bfe8"
+    },
+    {
+      "path": "data/subsets/LowOcc/seed_582885.json",
+      "bytes": 88852,
+      "sha256": "9f5622f4adf0fdb08e196fd9511a361be6cae75df49230c5ee8b4cab516221e6"
+    },
+    {
+      "path": "data/subsets/LowOcc/seed_646616.json",
+      "bytes": 88758,
+      "sha256": "bf9bc979832ffa49100abeb46e1b5f720ed943f18a65c46bc864abed8b47e743"
+    },
+    {
+      "path": "data/subsets/LowOcc/seed_686691.json",
+      "bytes": 88886,
+      "sha256": "91af9a7ad93f644f12af44bc3d394f33584fdb81ecd9aa9b799a55faffb0a950"
+    },
+    {
+      "path": "data/subsets/LowOcc/seed_789563.json",
+      "bytes": 88769,
+      "sha256": "563134c978bc6443a3daf4ebf1838d76c2bcc57b693d16ba4c7352584b1937ba"
+    },
+    {
+      "path": "data/subsets/LowOcc/seed_794325.json",
+      "bytes": 88761,
+      "sha256": "06efcf95455ac75832a93cf0e1cba174b2a1eab215529851e0f9d51d728289b3"
+    },
+    {
+      "path": "data/subsets/LowOcc/seed_911605.json",
+      "bytes": 88821,
+      "sha256": "f1deb34ad02f6c4398818f3d44c12c73a5c37de879aeb312cc5fe093d67c7794"
+    },
+    {
+      "path": "data/subsets/LowOcc/seed_911974.json",
+      "bytes": 88722,
+      "sha256": "68a88adb20247e40cc5f8b7707400a6b08592ca7d6185f879a05a5af382211bd"
+    },
+    {
+      "path": "data/subsets/LowOcc/seed_928775.json",
+      "bytes": 88868,
+      "sha256": "735c9092e6df7ed6a23156dd5772d36626580a765c2bee6957119e58af78a27d"
+    },
+    {
+      "path": "data/subsets/NatNat/seed_137059.json",
+      "bytes": 88476,
+      "sha256": "89e941d29a6c9606ceea6865e6feed720ad984b5a7156c6233ca7c7ff16ffdd6"
+    },
+    {
+      "path": "data/subsets/NatNat/seed_149937.json",
+      "bytes": 88672,
+      "sha256": "03bfbd4d7d29dff7502ebab91d55e5acfd17532c6b10ef3b68ea52dd15b7e18b"
+    },
+    {
+      "path": "data/subsets/NatNat/seed_247841.json",
+      "bytes": 88497,
+      "sha256": "2553407007622bc421ff3f03cb7f92bf99b173dbd4f5e8c7242425b4d3724894"
+    },
+    {
+      "path": "data/subsets/NatNat/seed_272874.json",
+      "bytes": 88425,
+      "sha256": "15b2a953ff9b67ffacc6c86c649bf7c3aa7ca78ef8a943c0fbac28671bf6274b"
+    },
+    {
+      "path": "data/subsets/NatNat/seed_325511.json",
+      "bytes": 88495,
+      "sha256": "0f353d414d4cd70a0fcce7e792e179619fd109627afc1ead213a92bf1fec9334"
+    },
+    {
+      "path": "data/subsets/NatNat/seed_344247.json",
+      "bytes": 88515,
+      "sha256": "917869d7441d5be28c70fd668c0bfcce2a698332943dcee3086131cd182f3a0b"
+    },
+    {
+      "path": "data/subsets/NatNat/seed_391118.json",
+      "bytes": 88493,
+      "sha256": "1e147a2406d94743288332f18ad0342df41183a9c0015121e9bce446aed4162b"
+    },
+    {
+      "path": "data/subsets/NatNat/seed_4823.json",
+      "bytes": 88551,
+      "sha256": "d7ca4399edbd697b4ee30ab33c1e2804b427408b8405df41dc99792ad0b0a44b"
+    },
+    {
+      "path": "data/subsets/NatNat/seed_570526.json",
+      "bytes": 88522,
+      "sha256": "2c6dc0d246b9f311f62754810302be1779455f745cff0df5473a4293b502b251"
+    },
+    {
+      "path": "data/subsets/NatNat/seed_577312.json",
+      "bytes": 88359,
+      "sha256": "943e5472061cb9043b176075f3868ddcdfc7939eb0bd37e5483d45650703b255"
+    },
+    {
+      "path": "data/subsets/NatNat/seed_582885.json",
+      "bytes": 88664,
+      "sha256": "251e7589b9acc494b5ee3078ce9efa1a160557e9bfe8d0d3e1b529ba9cb1bdd1"
+    },
+    {
+      "path": "data/subsets/NatNat/seed_646616.json",
+      "bytes": 88454,
+      "sha256": "60623ed6a621044febb649f1f68433005dc1ffac5ee8371307f536c5fc3e7ebe"
+    },
+    {
+      "path": "data/subsets/NatNat/seed_686691.json",
+      "bytes": 88669,
+      "sha256": "7b046490c583842c34db69e489666ad0cbc2ff34fa94abd5636d6f7a7291fd97"
+    },
+    {
+      "path": "data/subsets/NatNat/seed_789563.json",
+      "bytes": 88334,
+      "sha256": "c43bb7ae9c58a786ff3480a2aa49cf50b36d7c8250037480a5700aaba1bba3a7"
+    },
+    {
+      "path": "data/subsets/NatNat/seed_794325.json",
+      "bytes": 88385,
+      "sha256": "0814510e6fe6675a8e53566b60dc4aa6d42fe98c3c7625312827d4c58b07349c"
+    },
+    {
+      "path": "data/subsets/NatNat/seed_911605.json",
+      "bytes": 88402,
+      "sha256": "6a4724c82faa2cd21fb87579b14a0cdf5c0025554c0cdf7acfa871b166392439"
+    },
+    {
+      "path": "data/subsets/NatNat/seed_911974.json",
+      "bytes": 88554,
+      "sha256": "f39fbbbabc7273c1e8bbeb2057881c5a18392122ab2d0edfd7c1d66b5901ee93"
+    },
+    {
+      "path": "data/subsets/NatNat/seed_928775.json",
+      "bytes": 88446,
+      "sha256": "2aa415675becb08bb9b086b3a998f9dd3eff433758806317a2c9b06d5c90eb32"
+    },
+    {
+      "path": "data/subsets/Random/seed_137059.json",
+      "bytes": 88768,
+      "sha256": "9d6b317c2038914609722fb6e6115325786487526ece610f8414b7e955d177a4"
+    },
+    {
+      "path": "data/subsets/Random/seed_149937.json",
+      "bytes": 88904,
+      "sha256": "10a35296eb11007f202fbc71497cef90bfc7d0ea23b000323fad57fa71fe6650"
+    },
+    {
+      "path": "data/subsets/Random/seed_247841.json",
+      "bytes": 88805,
+      "sha256": "2618b1cd682f0534260232ba9d0c98cf81158908879af640e22e5fdbab256d62"
+    },
+    {
+      "path": "data/subsets/Random/seed_272874.json",
+      "bytes": 88936,
+      "sha256": "d0c9424616f6ccd8be2fee1b61012973d6911ede2f6bc64b2d207e7a50970d7b"
+    },
+    {
+      "path": "data/subsets/Random/seed_325511.json",
+      "bytes": 88930,
+      "sha256": "4f87c50aa4efe2013d8b0f6ece41be716bc15024d066c06f3b2f56cd0435768e"
+    },
+    {
+      "path": "data/subsets/Random/seed_344247.json",
+      "bytes": 88946,
+      "sha256": "e67508af3437f13ea6fcec286978b1b35629616a5d87e67314df8547a1a80a31"
+    },
+    {
+      "path": "data/subsets/Random/seed_391118.json",
+      "bytes": 88860,
+      "sha256": "3ef834b3c1e0fbce98b4b913096f6c8aa87bedad0fd31d992ecb4d3fe31fe82b"
+    },
+    {
+      "path": "data/subsets/Random/seed_4823.json",
+      "bytes": 88769,
+      "sha256": "6cb421c0c24e0bac0635e774d32c0bdaaa49e11f5db39f45c44125910dc75c0e"
+    },
+    {
+      "path": "data/subsets/Random/seed_570526.json",
+      "bytes": 88689,
+      "sha256": "6c65bdee47c7e0a6099e3e66f6177d9bd69f957d9d118cad2cb9946e1c971cd5"
+    },
+    {
+      "path": "data/subsets/Random/seed_577312.json",
+      "bytes": 88856,
+      "sha256": "f353f04721ec5b71f448e856b15afc370ec7fa2bbb7745bd26b9e63aa6a18b0f"
+    },
+    {
+      "path": "data/subsets/Random/seed_582885.json",
+      "bytes": 88740,
+      "sha256": "81f6a65c96e0f560394f96b06dbbe54229c18a243e84fca749c66839950e144f"
+    },
+    {
+      "path": "data/subsets/Random/seed_646616.json",
+      "bytes": 88955,
+      "sha256": "fd100d8808065409756c149d43211dd4600fd65e3fcc0058e67b589d40238a14"
+    },
+    {
+      "path": "data/subsets/Random/seed_686691.json",
+      "bytes": 88836,
+      "sha256": "2f0d7a06737261d676cc0fd5b36ee32c7654cdc72f64ff23b4e97a2f3f58020a"
+    },
+    {
+      "path": "data/subsets/Random/seed_789563.json",
+      "bytes": 88901,
+      "sha256": "b22cc4197d730fa0e3192309233428e1a4d5ccf2fe2217784e40e04a65f326b2"
+    },
+    {
+      "path": "data/subsets/Random/seed_794325.json",
+      "bytes": 88746,
+      "sha256": "a8a71943a923036c778b46d842e5167406623b6afcd5768b2426366e8ab3f5db"
+    },
+    {
+      "path": "data/subsets/Random/seed_911605.json",
+      "bytes": 88798,
+      "sha256": "268e1fb082f03386702238d4b0a9bb13e6d4d7409de5c1de7db8c470bf9a6853"
+    },
+    {
+      "path": "data/subsets/Random/seed_911974.json",
+      "bytes": 88943,
+      "sha256": "fb036bc03c810030d8e329e1dfc7a53a6156b94802a649250b5cc0d927a94e04"
+    },
+    {
+      "path": "data/subsets/Random/seed_928775.json",
+      "bytes": 88978,
+      "sha256": "ac141592ca4485f1ea171693bcbd966550f7c21aed823d203632cc368badf4bb"
+    },
+    {
+      "path": "LICENSES.md",
+      "bytes": 2540,
+      "sha256": "4ba47917dee7c3c8a0e0731c1a91553b351bd22ec4d48f6e70d9217f9176596b"
+    },
+    {
+      "path": "predictions/cvqa/base-noadapter.jsonl.gz",
+      "bytes": 18007,
+      "sha256": "7b12d549e8b5b9ac2f7776cfa13779c0a37b6da8af8d4ddac0257e3206190d5e"
+    },
+    {
+      "path": "predictions/cvqa/joint-s137059.jsonl.gz",
+      "bytes": 18150,
+      "sha256": "fd2c5ed8627ad3a05127590a99ba093fcd5452a451745bc899e6dc8f73dff6e7"
+    },
+    {
+      "path": "predictions/cvqa/joint-s149937.jsonl.gz",
+      "bytes": 18158,
+      "sha256": "990a05e22371d5f8b3d1435c59766a4f4a30e18d20464f1b25a9f63961acec59"
+    },
+    {
+      "path": "predictions/cvqa/joint-s247841.jsonl.gz",
+      "bytes": 18035,
+      "sha256": "be94853c75a3b25ca4062c5e352d8bdeaaaf5203ec9b32c81a56631d5d6caa18"
+    },
+    {
+      "path": "predictions/cvqa/joint-s272874.jsonl.gz",
+      "bytes": 18219,
+      "sha256": "eb9c54f4658a65f349c712f4e6ab7d4b474d092d116782ad86c59dec113b245d"
+    },
+    {
+      "path": "predictions/cvqa/joint-s325511.jsonl.gz",
+      "bytes": 18064,
+      "sha256": "f4dd1750d31920dc32fe737ac6e80fddadcd7cd5a86591638958279f4e64ed35"
+    },
+    {
+      "path": "predictions/cvqa/joint-s344247.jsonl.gz",
+      "bytes": 18095,
+      "sha256": "4e1e0dee79a6c29f6358215aab70a69b072e3a03ee8532b988ca98b881c59223"
+    },
+    {
+      "path": "predictions/cvqa/joint-s391118.jsonl.gz",
+      "bytes": 18110,
+      "sha256": "2de85c28f617219b22ffe612e893518ecc269f689ba3588c54f01a3e0d93d58e"
+    },
+    {
+      "path": "predictions/cvqa/joint-s4823.jsonl.gz",
+      "bytes": 18091,
+      "sha256": "c2c2c3b969f2a710c416abc09990ec68a775ba9e93e20aa817ec8ba88999754a"
+    },
+    {
+      "path": "predictions/cvqa/random-s137059.jsonl.gz",
+      "bytes": 18112,
+      "sha256": "8ad5c75c7eee0be306b2a9c09573d47e2bdae75651e40ff90c12c183c544de81"
+    },
+    {
+      "path": "predictions/cvqa/random-s149937.jsonl.gz",
+      "bytes": 18136,
+      "sha256": "b7850d73a5bf0287b88211c53aa82b4180272a4c3ea5c8ab1ec163a7aa2bd91e"
+    },
+    {
+      "path": "predictions/cvqa/random-s247841.jsonl.gz",
+      "bytes": 18117,
+      "sha256": "706cd7063dfb3e18a9228518dd610bfbf4bfc6e2a692461c4ddd9dcc81f14aba"
+    },
+    {
+      "path": "predictions/cvqa/random-s272874.jsonl.gz",
+      "bytes": 18181,
+      "sha256": "45e8703440a7f951549a95898363761121972a46e88f0e7dcc0288f9c8704767"
+    },
+    {
+      "path": "predictions/cvqa/random-s325511.jsonl.gz",
+      "bytes": 18097,
+      "sha256": "0ebb5ae72f9ae0e31dbec077af75d7b60c04fe8e2b41e057f021c3adf4630e4c"
+    },
+    {
+      "path": "predictions/cvqa/random-s344247.jsonl.gz",
+      "bytes": 18181,
+      "sha256": "d0afb61fd5115eba3b3406cab1ab5a7c64ae0034c03a674806627b28a8f2a343"
+    },
+    {
+      "path": "predictions/cvqa/random-s391118.jsonl.gz",
+      "bytes": 18102,
+      "sha256": "3b09a6656873a6d46bfd5e5a430ca8d89c5f46d16985a9fd30b8404b38b830de"
+    },
+    {
+      "path": "predictions/cvqa/random-s4823.jsonl.gz",
+      "bytes": 18058,
+      "sha256": "815eee247517f8153a4ecde61fdbf1d8a982b1f23439a1cd654b61f42f3a04c4"
+    },
+    {
+      "path": "predictions/cvqa/random-s570526.jsonl.gz",
+      "bytes": 18081,
+      "sha256": "52a91141f749fb483b43fe305567e6126445079427a633089dd989e189a8cb41"
+    },
+    {
+      "path": "predictions/cvqa/random-s577312.jsonl.gz",
+      "bytes": 18064,
+      "sha256": "cb051598b4292c3ab9495016cc6c7c2c67ebe785fd6fc493cb8a96becbd51c34"
+    },
+    {
+      "path": "predictions/cvqa/random-s582885.jsonl.gz",
+      "bytes": 18075,
+      "sha256": "3809f48f0c4644af376d234038ae79191ab3ceaec4574ca5e455e5dbdb3931cf"
+    },
+    {
+      "path": "predictions/cvqa/random-s646616.jsonl.gz",
+      "bytes": 18044,
+      "sha256": "880834466a252bca3d393317f88e5609b309edc18ecfcbc7d60e2c5c65ac6578"
+    },
+    {
+      "path": "predictions/cvqa/random-s686691.jsonl.gz",
+      "bytes": 18093,
+      "sha256": "59d59173b8cfd68fe190889fac19d60d59a8ace25ebbca893f9d38ad24215e50"
+    },
+    {
+      "path": "predictions/cvqa/random-s789563.jsonl.gz",
+      "bytes": 18067,
+      "sha256": "537287f26bb786dda43c1bd2be1732a8cc869123048c970fcda81b11fe19f3d1"
+    },
+    {
+      "path": "predictions/cvqa/random-s794325.jsonl.gz",
+      "bytes": 18097,
+      "sha256": "a0264607544e0cc60e3c825f4caa159cb86b5140ab4f125afec2ff22c52fda50"
+    },
+    {
+      "path": "predictions/cvqa/random-s911605.jsonl.gz",
+      "bytes": 18083,
+      "sha256": "2fc5b805e431d00ad9036cf9439a2bd20e53e45236da413a96905f8cc6f7d85d"
+    },
+    {
+      "path": "predictions/cvqa/random-s911974.jsonl.gz",
+      "bytes": 18068,
+      "sha256": "8c1ce0ef956de4419cfdff98e041ee65323f8305dd57501661540ed35a0be04e"
+    },
+    {
+      "path": "predictions/cvqa/random-s928775.jsonl.gz",
+      "bytes": 18078,
+      "sha256": "af8fd98823957c07c96661fee65e5a69c9167697df8680034420968379955d82"
+    },
+    {
+      "path": "predictions/worldcuisines/base-noadapter.jsonl.gz",
+      "bytes": 45464,
+      "sha256": "8560811a77ccc08d2148a9583a5de6d8511a6a6726f6e046e26fe8520bb2e2bb"
+    },
+    {
+      "path": "predictions/worldcuisines/conceptonly-s137059.jsonl.gz",
+      "bytes": 45106,
+      "sha256": "f9e3fc15752e7c4b74d753f560fda0ee24ed434da705014b95b18e732beaa427"
+    },
+    {
+      "path": "predictions/worldcuisines/conceptonly-s149937.jsonl.gz",
+      "bytes": 45329,
+      "sha256": "814a5dfb7cd43fd968cdf7d0b3a4b9839ddb34cdf7f3481617e1312c2200425c"
+    },
+    {
+      "path": "predictions/worldcuisines/conceptonly-s247841.jsonl.gz",
+      "bytes": 45368,
+      "sha256": "e9ed5d9cadb881062833b105cd2b96dee318ed3f876451fa18ad3c7a8e1e7736"
+    },
+    {
+      "path": "predictions/worldcuisines/conceptonly-s272874.jsonl.gz",
+      "bytes": 45300,
+      "sha256": "582b3874eeef927a78ffc00179ad3e77671df823e0ab514b20d14ea8419c2b12"
+    },
+    {
+      "path": "predictions/worldcuisines/conceptonly-s325511.jsonl.gz",
+      "bytes": 45194,
+      "sha256": "7eeeb1cfdb0102a4c3d83a455ec0fb914cb69adac5e82f5a692b16f441936bc9"
+    },
+    {
+      "path": "predictions/worldcuisines/conceptonly-s344247.jsonl.gz",
+      "bytes": 45370,
+      "sha256": "6b04cbc1b4756057ae96c143f2e54b12e9ba1bfc046f755fada056a6717b514d"
+    },
+    {
+      "path": "predictions/worldcuisines/conceptonly-s391118.jsonl.gz",
+      "bytes": 45123,
+      "sha256": "b2cad0ce2ec3de185e2b11568a1277f6000132ef0a5fec6057e73c1543b24314"
+    },
+    {
+      "path": "predictions/worldcuisines/conceptonly-s4823.jsonl.gz",
+      "bytes": 45079,
+      "sha256": "ff261c07f724a6bd445c36866edd9a050276916fec6a14667d15a8d98694cf71"
+    },
+    {
+      "path": "predictions/worldcuisines/conceptonly-s570526.jsonl.gz",
+      "bytes": 45343,
+      "sha256": "01fb671f9cc6418b2b2211ee98c1966dc183f5ccd925531951be4acf66a9623a"
+    },
+    {
+      "path": "predictions/worldcuisines/conceptonly-s577312.jsonl.gz",
+      "bytes": 45195,
+      "sha256": "3e8655d2fc06d73222cfa81c61098cf48a9f4b09b8f6bdb4866c72d0598a5654"
+    },
+    {
+      "path": "predictions/worldcuisines/conceptonly-s582885.jsonl.gz",
+      "bytes": 45155,
+      "sha256": "22863b8c55c46d5f766f3a41c391d26617e4238cfec3dbfd37e4107f494b7402"
+    },
+    {
+      "path": "predictions/worldcuisines/conceptonly-s646616.jsonl.gz",
+      "bytes": 45356,
+      "sha256": "5787d13cd0710d673d11ac16697c1c77574b7fec1189fc6db37609fc8209ab87"
+    },
+    {
+      "path": "predictions/worldcuisines/conceptonly-s686691.jsonl.gz",
+      "bytes": 45201,
+      "sha256": "0c912403d8e9681713192dbc168ac4e0086eaa469f9ef60adb5bdfaf4c8e067a"
+    },
+    {
+      "path": "predictions/worldcuisines/conceptonly-s789563.jsonl.gz",
+      "bytes": 45154,
+      "sha256": "37dc03334e2bee7e4b54cac1f9617f883614429d3d7a65cc67e6eb0186d1fec2"
+    },
+    {
+      "path": "predictions/worldcuisines/conceptonly-s794325.jsonl.gz",
+      "bytes": 45132,
+      "sha256": "ed9b88cb745211bb1bc9ba72db96e12b904cacbc5f72a31b106fcbca10ddd3bd"
+    },
+    {
+      "path": "predictions/worldcuisines/conceptonly-s911605.jsonl.gz",
+      "bytes": 45237,
+      "sha256": "796897264c28f96aff49d6955d2af03d18bd7f414846a8bead54156265d18cfd"
+    },
+    {
+      "path": "predictions/worldcuisines/conceptonly-s911974.jsonl.gz",
+      "bytes": 45279,
+      "sha256": "eeda5c63b72cdfa96d2d361ba310346af37aada5edee720498c04f153b37f6c7"
+    },
+    {
+      "path": "predictions/worldcuisines/conceptonly-s928775.jsonl.gz",
+      "bytes": 45031,
+      "sha256": "8076482d1edfd44eb6aa3f308e92922415a9132efcec9afcddd686aad050fa58"
+    },
+    {
+      "path": "predictions/worldcuisines/englishheavy-s137059.jsonl.gz",
+      "bytes": 45179,
+      "sha256": "d5324a495a9e77f9232369096ea444402133ee5dacf2d4581d48e704d7e975c0"
+    },
+    {
+      "path": "predictions/worldcuisines/englishheavy-s149937.jsonl.gz",
+      "bytes": 45144,
+      "sha256": "1fa4c0d5d8b9f3e37be8359891a8eaee827c06a51ba928abe989af7ddfa5add4"
+    },
+    {
+      "path": "predictions/worldcuisines/englishheavy-s247841.jsonl.gz",
+      "bytes": 45394,
+      "sha256": "f8354f84119394fa004c817101ef00063429d5753b8e1c919f3e5f34ba3cd520"
+    },
+    {
+      "path": "predictions/worldcuisines/englishheavy-s272874.jsonl.gz",
+      "bytes": 45318,
+      "sha256": "76b113c3fd4cd7f95c96dfcccc6fc953ed1a142d1c8ef9f1b9688c9878fef1d7"
+    },
+    {
+      "path": "predictions/worldcuisines/englishheavy-s325511.jsonl.gz",
+      "bytes": 45176,
+      "sha256": "bc91dcde43543b88c9955c9cb9dc4881ba6ec9478e3c19aa87c7854fbad13cc7"
+    },
+    {
+      "path": "predictions/worldcuisines/englishheavy-s344247.jsonl.gz",
+      "bytes": 45441,
+      "sha256": "30dc84e48b9bc2ad7dca1d36899372f11b911c4cc782732feb36d2c618800c01"
+    },
+    {
+      "path": "predictions/worldcuisines/englishheavy-s391118.jsonl.gz",
+      "bytes": 45213,
+      "sha256": "4f32ee8ec23fc4d53df1dba10fc1aac26c6c3a932764efec5134ad8d3b6d37b3"
+    },
+    {
+      "path": "predictions/worldcuisines/englishheavy-s4823.jsonl.gz",
+      "bytes": 45211,
+      "sha256": "49aef4107e85b2acb35a335dbdca2405bd41d5f53368cf0e31ddc14231e8bd7f"
+    },
+    {
+      "path": "predictions/worldcuisines/englishheavy-s570526.jsonl.gz",
+      "bytes": 45484,
+      "sha256": "c08833d4691c6f9f623202ac0d921dc54dd913dc0c531e861f399c16d2311db9"
+    },
+    {
+      "path": "predictions/worldcuisines/englishheavy-s577312.jsonl.gz",
+      "bytes": 45314,
+      "sha256": "54d029f57972599a754484a56919b9e368ed60d8cd84964a281e2037727b27e7"
+    },
+    {
+      "path": "predictions/worldcuisines/englishheavy-s582885.jsonl.gz",
+      "bytes": 45260,
+      "sha256": "6751e81e199335b889712aeab4ed2e5907d9bd333891d0512f7ce97384e5449d"
+    },
+    {
+      "path": "predictions/worldcuisines/englishheavy-s646616.jsonl.gz",
+      "bytes": 45479,
+      "sha256": "4fd52856491682aa92e9d43553609c5afd3cf7561cb10b175fe9752934344ca0"
+    },
+    {
+      "path": "predictions/worldcuisines/englishheavy-s686691.jsonl.gz",
+      "bytes": 45239,
+      "sha256": "2851413b5c6cfec7a674ee11d8182e840c378a7486212b4b2581774b1dc5184a"
+    },
+    {
+      "path": "predictions/worldcuisines/englishheavy-s789563.jsonl.gz",
+      "bytes": 45273,
+      "sha256": "456174083216bced62916a21594fdfa8878903070d15f8697d4cf7b5a9b9526c"
+    },
+    {
+      "path": "predictions/worldcuisines/englishheavy-s794325.jsonl.gz",
+      "bytes": 45293,
+      "sha256": "9a44ac61a7f826d746239da59bad79665843f83303457e5668eec9bf906c950a"
+    },
+    {
+      "path": "predictions/worldcuisines/englishheavy-s911605.jsonl.gz",
+      "bytes": 45155,
+      "sha256": "88b60489a03d0d85f6b2319cf4820122afdd489e4d4c98d25faf0ff6e8eba24a"
+    },
+    {
+      "path": "predictions/worldcuisines/englishheavy-s911974.jsonl.gz",
+      "bytes": 45392,
+      "sha256": "4bd0a66f14acc12a6e79a222f110d92cfcbbc87f2ced090bb820b591cdf1b6aa"
+    },
+    {
+      "path": "predictions/worldcuisines/englishheavy-s928775.jsonl.gz",
+      "bytes": 45228,
+      "sha256": "eb2afb3d5a30afcb3d66ac442d081af0c0b38009c6d323a37acf70eec0ce9980"
+    },
+    {
+      "path": "predictions/worldcuisines/highocc-s137059.jsonl.gz",
+      "bytes": 45200,
+      "sha256": "4447b86b68112332f59a964fe48e64d2cfe2a8ca19ef942e4313cc128a0411a9"
+    },
+    {
+      "path": "predictions/worldcuisines/highocc-s149937.jsonl.gz",
+      "bytes": 45227,
+      "sha256": "b6439e0c8dee8efbeacbf8539c90d549f8d028f753572d9fb245356ff8100989"
+    },
+    {
+      "path": "predictions/worldcuisines/highocc-s247841.jsonl.gz",
+      "bytes": 45490,
+      "sha256": "c6569f005900a35d0a9729bbfb21ba6eda9998f04aa8696503b4941eaa195476"
+    },
+    {
+      "path": "predictions/worldcuisines/highocc-s272874.jsonl.gz",
+      "bytes": 45279,
+      "sha256": "7b25bb1a904feacd53cbf47d923f94f778de467f0ee347a45b68c21213c2aa53"
+    },
+    {
+      "path": "predictions/worldcuisines/highocc-s325511.jsonl.gz",
+      "bytes": 45186,
+      "sha256": "7a73cd86d616cf60ad8868e344d289d5cf066402bdb0a6173cba2c62fa9b2fd9"
+    },
+    {
+      "path": "predictions/worldcuisines/highocc-s344247.jsonl.gz",
+      "bytes": 45273,
+      "sha256": "2263ee5a1929fc852204f39ed0ae9aa67000902968b414d640b66fbc45c66b85"
+    },
+    {
+      "path": "predictions/worldcuisines/highocc-s391118.jsonl.gz",
+      "bytes": 45175,
+      "sha256": "93d5910114306a4f897d81044526f1ae4249346277566805112ee81dc316c587"
+    },
+    {
+      "path": "predictions/worldcuisines/highocc-s4823.jsonl.gz",
+      "bytes": 45009,
+      "sha256": "45fc053f55837d144f95d7a40b6c5f41f010dc1b0a1ed816fabe4f6871660d3e"
+    },
+    {
+      "path": "predictions/worldcuisines/highocc-s570526.jsonl.gz",
+      "bytes": 45471,
+      "sha256": "57f84dc0e2a388e7d9504a75b5cefa2c16d0f1b3895841b5f138fde66515bd60"
+    },
+    {
+      "path": "predictions/worldcuisines/highocc-s577312.jsonl.gz",
+      "bytes": 45154,
+      "sha256": "52ca154963fa4fb73fca205e1c11d50032e65e91b4f3affb81d4749cfdb358a6"
+    },
+    {
+      "path": "predictions/worldcuisines/highocc-s582885.jsonl.gz",
+      "bytes": 45416,
+      "sha256": "ba80af6f658447a14e915775bf3bd6035850ae58f9bdb70ba62802fdf588f724"
+    },
+    {
+      "path": "predictions/worldcuisines/highocc-s646616.jsonl.gz",
+      "bytes": 45311,
+      "sha256": "3904820593c483fbcb056bfbdd89786d2f13a5e2c1824aa567ca81fc588c8d01"
+    },
+    {
+      "path": "predictions/worldcuisines/highocc-s686691.jsonl.gz",
+      "bytes": 45186,
+      "sha256": "b6b1fb0cb78d54f448c48e7eda05841e8417d4e70a3b82be9a5d5a909d2bef7d"
+    },
+    {
+      "path": "predictions/worldcuisines/highocc-s789563.jsonl.gz",
+      "bytes": 45105,
+      "sha256": "3af4c5612bc06cdeb6e9eae44d332bbdb18082b6ff395d85f2f1048270283699"
+    },
+    {
+      "path": "predictions/worldcuisines/highocc-s794325.jsonl.gz",
+      "bytes": 45292,
+      "sha256": "5d1452b1e011228ed460e9fe2156a23adac7c99941cdd99a41050d96ccc941bb"
+    },
+    {
+      "path": "predictions/worldcuisines/highocc-s911605.jsonl.gz",
+      "bytes": 45203,
+      "sha256": "7eb5009549dcc6a071caf11de95d268f9d7da1cec0fea5cfdc47a82831574fd8"
+    },
+    {
+      "path": "predictions/worldcuisines/highocc-s911974.jsonl.gz",
+      "bytes": 45332,
+      "sha256": "11ab499d126f7f983d5554a9e483b13b9279559ebff5dd115cfd0591cf51a5c4"
+    },
+    {
+      "path": "predictions/worldcuisines/highocc-s928775.jsonl.gz",
+      "bytes": 45257,
+      "sha256": "07061433d9778b2f936ed48d4c297e1f37e4c4cefc86747f247dbb7626b14889"
+    },
+    {
+      "path": "predictions/worldcuisines/joint-s137059.jsonl.gz",
+      "bytes": 45079,
+      "sha256": "53cd8f6b16fe156fdc05a2f8082d3f347f3c890ed3c733a3a886eed75cab8d3c"
+    },
+    {
+      "path": "predictions/worldcuisines/joint-s149937.jsonl.gz",
+      "bytes": 45070,
+      "sha256": "f8cfbc695ed3d9758037142989d7b162ccb86e64eb134c4aee0f0d8e517c9f48"
+    },
+    {
+      "path": "predictions/worldcuisines/joint-s247841.jsonl.gz",
+      "bytes": 45343,
+      "sha256": "fbfbee4f4b14b2b2859ab48ad6006048965a3329d4893672a2482bdafa7c5572"
+    },
+    {
+      "path": "predictions/worldcuisines/joint-s272874.jsonl.gz",
+      "bytes": 45278,
+      "sha256": "96e82502402f4eb93eeac94129a1966fb5a746484c2e718d06e0e2e3ed2e73d7"
+    },
+    {
+      "path": "predictions/worldcuisines/joint-s325511.jsonl.gz",
+      "bytes": 45158,
+      "sha256": "f54e8e5c60926bd8d07120f62329e34671ffe8bda558365ae1db69868f93dcaa"
+    },
+    {
+      "path": "predictions/worldcuisines/joint-s344247.jsonl.gz",
+      "bytes": 45404,
+      "sha256": "66d996a51f1ddafbd4765fdb66b11db3ac405ea0e49cc6a0a4f1f0e455ca7cab"
+    },
+    {
+      "path": "predictions/worldcuisines/joint-s391118.jsonl.gz",
+      "bytes": 45157,
+      "sha256": "e96df2e91467f330d2d0e39548be6359b84184ad171d550417ee90a31ee67939"
+    },
+    {
+      "path": "predictions/worldcuisines/joint-s4823.jsonl.gz",
+      "bytes": 44993,
+      "sha256": "a43a7483755f0851ad2e7144fddb85026dc3d95f7f29e72baf78aa4a984ad605"
+    },
+    {
+      "path": "predictions/worldcuisines/joint-s570526.jsonl.gz",
+      "bytes": 45460,
+      "sha256": "1f15a1a9f3bc5cc188810bd2ea948405ce5c31b28c46db19767187049ce07037"
+    },
+    {
+      "path": "predictions/worldcuisines/joint-s577312.jsonl.gz",
+      "bytes": 45261,
+      "sha256": "e9fce38918a2df3078f7d20013296eac6edd6ff82f9394988fdf17d586534e70"
+    },
+    {
+      "path": "predictions/worldcuisines/joint-s582885.jsonl.gz",
+      "bytes": 45260,
+      "sha256": "c18a65e63cee9571c015e69a31b1057b0b24c72fa9362f4de1ae179d1579a9e8"
+    },
+    {
+      "path": "predictions/worldcuisines/joint-s646616.jsonl.gz",
+      "bytes": 45321,
+      "sha256": "3622249772aa78e50ac96a034bd1d9238273ae0cf9167d255c03777e0dc3e07a"
+    },
+    {
+      "path": "predictions/worldcuisines/joint-s686691.jsonl.gz",
+      "bytes": 45114,
+      "sha256": "eafc9d0619e8bdb8edf08bc42358779456512e14df14b1458b5a544bf0cfac8f"
+    },
+    {
+      "path": "predictions/worldcuisines/joint-s789563.jsonl.gz",
+      "bytes": 45141,
+      "sha256": "30f135d8912d8364a3a1b0b6f8d8bffb4231fdc5617d59238a9e7cca3b198a9d"
+    },
+    {
+      "path": "predictions/worldcuisines/joint-s794325.jsonl.gz",
+      "bytes": 45226,
+      "sha256": "47a8fe5476bbceb15b15cd970324707a6966c60f2356629f3c7ce97ad4125bf1"
+    },
+    {
+      "path": "predictions/worldcuisines/joint-s911605.jsonl.gz",
+      "bytes": 45103,
+      "sha256": "abc383f8cedb831218a059526960e7e6c4401ba0b7e6aee11da36bf4d8da9608"
+    },
+    {
+      "path": "predictions/worldcuisines/joint-s911974.jsonl.gz",
+      "bytes": 45266,
+      "sha256": "366a2802bd61b54d4a667ec3281c8a7fa2bc6e734943fc35aa454e333ae2fd81"
+    },
+    {
+      "path": "predictions/worldcuisines/joint-s928775.jsonl.gz",
+      "bytes": 45133,
+      "sha256": "ddedc71262e07e81e77131b2b3f67249db5446deb9ce797c17cbafe1be789f11"
+    },
+    {
+      "path": "predictions/worldcuisines/langonly-s137059.jsonl.gz",
+      "bytes": 45208,
+      "sha256": "b87f81592cc6392aa7472cd7d0a75d601d21b4bfcc32474e6bd5e0607372a8d2"
+    },
+    {
+      "path": "predictions/worldcuisines/langonly-s149937.jsonl.gz",
+      "bytes": 45148,
+      "sha256": "96555743473ff6df6d42c92e6dd2e9f4a9a2e920b050c3b8b66cc9368e0f55fa"
+    },
+    {
+      "path": "predictions/worldcuisines/langonly-s247841.jsonl.gz",
+      "bytes": 45395,
+      "sha256": "9646abbb06a882f3fcdae0f22b7d0bfeef6a1671ca2ca23c585aa601fced1811"
+    },
+    {
+      "path": "predictions/worldcuisines/langonly-s272874.jsonl.gz",
+      "bytes": 45206,
+      "sha256": "21bd6ba3e586ce59386b455d3271d979bb32c3646e699f3368816bcbf71d089d"
+    },
+    {
+      "path": "predictions/worldcuisines/langonly-s325511.jsonl.gz",
+      "bytes": 45169,
+      "sha256": "cbc4ae467385a573c5befc06f3fb8bf48c311f2a274719ebbefe84de70e99c0a"
+    },
+    {
+      "path": "predictions/worldcuisines/langonly-s344247.jsonl.gz",
+      "bytes": 45354,
+      "sha256": "60b763333a5af0d810dc54c8c76bc4af3840f790b6f92112958053bad7e756c7"
+    },
+    {
+      "path": "predictions/worldcuisines/langonly-s391118.jsonl.gz",
+      "bytes": 45157,
+      "sha256": "b8e750cec92f85a92caa4e56637880cb04404836dfd0134ea9be61d00d86aee7"
+    },
+    {
+      "path": "predictions/worldcuisines/langonly-s4823.jsonl.gz",
+      "bytes": 45081,
+      "sha256": "62953189b1566f8c8d50ca9101b6baa7d54dd98dc047dbb73dc81c2bd9e27e48"
+    },
+    {
+      "path": "predictions/worldcuisines/langonly-s570526.jsonl.gz",
+      "bytes": 45424,
+      "sha256": "cc3a86ff6bacabd44eaa5c00940feaa24087aee1cc9a04a8b4d944a5d9b98516"
+    },
+    {
+      "path": "predictions/worldcuisines/langonly-s577312.jsonl.gz",
+      "bytes": 45318,
+      "sha256": "e4168e67d09e25ad96e93bb0d2733505d9b0c7377106272eff27ea2bc7f37519"
+    },
+    {
+      "path": "predictions/worldcuisines/langonly-s582885.jsonl.gz",
+      "bytes": 45245,
+      "sha256": "ac7ca284d5f2a7e151fd3e95f3e6e66f6557368361268687b271e8dd9c975d8c"
+    },
+    {
+      "path": "predictions/worldcuisines/langonly-s646616.jsonl.gz",
+      "bytes": 45360,
+      "sha256": "2b666a7e22d20adba6964c9abc44ef1ade7b7234d692f41c2f5d3a28b987378e"
+    },
+    {
+      "path": "predictions/worldcuisines/langonly-s686691.jsonl.gz",
+      "bytes": 45182,
+      "sha256": "b75014ed78606590bd1ff8922ef04828b12f57d41fbda633fbf9c6050aca422f"
+    },
+    {
+      "path": "predictions/worldcuisines/langonly-s789563.jsonl.gz",
+      "bytes": 45095,
+      "sha256": "3a0768f7623e010e92d98beceb6e0bf3ad951c73907b5fc3407cee5e6c157a05"
+    },
+    {
+      "path": "predictions/worldcuisines/langonly-s794325.jsonl.gz",
+      "bytes": 45174,
+      "sha256": "afce80cb9be4f2a5895fce7fb41abd137f311ebb95955cc2901590a4dbf23075"
+    },
+    {
+      "path": "predictions/worldcuisines/langonly-s911605.jsonl.gz",
+      "bytes": 45216,
+      "sha256": "b52502a682350e346ca6249a4a2f985440b673d028499b9ee58d10be845b1890"
+    },
+    {
+      "path": "predictions/worldcuisines/langonly-s911974.jsonl.gz",
+      "bytes": 45265,
+      "sha256": "3ae7d1bbf9342e3642c23027e91f4044a44b6552a5d7f43f64118a4886d2f15a"
+    },
+    {
+      "path": "predictions/worldcuisines/langonly-s928775.jsonl.gz",
+      "bytes": 45212,
+      "sha256": "680dcefb03ff29a1258df88668827de8e156daf558c0383225646e260ff6b8cb"
+    },
+    {
+      "path": "predictions/worldcuisines/langonlycond-s137059.jsonl.gz",
+      "bytes": 45172,
+      "sha256": "fce159a847d583bf28b7ae3527d7f31b81f56a3df4cf37f7250fb91bc499b2de"
+    },
+    {
+      "path": "predictions/worldcuisines/langonlycond-s149937.jsonl.gz",
+      "bytes": 45176,
+      "sha256": "0dd263ad8b9903f4e776891c96ecc0f5a7da0c6985db9a60527cb45c038e5005"
+    },
+    {
+      "path": "predictions/worldcuisines/langonlycond-s247841.jsonl.gz",
+      "bytes": 45435,
+      "sha256": "dc92ee3c909f5f31bcc0c790b08855a1e21ee4a3d5441d4f35e291b84bd989e1"
+    },
+    {
+      "path": "predictions/worldcuisines/langonlycond-s272874.jsonl.gz",
+      "bytes": 45232,
+      "sha256": "ecd3094d87af9f9dabc63a40ff498d1fc5af9bcf9827d05e2ba031ace8f00690"
+    },
+    {
+      "path": "predictions/worldcuisines/langonlycond-s325511.jsonl.gz",
+      "bytes": 45212,
+      "sha256": "59a31787eadec73a3fac4c2554309fd2b25d7ab4d64f31f893bd1c90c726fa90"
+    },
+    {
+      "path": "predictions/worldcuisines/langonlycond-s344247.jsonl.gz",
+      "bytes": 45426,
+      "sha256": "c16cf3c7193d5ee48e8b1a22e44153bb16d1e075de77758f93f14c5747276d5c"
+    },
+    {
+      "path": "predictions/worldcuisines/langonlycond-s391118.jsonl.gz",
+      "bytes": 45212,
+      "sha256": "5337952cffe1aa8b42fbf486cda3a219995ae7c6c8b74bc981bfb7b00a2d6f25"
+    },
+    {
+      "path": "predictions/worldcuisines/langonlycond-s4823.jsonl.gz",
+      "bytes": 45025,
+      "sha256": "86f373a599c037debccccbb0854ca432bb824d3a64a4f02c896f8d3cd4ac056f"
+    },
+    {
+      "path": "predictions/worldcuisines/langonlycond-s570526.jsonl.gz",
+      "bytes": 45418,
+      "sha256": "774a90a40d784b85638b39292b5f6dac66ca33ff193527f7f1a2f9ef1e14e165"
+    },
+    {
+      "path": "predictions/worldcuisines/langonlycond-s577312.jsonl.gz",
+      "bytes": 45268,
+      "sha256": "638fd082d33cb368bbadaaba6eb64fce3924021597c8b261d9b37f7f993b1318"
+    },
+    {
+      "path": "predictions/worldcuisines/langonlycond-s582885.jsonl.gz",
+      "bytes": 45390,
+      "sha256": "3105dbe24d4f599ce34d5b0fef007c39c3293b8480aa78944438f25c636dba0f"
+    },
+    {
+      "path": "predictions/worldcuisines/langonlycond-s646616.jsonl.gz",
+      "bytes": 45479,
+      "sha256": "ba649c35a084293c4f11fccdeee88124d9a31ced518acc163c05c066223356d8"
+    },
+    {
+      "path": "predictions/worldcuisines/langonlycond-s686691.jsonl.gz",
+      "bytes": 45084,
+      "sha256": "7b52dd24c2814d698551228c717f9e79fc831f1cb6a704186113b8e0156a071e"
+    },
+    {
+      "path": "predictions/worldcuisines/langonlycond-s789563.jsonl.gz",
+      "bytes": 45179,
+      "sha256": "7c55ea2aefafd32817d9e4c61042fe129c162155ca87b5ca1539652f7b4553c2"
+    },
+    {
+      "path": "predictions/worldcuisines/langonlycond-s794325.jsonl.gz",
+      "bytes": 45095,
+      "sha256": "a135d9c847b8977f9e099896b850eb5a026a5ac9264101f6e80edbde94ec7ab8"
+    },
+    {
+      "path": "predictions/worldcuisines/langonlycond-s911605.jsonl.gz",
+      "bytes": 45265,
+      "sha256": "a7dd104b0e553ee6aacc41e23e7a0291dfe6cef5a4549e998d4f143204ac4e77"
+    },
+    {
+      "path": "predictions/worldcuisines/langonlycond-s911974.jsonl.gz",
+      "bytes": 45320,
+      "sha256": "aa0e6726431435691d4656d53256884cb9003f788f98976a20f7f9fadda86e84"
+    },
+    {
+      "path": "predictions/worldcuisines/langonlycond-s928775.jsonl.gz",
+      "bytes": 45151,
+      "sha256": "94512f85a2f4fd29c1e8c50868aaa22616df23eda908d095ec25cfad3bd2408d"
+    },
+    {
+      "path": "predictions/worldcuisines/lowocc-s137059.jsonl.gz",
+      "bytes": 45282,
+      "sha256": "97de04513027f4810af5f33a4a9c6c51c96096b5f066b5ec9972806a34079853"
+    },
+    {
+      "path": "predictions/worldcuisines/lowocc-s149937.jsonl.gz",
+      "bytes": 45346,
+      "sha256": "4021b6bdf501c1e7cc96bb7c96b45c247f2f011f8df966dfb578890d3937edc5"
+    },
+    {
+      "path": "predictions/worldcuisines/lowocc-s247841.jsonl.gz",
+      "bytes": 45531,
+      "sha256": "de8eeb198cb868fa52390073ee8a6899b481a253dea2b4bb08c5b6a49e463239"
+    },
+    {
+      "path": "predictions/worldcuisines/lowocc-s272874.jsonl.gz",
+      "bytes": 45352,
+      "sha256": "417e2a905770ce992685e51ed888ab03a0072432e940f0a5e6540773cbe50fc2"
+    },
+    {
+      "path": "predictions/worldcuisines/lowocc-s325511.jsonl.gz",
+      "bytes": 45284,
+      "sha256": "3bd3de1229d8e7bf0e4af0d9bf6efe53234165f594dcfedbf97d3fc890b98f86"
+    },
+    {
+      "path": "predictions/worldcuisines/lowocc-s344247.jsonl.gz",
+      "bytes": 45435,
+      "sha256": "160417fc2279937ea47709d439cec8ee7170f5597cfac4bbae68b46290b083b4"
+    },
+    {
+      "path": "predictions/worldcuisines/lowocc-s391118.jsonl.gz",
+      "bytes": 45547,
+      "sha256": "2b8a08a37ff6bfb237e2a628554439436b97441eade8f24aaa9cd6a9aa23f9b9"
+    },
+    {
+      "path": "predictions/worldcuisines/lowocc-s4823.jsonl.gz",
+      "bytes": 45185,
+      "sha256": "d52ecfb14d4821bd0ed8043311bc05cdb913a1dd6064462b686691ae16c3253c"
+    },
+    {
+      "path": "predictions/worldcuisines/lowocc-s570526.jsonl.gz",
+      "bytes": 45498,
+      "sha256": "eb8c4f732f20aa5a14d950ba05ccca38d51304d834fe681187dd8c341d2abbd5"
+    },
+    {
+      "path": "predictions/worldcuisines/lowocc-s577312.jsonl.gz",
+      "bytes": 45311,
+      "sha256": "1d8514c47cfd29d32f26d9622bd4bd00d8173bef4f15072148eaf8ec8473b4ca"
+    },
+    {
+      "path": "predictions/worldcuisines/lowocc-s582885.jsonl.gz",
+      "bytes": 45513,
+      "sha256": "d18e1783c09b9872997d9539d87a80be5df47c52fc8e831b98f0739cd72187c4"
+    },
+    {
+      "path": "predictions/worldcuisines/lowocc-s646616.jsonl.gz",
+      "bytes": 45287,
+      "sha256": "4fb8ec9a2c087f4edd59d446a0cefc0024ae37e6572b0a09bd56019ef5ac5bf1"
+    },
+    {
+      "path": "predictions/worldcuisines/lowocc-s686691.jsonl.gz",
+      "bytes": 45174,
+      "sha256": "5512fc2b65d253cd656f5e0722237dd9bf29eac3abc6f521f9ad39649e6836da"
+    },
+    {
+      "path": "predictions/worldcuisines/lowocc-s789563.jsonl.gz",
+      "bytes": 45293,
+      "sha256": "4f8ee001a84488484678356df3dae61a2e892fcef665f3982ed5b08a0c658a39"
+    },
+    {
+      "path": "predictions/worldcuisines/lowocc-s794325.jsonl.gz",
+      "bytes": 45289,
+      "sha256": "938abeb08d5100e3ec0c8c1f145cc8fe0f5e164808e6f9781bf6c3eb8e602c29"
+    },
+    {
+      "path": "predictions/worldcuisines/lowocc-s911605.jsonl.gz",
+      "bytes": 45186,
+      "sha256": "e44e0b4fe0276ad62c5c7a62dfd7d674e9ba43bfb8576325bd6d36c166774647"
+    },
+    {
+      "path": "predictions/worldcuisines/lowocc-s911974.jsonl.gz",
+      "bytes": 45354,
+      "sha256": "6c5f398a8e3fbe04d2a9e40bdeed520faa3ec59fd078ca6ac06b14035fd7587a"
+    },
+    {
+      "path": "predictions/worldcuisines/lowocc-s928775.jsonl.gz",
+      "bytes": 45279,
+      "sha256": "5e77bd49d9fe84c24745d2ee57d572f8a6085d9902ae2b7cb3ca495ef8927a0c"
+    },
+    {
+      "path": "predictions/worldcuisines/natnat-s137059.jsonl.gz",
+      "bytes": 45183,
+      "sha256": "5de738ee792b5a6ddefe87a2f1680f190032831e4c7b4a0277cb919457bb3324"
+    },
+    {
+      "path": "predictions/worldcuisines/natnat-s149937.jsonl.gz",
+      "bytes": 45150,
+      "sha256": "525e8491488e2df2065150e13ce8fe74ceb73e5045b688b4896437659b462735"
+    },
+    {
+      "path": "predictions/worldcuisines/natnat-s247841.jsonl.gz",
+      "bytes": 45512,
+      "sha256": "3ac1eee562c4805174f95a6cc740f6b53418dd6ce4d3373b1dcbedaa3f2dd049"
+    },
+    {
+      "path": "predictions/worldcuisines/natnat-s272874.jsonl.gz",
+      "bytes": 45375,
+      "sha256": "afd245744214dc13360108a8a27cee81065667f2d34436f1198a632abf91b2cb"
+    },
+    {
+      "path": "predictions/worldcuisines/natnat-s325511.jsonl.gz",
+      "bytes": 45286,
+      "sha256": "8f682a3b02d3a993b75dc5de6277c7c7818f2b905602c60f5d997b158e04bcf9"
+    },
+    {
+      "path": "predictions/worldcuisines/natnat-s344247.jsonl.gz",
+      "bytes": 45441,
+      "sha256": "0260f2149df33bb8cca48317f533d2c91a14c6cec8792ba23fb92250899505d8"
+    },
+    {
+      "path": "predictions/worldcuisines/natnat-s391118.jsonl.gz",
+      "bytes": 45263,
+      "sha256": "ba4cfd4cd3362b09cfec779f3c476e42880bde47786c42f1698ad372a517b96d"
+    },
+    {
+      "path": "predictions/worldcuisines/natnat-s4823.jsonl.gz",
+      "bytes": 45121,
+      "sha256": "557d200edbee162e6cd752cda060a2d927607cfd875167300aeaac6c303cb1db"
+    },
+    {
+      "path": "predictions/worldcuisines/natnat-s570526.jsonl.gz",
+      "bytes": 45380,
+      "sha256": "ef6e05760d6394368fa4b002875575ebbb72a7b7098a0844e62a6922cb01f25c"
+    },
+    {
+      "path": "predictions/worldcuisines/natnat-s577312.jsonl.gz",
+      "bytes": 45342,
+      "sha256": "55d239153a4ef63f4a042f2185e62dc3be4a109be6c32b1bddbb64a5bbb84f43"
+    },
+    {
+      "path": "predictions/worldcuisines/natnat-s582885.jsonl.gz",
+      "bytes": 45313,
+      "sha256": "5aa8cd815639b8b6bded1b7d0b8e1bfe71a86a3a4962848a26a573143b17cd0a"
+    },
+    {
+      "path": "predictions/worldcuisines/natnat-s646616.jsonl.gz",
+      "bytes": 45261,
+      "sha256": "1f2d165a057cc79b90e510bb7f01bedb79c8091abbf94cd3f968da4905880edd"
+    },
+    {
+      "path": "predictions/worldcuisines/natnat-s686691.jsonl.gz",
+      "bytes": 45292,
+      "sha256": "04a0e15db4c3ec2075bb61012be28c6e190459aec998d41cacb03adb3abfd52b"
+    },
+    {
+      "path": "predictions/worldcuisines/natnat-s789563.jsonl.gz",
+      "bytes": 45080,
+      "sha256": "48a55935761bd9b2a8c60e04eb4bb115edeba9a7cd716545e2bc0eb286f11ca7"
+    },
+    {
+      "path": "predictions/worldcuisines/natnat-s794325.jsonl.gz",
+      "bytes": 45337,
+      "sha256": "d2d2ba60ad7c007ef22ec08343d6583f6833daa20b5c05cbe9b3672589bbdfc2"
+    },
+    {
+      "path": "predictions/worldcuisines/natnat-s911605.jsonl.gz",
+      "bytes": 45219,
+      "sha256": "b765577b176d9b7fdbb0d2f0dcec775a9a0e0a3ee9fe3f48db46b67b4ea6fd63"
+    },
+    {
+      "path": "predictions/worldcuisines/natnat-s911974.jsonl.gz",
+      "bytes": 45343,
+      "sha256": "a9953edbe70afe78d57d16b5ad772a62e230227e79337b6c31475866c54c175b"
+    },
+    {
+      "path": "predictions/worldcuisines/natnat-s928775.jsonl.gz",
+      "bytes": 45105,
+      "sha256": "7475949d27c9ece1575ed94026b716451fff9e9c8dedbc7d4a597622f9d076c2"
+    },
+    {
+      "path": "predictions/worldcuisines/random-s137059.jsonl.gz",
+      "bytes": 45219,
+      "sha256": "012f2a8735e89dab52fb1f57ff08f93e461400637d67b36f73e2ba93e15f8774"
+    },
+    {
+      "path": "predictions/worldcuisines/random-s149937.jsonl.gz",
+      "bytes": 45221,
+      "sha256": "a93facd720f0f5e48d02bec7ed8386ded04b802274ff0a6bc847f2a0c7ac2f33"
+    },
+    {
+      "path": "predictions/worldcuisines/random-s247841.jsonl.gz",
+      "bytes": 45503,
+      "sha256": "9529969cc950365717351e876bbca3863953fea135c33999c7324b2f45c11560"
+    },
+    {
+      "path": "predictions/worldcuisines/random-s272874.jsonl.gz",
+      "bytes": 45298,
+      "sha256": "7d1b259735c4682ab777391d510684c9c131417f379d64fe9b7a4e45d7bb478f"
+    },
+    {
+      "path": "predictions/worldcuisines/random-s325511.jsonl.gz",
+      "bytes": 45294,
+      "sha256": "bb8b5b564d9bccd35ef5ac92416a0d0032d089af23881b58aa91a8e7cd43c1b8"
+    },
+    {
+      "path": "predictions/worldcuisines/random-s344247.jsonl.gz",
+      "bytes": 45386,
+      "sha256": "dac05a91e87bcfcb012973ccbfe76bd6df4ba5c2c51496ffddb54e3d1255de30"
+    },
+    {
+      "path": "predictions/worldcuisines/random-s391118.jsonl.gz",
+      "bytes": 45195,
+      "sha256": "809c3ce636a177165f5b493cd606927cef7b3a6894425f7dbbf4633090f7fe83"
+    },
+    {
+      "path": "predictions/worldcuisines/random-s4823.jsonl.gz",
+      "bytes": 45018,
+      "sha256": "c4ab773fdaf28f20f89f48cb989946652acc7db1a42bf08e2d573b2daf3ef517"
+    },
+    {
+      "path": "predictions/worldcuisines/random-s570526.jsonl.gz",
+      "bytes": 45265,
+      "sha256": "20caa14e4e57fdf0278b01c42f227d28ba1d452aafb0e63b8877f623f16d63a9"
+    },
+    {
+      "path": "predictions/worldcuisines/random-s577312.jsonl.gz",
+      "bytes": 45222,
+      "sha256": "28ddc63849022856d94a5bab4cc4ccb1e3bc6402200220c9823bcecc3a942442"
+    },
+    {
+      "path": "predictions/worldcuisines/random-s582885.jsonl.gz",
+      "bytes": 45231,
+      "sha256": "04ff81527c214d57168954e09fdd377ddc75d4f61058f277ee566bf724ff2f0a"
+    },
+    {
+      "path": "predictions/worldcuisines/random-s646616.jsonl.gz",
+      "bytes": 45245,
+      "sha256": "808d527108c0a17d16ed171c5df14987f97800360433e530ed792ca4a57de4cb"
+    },
+    {
+      "path": "predictions/worldcuisines/random-s686691.jsonl.gz",
+      "bytes": 45191,
+      "sha256": "77b2d96702df20f4dd789d55a5e36ab8368c349ab6cf294d4849e783f01fcb6f"
+    },
+    {
+      "path": "predictions/worldcuisines/random-s789563.jsonl.gz",
+      "bytes": 45133,
+      "sha256": "310d4b2abb70399b34dd29e6566167079e032140dd0d24c16bf338f01745cc95"
+    },
+    {
+      "path": "predictions/worldcuisines/random-s794325.jsonl.gz",
+      "bytes": 45192,
+      "sha256": "437355a0e3af28aeb53f0b2ef76e794dcc81d2b65430eda1bf559747a0763cc8"
+    },
+    {
+      "path": "predictions/worldcuisines/random-s911605.jsonl.gz",
+      "bytes": 45301,
+      "sha256": "694398761ef47aadbfe2039f1c638da263db76d2baf95e5c855435775254c674"
+    },
+    {
+      "path": "predictions/worldcuisines/random-s911974.jsonl.gz",
+      "bytes": 45263,
+      "sha256": "1d17287dca04ad8de0729d49868c21418eea45aef983fb135db0c62a510cf6fe"
+    },
+    {
+      "path": "predictions/worldcuisines/random-s928775.jsonl.gz",
+      "bytes": 45142,
+      "sha256": "fbced4c210da2e245cd031f571690e3b2c2935f1f7058fb01a464140b696ffb3"
+    },
+    {
+      "path": "provenance/model_identity.json",
+      "bytes": 3565,
+      "sha256": "8e63b3272be8a8df0527b205ecb995cc0dbf6d755023dd609c4be28e0432b38c"
+    },
+    {
+      "path": "provenance/official_package_source_comparison.json",
+      "bytes": 6583,
+      "sha256": "7790aac1c9b667028a86cb77eb7b9d9558e900f54255bc9fe8b3f99b3c31d08f"
+    },
+    {
+      "path": "provenance/original_sources.json",
+      "bytes": 304863,
+      "sha256": "b78e682761929f85aceb2b96edafc61aad698ec175802cbda879c6b2f9d3f16e"
+    },
+    {
+      "path": "provenance/runtime_identity.json",
+      "bytes": 1757,
+      "sha256": "56d8800b3cfcd02d7164e528c9f8a607501e02e0a51eb0dfa034758055e27edb"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7025,
+      "sha256": "3f6d284793e04c1758e7d88078e2e0920ec7ebc884adf30baccb8942a3c12b3c"
+    },
+    {
+      "path": "replay_cached.py",
+      "bytes": 14498,
+      "sha256": "be2c72bc77121cee6f88bf661bfa94ad58aa0af8b5aaded3c56535c44e3f056b"
+    },
+    {
+      "path": "requirements-replay.txt",
+      "bytes": 12,
+      "sha256": "a83a2a4ed7ab2e022b9b8a83cfa2b8cf52cc243006c597e8b96f90a8365590ac"
+    },
+    {
+      "path": "summaries/cvqa/base-noadapter.json",
+      "bytes": 3252,
+      "sha256": "f737a41416abafae16f4605c2d2644b213acc7daed3356ba0f91e9cf3f0f0c31"
+    },
+    {
+      "path": "summaries/cvqa/joint-s137059.json",
+      "bytes": 3219,
+      "sha256": "3835d94a2eca2d9fd7a3be1a029875a1335520d5b27f8dcf4fee182ba3bf19fd"
+    },
+    {
+      "path": "summaries/cvqa/joint-s149937.json",
+      "bytes": 3040,
+      "sha256": "8636392894e183fa6b8973d2ae14a394b8d1c9e0a125c7a35460bbd5966d1a7b"
+    },
+    {
+      "path": "summaries/cvqa/joint-s247841.json",
+      "bytes": 3236,
+      "sha256": "68b52ccd4b104aef42c4a4d2fe1f1f755b8ddd9f0384a00354ddfe7bacfbd0d9"
+    },
+    {
+      "path": "summaries/cvqa/joint-s272874.json",
+      "bytes": 2985,
+      "sha256": "e6bf8be46a9dabdc0612d0cabe4bb59377b5738501ba7fefe5113e8e1659bec9"
+    },
+    {
+      "path": "summaries/cvqa/joint-s325511.json",
+      "bytes": 2871,
+      "sha256": "7149b6d1863ac0196b1adafe43512f1396acbe2f0fbc0af011579312b406d164"
+    },
+    {
+      "path": "summaries/cvqa/joint-s344247.json",
+      "bytes": 3191,
+      "sha256": "5e3bcfaf95727f89215b4fe7e9fb6b64b1dd0f3774cc45de1e193c603fb518ad"
+    },
+    {
+      "path": "summaries/cvqa/joint-s391118.json",
+      "bytes": 3250,
+      "sha256": "5dacde68d9f1bf9e51fad613c444771b10e0fc436c9f372bcc7061426bc5dbdc"
+    },
+    {
+      "path": "summaries/cvqa/joint-s4823.json",
+      "bytes": 3417,
+      "sha256": "6ac68491cc2dcaf54186f164191206e8fad55cfec1e0a01cdd20dd510e98c641"
+    },
+    {
+      "path": "summaries/cvqa/random-s137059.json",
+      "bytes": 3749,
+      "sha256": "588ccff9921cd7b178928edc56d3600e9f7b8f74390af07b8e77af395273f817"
+    },
+    {
+      "path": "summaries/cvqa/random-s149937.json",
+      "bytes": 3040,
+      "sha256": "fee56b911f297cac465f737847f65395971ac39673ce086173d9c9c5126014dd"
+    },
+    {
+      "path": "summaries/cvqa/random-s247841.json",
+      "bytes": 3595,
+      "sha256": "b421be3668d381a79f4bfa915f2c9bf842c5e669ce7e56c97c44e00cc0d7f27a"
+    },
+    {
+      "path": "summaries/cvqa/random-s272874.json",
+      "bytes": 3362,
+      "sha256": "e27a3363c32e6e026317bcd62d5002238f6b2999a1fbb4f729874eca147402b4"
+    },
+    {
+      "path": "summaries/cvqa/random-s325511.json",
+      "bytes": 2870,
+      "sha256": "3fa2b107f502351a6e70a962354138d4c991d041cd49380548468f41272b9d34"
+    },
+    {
+      "path": "summaries/cvqa/random-s344247.json",
+      "bytes": 3382,
+      "sha256": "1d4c7c67bc104332ebf0344f26ba9843adb3da0c9c501172d8f1b81affd14a4b"
+    },
+    {
+      "path": "summaries/cvqa/random-s391118.json",
+      "bytes": 3244,
+      "sha256": "31bd58e6e4f5e739acea60e2f320e860d3cf9d2525e65b1bc9cbb01b671a2b28"
+    },
+    {
+      "path": "summaries/cvqa/random-s4823.json",
+      "bytes": 3417,
+      "sha256": "e435cd2c7977b797e34194cd4bdef3471cadec146ccbb90f7b8939c9a254f3cf"
+    },
+    {
+      "path": "summaries/cvqa/random-s570526.json",
+      "bytes": 3215,
+      "sha256": "8b20ba9f1401c9e0abf09f6430d1741f01ff4a874cf55d448820d713bfff6603"
+    },
+    {
+      "path": "summaries/cvqa/random-s577312.json",
+      "bytes": 3211,
+      "sha256": "ce8ee7d6464bfe9adf42fc4574e1fe30857ccc378d92e8bb8fcb725b060a34ee"
+    },
+    {
+      "path": "summaries/cvqa/random-s582885.json",
+      "bytes": 3050,
+      "sha256": "3abc4108640edb9cb81e2c1efadf851bebbdbd42e3aa14237697a95b88a21a2c"
+    },
+    {
+      "path": "summaries/cvqa/random-s646616.json",
+      "bytes": 3088,
+      "sha256": "4def8d614e11484beb9e9c5ae8068bceaa12baeae0fcce99fd1672b86ec39d05"
+    },
+    {
+      "path": "summaries/cvqa/random-s686691.json",
+      "bytes": 3254,
+      "sha256": "fce9942ba38a668c0016593b63d45c54eb4dbda8f6f3f6dea459c2d1908e3502"
+    },
+    {
+      "path": "summaries/cvqa/random-s789563.json",
+      "bytes": 3581,
+      "sha256": "cd95d1bfc708bfdceb438a977c8157d8a7e3c75156f6d5376c11742e8d06cb68"
+    },
+    {
+      "path": "summaries/cvqa/random-s794325.json",
+      "bytes": 3427,
+      "sha256": "50f2fc535afad695673ff5fa7d970e2bad557d3a16246cf73789dba7979b1d18"
+    },
+    {
+      "path": "summaries/cvqa/random-s911605.json",
+      "bytes": 3371,
+      "sha256": "655933f38c098a99f29ea379e6213c33f17a708fb0ecf5accd320bcbe9042d0f"
+    },
+    {
+      "path": "summaries/cvqa/random-s911974.json",
+      "bytes": 3095,
+      "sha256": "e1d3d0e7ed65f26d4208298e9c00b9909308c0892286661a18583e02ec8580fd"
+    },
+    {
+      "path": "summaries/cvqa/random-s928775.json",
+      "bytes": 3535,
+      "sha256": "c242abd7d58f6fd1554439164c6a5349bfe72e673d43c8aba8972f11773f62cd"
+    },
+    {
+      "path": "summaries/worldcuisines/base-noadapter.json",
+      "bytes": 6647,
+      "sha256": "019c363fec93137b515fffb4e3b663d3b6e0bd7ca277943b6518cced14dda0c8"
+    },
+    {
+      "path": "summaries/worldcuisines/conceptonly-s137059.json",
+      "bytes": 5905,
+      "sha256": "0b5d3bfa2628a8b7c6678e6971c1bba3a7a930e540515c4a7085b4e709b946bb"
+    },
+    {
+      "path": "summaries/worldcuisines/conceptonly-s149937.json",
+      "bytes": 6682,
+      "sha256": "bbc9923ada9f4ef8a8cedc7a7333c6c988837f0c407c992836b97778a48d36b6"
+    },
+    {
+      "path": "summaries/worldcuisines/conceptonly-s247841.json",
+      "bytes": 6714,
+      "sha256": "2f581ffee5aa1bae6e838e0fb791c1510ddec0fe0c89edb4545358eeda8673f0"
+    },
+    {
+      "path": "summaries/worldcuisines/conceptonly-s272874.json",
+      "bytes": 6096,
+      "sha256": "41d6887e65a40c9fde640be3b536199fcd4e62db1597bf77313207f3c76c28fe"
+    },
+    {
+      "path": "summaries/worldcuisines/conceptonly-s325511.json",
+      "bytes": 6317,
+      "sha256": "649bedbbc68cc1bf788ceb8be0c783a88d7b0ba86b89418fca4d54ee6b7119e8"
+    },
+    {
+      "path": "summaries/worldcuisines/conceptonly-s344247.json",
+      "bytes": 5490,
+      "sha256": "78db4f2e40ba49eeea72d3133e899f03b6b07237e4d3e0347cf8dae571e7a55c"
+    },
+    {
+      "path": "summaries/worldcuisines/conceptonly-s391118.json",
+      "bytes": 6244,
+      "sha256": "d72ed86772586750d591028342dc8555d1199dd2edf5f1dc9914e9856f8ac3bd"
+    },
+    {
+      "path": "summaries/worldcuisines/conceptonly-s4823.json",
+      "bytes": 6052,
+      "sha256": "0786ff2e428eed587cd64ce5c751a7ee6d6012125a1fc26c09a0747efc6c1de6"
+    },
+    {
+      "path": "summaries/worldcuisines/conceptonly-s570526.json",
+      "bytes": 5698,
+      "sha256": "d7dbedd92f5f2f58308db378ef25a087d26071b85a58943171ac3af3c6896819"
+    },
+    {
+      "path": "summaries/worldcuisines/conceptonly-s577312.json",
+      "bytes": 6460,
+      "sha256": "405cf58e1787171676aecdc6e197a52735c11b28e981b041efa0b13dfc4db5f1"
+    },
+    {
+      "path": "summaries/worldcuisines/conceptonly-s582885.json",
+      "bytes": 5688,
+      "sha256": "3493587359ca4fac6a45c0ba3a4ed6dd5d6f1ca07ae2a9b140596951bee484a4"
+    },
+    {
+      "path": "summaries/worldcuisines/conceptonly-s646616.json",
+      "bytes": 6066,
+      "sha256": "c9c9eafedca66531f7e11aeb15301f5ac550f2b6e405df4978e9e7788080c79c"
+    },
+    {
+      "path": "summaries/worldcuisines/conceptonly-s686691.json",
+      "bytes": 6700,
+      "sha256": "41850787d69d77a9b22012a8bf83380d2c8a89f062b097417b0080c91fb6fbe1"
+    },
+    {
+      "path": "summaries/worldcuisines/conceptonly-s789563.json",
+      "bytes": 5900,
+      "sha256": "5dcd309f9c9d82286dfe2b49b9041586d3996acacb54f51011760bbae6f0988d"
+    },
+    {
+      "path": "summaries/worldcuisines/conceptonly-s794325.json",
+      "bytes": 6485,
+      "sha256": "c001be6d1510f878a010e0cdfd558561e1eb9e522d991d4f6fe57e90c4811ce6"
+    },
+    {
+      "path": "summaries/worldcuisines/conceptonly-s911605.json",
+      "bytes": 6211,
+      "sha256": "37236a73560d7e8b0ab8cf8eb740291446174eb61a8b61621e66e78ed4a44ff5"
+    },
+    {
+      "path": "summaries/worldcuisines/conceptonly-s911974.json",
+      "bytes": 6556,
+      "sha256": "0c703e1d2aafc0047d81c91a767e34a608358b02b597c3816474c190e0ad8f22"
+    },
+    {
+      "path": "summaries/worldcuisines/conceptonly-s928775.json",
+      "bytes": 6099,
+      "sha256": "9a8361dbecf16b1d21b975781e347d3869e136f8da2be56626616a79314d7ea9"
+    },
+    {
+      "path": "summaries/worldcuisines/englishheavy-s137059.json",
+      "bytes": 6127,
+      "sha256": "1d43c2d4f57b16ab93a17ef73105d7b1f95e098219686309dfe7201b22739cfe"
+    },
+    {
+      "path": "summaries/worldcuisines/englishheavy-s149937.json",
+      "bytes": 6302,
+      "sha256": "912fe37c4308ef812ac98726b973d968e35f783201fd6236e30c8c092d8d642b"
+    },
+    {
+      "path": "summaries/worldcuisines/englishheavy-s247841.json",
+      "bytes": 5938,
+      "sha256": "903590e0a564f6f0b441cced3d0130a621e343be9d804527d51c562bfa867258"
+    },
+    {
+      "path": "summaries/worldcuisines/englishheavy-s272874.json",
+      "bytes": 5896,
+      "sha256": "aac566577d109b4c81cf75a13ed3fa04de18f5d7fde38b330d5de79bba59cb65"
+    },
+    {
+      "path": "summaries/worldcuisines/englishheavy-s325511.json",
+      "bytes": 5711,
+      "sha256": "43f7ceb9e6f9ff7efa58fc4114842ff7ea993bf045172150e30a4740a3831dc9"
+    },
+    {
+      "path": "summaries/worldcuisines/englishheavy-s344247.json",
+      "bytes": 6102,
+      "sha256": "3e61f59980fd6420ff5dbd9866fdf1423ed4bd3eb11e576a88d7f4151b4795b1"
+    },
+    {
+      "path": "summaries/worldcuisines/englishheavy-s391118.json",
+      "bytes": 6021,
+      "sha256": "19598f44a985f99843cc8e92bbe55bfd9d1b8d1f5dd4e1e6d8c2fc2f9b9e92ac"
+    },
+    {
+      "path": "summaries/worldcuisines/englishheavy-s4823.json",
+      "bytes": 6454,
+      "sha256": "7f1b0a678a4b6dead23361cf11a91d3179caca2aad7008e182c0abab5bf8f412"
+    },
+    {
+      "path": "summaries/worldcuisines/englishheavy-s570526.json",
+      "bytes": 6483,
+      "sha256": "981fe16466a4a182a6aece8eac3e7d04288d51b4e704feea33e9529617883d60"
+    },
+    {
+      "path": "summaries/worldcuisines/englishheavy-s577312.json",
+      "bytes": 5903,
+      "sha256": "24906a1b285fabaffcf165bf8ee9bf03db2d00136761bd7e83579c868dfe0626"
+    },
+    {
+      "path": "summaries/worldcuisines/englishheavy-s582885.json",
+      "bytes": 5908,
+      "sha256": "f8ec331b5d99fbc9a04b45ed0646ed0fefe8cb26428596a01813db74cd363cc8"
+    },
+    {
+      "path": "summaries/worldcuisines/englishheavy-s646616.json",
+      "bytes": 6468,
+      "sha256": "f80b8360b40adc53cb0a7cf2db09153693432c118afac058427501f999d2e402"
+    },
+    {
+      "path": "summaries/worldcuisines/englishheavy-s686691.json",
+      "bytes": 5900,
+      "sha256": "13367a6fa418d5fc0fbbd2c4bde52c0c8f68dfbb40056493dfc24e309c114b2c"
+    },
+    {
+      "path": "summaries/worldcuisines/englishheavy-s789563.json",
+      "bytes": 5929,
+      "sha256": "21f21c1f4de5b2e2abc4a349ab76febcbb8e3d5c3b3f44cd7121328726eb4437"
+    },
+    {
+      "path": "summaries/worldcuisines/englishheavy-s794325.json",
+      "bytes": 6110,
+      "sha256": "d1c5ca7890cb2c8cf94b1059b7c07681c7764b3757a6cea0fac174e352b67c8f"
+    },
+    {
+      "path": "summaries/worldcuisines/englishheavy-s911605.json",
+      "bytes": 5642,
+      "sha256": "65788a2dae643af9bc27ea4b5e5607b796efe0d5c8648b51aa05be0d5333522f"
+    },
+    {
+      "path": "summaries/worldcuisines/englishheavy-s911974.json",
+      "bytes": 6887,
+      "sha256": "53cc1f8a7497dda1bfb3d1ad806d978de16d5b3b9069eaff8af9315b7fff5940"
+    },
+    {
+      "path": "summaries/worldcuisines/englishheavy-s928775.json",
+      "bytes": 6321,
+      "sha256": "c326cf1f4b3c6df7dfb702b216869c0320ba66f4ab6ae99af70de919f5b6c66f"
+    },
+    {
+      "path": "summaries/worldcuisines/highocc-s137059.json",
+      "bytes": 6105,
+      "sha256": "1dcb3cec0b14063fe8df1d48c96904196685eb04d52346b795b33271fecb963a"
+    },
+    {
+      "path": "summaries/worldcuisines/highocc-s149937.json",
+      "bytes": 5911,
+      "sha256": "df1fe51f393b84d2c28633557405c4497149f2261dd5e547cf234a2121e4017a"
+    },
+    {
+      "path": "summaries/worldcuisines/highocc-s247841.json",
+      "bytes": 6099,
+      "sha256": "982b72d63f03e5c4d0a3d0dcbb86c18d345ff5e7c364e3fefc13f7afc3e2bfd7"
+    },
+    {
+      "path": "summaries/worldcuisines/highocc-s272874.json",
+      "bytes": 6054,
+      "sha256": "6484bed161c699d30b34d40e85cdf15f9a9bd447beec309316e1f6b22f9baa2d"
+    },
+    {
+      "path": "summaries/worldcuisines/highocc-s325511.json",
+      "bytes": 5934,
+      "sha256": "f1bad074d4ad6fae1eb733193f12378d5f7de5ce74bfd23d616cd548cd463233"
+    },
+    {
+      "path": "summaries/worldcuisines/highocc-s344247.json",
+      "bytes": 6296,
+      "sha256": "1202c39fcf5fe12874d2ed82acea8969aee90e8f79f950a7fe15fc1483d63dba"
+    },
+    {
+      "path": "summaries/worldcuisines/highocc-s391118.json",
+      "bytes": 5867,
+      "sha256": "e89e25c63a486d00d8880f00b19e9e2e68cbcefb4d28e693b8af0ec948f21e45"
+    },
+    {
+      "path": "summaries/worldcuisines/highocc-s4823.json",
+      "bytes": 5852,
+      "sha256": "98c1ba99dbe1b7703ace52c40f3f16bfa5cd9c7dee5694120b3695a521bda36e"
+    },
+    {
+      "path": "summaries/worldcuisines/highocc-s570526.json",
+      "bytes": 5704,
+      "sha256": "88108b2d6cf661ebbfac645b0cdb4baf8f62faf4e7daa0e70b32a433bc8de70c"
+    },
+    {
+      "path": "summaries/worldcuisines/highocc-s577312.json",
+      "bytes": 6886,
+      "sha256": "940c2b18ff60aaa5b92211573824ec52cfaf806afcbbb5e1bd7157921fa2e362"
+    },
+    {
+      "path": "summaries/worldcuisines/highocc-s582885.json",
+      "bytes": 6473,
+      "sha256": "2af654d6f6c4b3b010d7bf41565ac4345494c29818b6bf2e4e63fa3d876efa3a"
+    },
+    {
+      "path": "summaries/worldcuisines/highocc-s646616.json",
+      "bytes": 5857,
+      "sha256": "3b2d603dae272fa0453e2a4d78b9110b00782529a850f678b5bb1070cb92463a"
+    },
+    {
+      "path": "summaries/worldcuisines/highocc-s686691.json",
+      "bytes": 6690,
+      "sha256": "870bb2573821110f76cbcfc5c5e15dc56b20ccc0dd8fc8d866049c94228e831f"
+    },
+    {
+      "path": "summaries/worldcuisines/highocc-s789563.json",
+      "bytes": 5733,
+      "sha256": "e7c3e31127f6d51463b2f8a170c2e153ed4c481c417879a9577ffbb01190a394"
+    },
+    {
+      "path": "summaries/worldcuisines/highocc-s794325.json",
+      "bytes": 5927,
+      "sha256": "094eb888afee3108010609fa27c7133373d43d55ec0dd03653f58b9f973e99dc"
+    },
+    {
+      "path": "summaries/worldcuisines/highocc-s911605.json",
+      "bytes": 6256,
+      "sha256": "fbff54f20a826e8b113ffd744b06329a993c001f70cfe268c91cf95e2e0669df"
+    },
+    {
+      "path": "summaries/worldcuisines/highocc-s911974.json",
+      "bytes": 6714,
+      "sha256": "6cbf93dcd94012b29c8467e5cd91dc19138def723769ba67cecbe307cb0a1284"
+    },
+    {
+      "path": "summaries/worldcuisines/highocc-s928775.json",
+      "bytes": 6316,
+      "sha256": "3024394b299bdd7b3fd43fd792ece931c6ca54a989f91388723d6021c1187f48"
+    },
+    {
+      "path": "summaries/worldcuisines/joint-s137059.json",
+      "bytes": 6661,
+      "sha256": "35b006f4eba596450ea887067d8a9fcf4eca201a4efc6206d03c226dc8c024d1"
+    },
+    {
+      "path": "summaries/worldcuisines/joint-s149937.json",
+      "bytes": 5918,
+      "sha256": "44db61e0e5754c5838bd19645fe4a2a1eab7e3375fa84750598e0cedff56eeea"
+    },
+    {
+      "path": "summaries/worldcuisines/joint-s247841.json",
+      "bytes": 6734,
+      "sha256": "b58c6d8d0546ec0f1a1819e5fc92d9b1e4213821a5b71f3fc1f4b386276fb0be"
+    },
+    {
+      "path": "summaries/worldcuisines/joint-s272874.json",
+      "bytes": 5702,
+      "sha256": "83d5e27a96ac1814e4e898ec75b0dc6e534c2549e3093f59377fe1cc30b11bd3"
+    },
+    {
+      "path": "summaries/worldcuisines/joint-s325511.json",
+      "bytes": 6342,
+      "sha256": "e819b406c7d8fa453cb38b46d3bef46b30fd5fcd63bb8ef7ea9e939df4fe79e0"
+    },
+    {
+      "path": "summaries/worldcuisines/joint-s344247.json",
+      "bytes": 6068,
+      "sha256": "5ccf423a36b2f0fed1bfddad574c2e3127e8d0d9626cc9912353d6fd1317ddb5"
+    },
+    {
+      "path": "summaries/worldcuisines/joint-s391118.json",
+      "bytes": 5628,
+      "sha256": "848cac8f6169b667cad52f1c34ad15fcf09348898bec4afae6e3f8ac8cfdf041"
+    },
+    {
+      "path": "summaries/worldcuisines/joint-s4823.json",
+      "bytes": 6000,
+      "sha256": "d299ee9b59a8351ee4880c9f7189b88b115da34cd70a78f68406cfe86a82cfa9"
+    },
+    {
+      "path": "summaries/worldcuisines/joint-s570526.json",
+      "bytes": 5880,
+      "sha256": "6e65db7b9963d0c3a5d1c4d120554a6debf7745b86d2320970a14c45021efa0d"
+    },
+    {
+      "path": "summaries/worldcuisines/joint-s577312.json",
+      "bytes": 7057,
+      "sha256": "05024ead8bec2913c6f0ea2560c2b2b188c741c0fede59a36d0cbfba3fa61585"
+    },
+    {
+      "path": "summaries/worldcuisines/joint-s582885.json",
+      "bytes": 6079,
+      "sha256": "1f9a10166cd35370bdb2936783677406f0f0cf31f9ec4985fa2396b7a32860ac"
+    },
+    {
+      "path": "summaries/worldcuisines/joint-s646616.json",
+      "bytes": 5911,
+      "sha256": "4e4b07f5fbb128f56313ab4130aef432871ee96288946b9aa8095a3e3f120cd8"
+    },
+    {
+      "path": "summaries/worldcuisines/joint-s686691.json",
+      "bytes": 6626,
+      "sha256": "faa2925c72627be653eded72f6156b634824ac40ba675a203a8f3ffd98396aa8"
+    },
+    {
+      "path": "summaries/worldcuisines/joint-s789563.json",
+      "bytes": 5674,
+      "sha256": "a194f09e101796b9aecf5a804eb4f0de08a2ca250ee77df7c5d1aa6c81f34468"
+    },
+    {
+      "path": "summaries/worldcuisines/joint-s794325.json",
+      "bytes": 5920,
+      "sha256": "1900ea15ef9bb9a11b25be430a8a348550536305ed71f2b901cbf4576c9524eb"
+    },
+    {
+      "path": "summaries/worldcuisines/joint-s911605.json",
+      "bytes": 6091,
+      "sha256": "e22565e91d35bbeca4f8c54f0582d2d0ad38b1f2314bd83acd123c5aa4eefc2c"
+    },
+    {
+      "path": "summaries/worldcuisines/joint-s911974.json",
+      "bytes": 5731,
+      "sha256": "80c2afec7069f6da04809f5b79a4e87e1ffb344b2de9d1d1ac8b2b0e79a14681"
+    },
+    {
+      "path": "summaries/worldcuisines/joint-s928775.json",
+      "bytes": 5537,
+      "sha256": "df4d1d3af63a0f7f31bc781ea4d213c4f4440b4f1cd0a32c8a1db2bd5f3551c9"
+    },
+    {
+      "path": "summaries/worldcuisines/langonly-s137059.json",
+      "bytes": 6094,
+      "sha256": "aecbf6044a166fa15fd3be4585d3352f9a5a38d82cfb93c6b11206da5e57dd6c"
+    },
+    {
+      "path": "summaries/worldcuisines/langonly-s149937.json",
+      "bytes": 5909,
+      "sha256": "0fe37d0477c6bcdc578ec179fbfd41ca667fc0189b215b5844ddbad32c843725"
+    },
+    {
+      "path": "summaries/worldcuisines/langonly-s247841.json",
+      "bytes": 5746,
+      "sha256": "431ab990ff84ad0506db759252399f9855dc77f209191181786fd1f04fcf4d0e"
+    },
+    {
+      "path": "summaries/worldcuisines/langonly-s272874.json",
+      "bytes": 6480,
+      "sha256": "5ac658e6202d0a7b15ee72a261a57f565d2c2b69236bd552b45fd23b9f17232b"
+    },
+    {
+      "path": "summaries/worldcuisines/langonly-s325511.json",
+      "bytes": 5946,
+      "sha256": "24bb8f9e64adb360f4a27bb02b1bcc69aaaa08111a52742eedb366f3aec56493"
+    },
+    {
+      "path": "summaries/worldcuisines/langonly-s344247.json",
+      "bytes": 6029,
+      "sha256": "88066ae1fa659cb1e9d53323ea5e8665cb73e4313e3dd45fb27db2a2c541c3ca"
+    },
+    {
+      "path": "summaries/worldcuisines/langonly-s391118.json",
+      "bytes": 6398,
+      "sha256": "32126b553f438e6769ee8158ac0264bc982bcec92d01550a8c5dd6948afbb8d8"
+    },
+    {
+      "path": "summaries/worldcuisines/langonly-s4823.json",
+      "bytes": 5633,
+      "sha256": "db290e4d17c29ff273bd06a841bfa14c4ed9939a4862fcc5c19548cfd57c6850"
+    },
+    {
+      "path": "summaries/worldcuisines/langonly-s570526.json",
+      "bytes": 6137,
+      "sha256": "6c87508318a59fd2932bc36ab717becefce1ba7ab11ca8fd96002edecbe0e5a7"
+    },
+    {
+      "path": "summaries/worldcuisines/langonly-s577312.json",
+      "bytes": 5490,
+      "sha256": "09e87a0e1a197ecb00bd0ce098a0a378831d554bce554c7a41a8ad2b83222afe"
+    },
+    {
+      "path": "summaries/worldcuisines/langonly-s582885.json",
+      "bytes": 5891,
+      "sha256": "e87af80fc8b9e78a3da571477fabb775384d466afef308e01e130e017c2e647a"
+    },
+    {
+      "path": "summaries/worldcuisines/langonly-s646616.json",
+      "bytes": 6086,
+      "sha256": "98a381ab4616abd6232e8f730be4c7d42f60996e475c22b522b6eea0cec9a9c8"
+    },
+    {
+      "path": "summaries/worldcuisines/langonly-s686691.json",
+      "bytes": 6465,
+      "sha256": "c23ac7ae90ffa984070e8630e1e01c78f14a27fa4d925a1ae7d456f34b04db34"
+    },
+    {
+      "path": "summaries/worldcuisines/langonly-s789563.json",
+      "bytes": 6477,
+      "sha256": "fc4fc5276196d9b064e3ee15ea45562c4bcec6a9ebce69e5288d87e60b19c31a"
+    },
+    {
+      "path": "summaries/worldcuisines/langonly-s794325.json",
+      "bytes": 5913,
+      "sha256": "6ed604eb87d4f8db4ba14ae4f4a28e06568618aa184beefef47fdd2d45980908"
+    },
+    {
+      "path": "summaries/worldcuisines/langonly-s911605.json",
+      "bytes": 6235,
+      "sha256": "81b4d558ad8877bf3bdf63ca9fce766dbfb79770687fe1320d43435fe505400f"
+    },
+    {
+      "path": "summaries/worldcuisines/langonly-s911974.json",
+      "bytes": 5917,
+      "sha256": "dfe048cbf9ac7127bb47b33e989b87556bd360cd26b7b3b131e6cf1e3ec5d1e5"
+    },
+    {
+      "path": "summaries/worldcuisines/langonly-s928775.json",
+      "bytes": 5722,
+      "sha256": "d3a6dddd2babac2805fdf26bbfa1835e374a3495d50e42fb1358b22b18e2b416"
+    },
+    {
+      "path": "summaries/worldcuisines/langonlycond-s137059.json",
+      "bytes": 6481,
+      "sha256": "0925ff876d8c07aa80d21abbf3424f0468ce6ed2667ec04768410d5d588f5e9a"
+    },
+    {
+      "path": "summaries/worldcuisines/langonlycond-s149937.json",
+      "bytes": 5906,
+      "sha256": "a981adddb7aa7b61491fcf9118b3ecb6ed0eec69d17d3e026912d4d0e4a68a09"
+    },
+    {
+      "path": "summaries/worldcuisines/langonlycond-s247841.json",
+      "bytes": 5749,
+      "sha256": "a4ce6509b5b854f1a05bdd98f01fcb7968a3f4c2cf9df6ae020c246988edbd84"
+    },
+    {
+      "path": "summaries/worldcuisines/langonlycond-s272874.json",
+      "bytes": 5905,
+      "sha256": "65af2368d9cd7a16c41db0e8caa4a6052b937256dc69647f91d86e8043969b9c"
+    },
+    {
+      "path": "summaries/worldcuisines/langonlycond-s325511.json",
+      "bytes": 5881,
+      "sha256": "92d9d696c17b1e725301005e3a00ecaedc8dc62a129f66771257f0c7c9046abf"
+    },
+    {
+      "path": "summaries/worldcuisines/langonlycond-s344247.json",
+      "bytes": 7061,
+      "sha256": "a5b49b4eacfcba8a44a306afca753dab2103baa14566d3c165e061418d08ca64"
+    },
+    {
+      "path": "summaries/worldcuisines/langonlycond-s391118.json",
+      "bytes": 5913,
+      "sha256": "4ad410ce9dff89a8f23d30d70b757972285c0b9a3d3939ebe22ec54444f2e61b"
+    },
+    {
+      "path": "summaries/worldcuisines/langonlycond-s4823.json",
+      "bytes": 6021,
+      "sha256": "178ad43d286820454c12e1edf050fe6e63f67f516d5883150aac2ed9f22e5983"
+    },
+    {
+      "path": "summaries/worldcuisines/langonlycond-s570526.json",
+      "bytes": 5911,
+      "sha256": "81023bac9d6168a9d9b9329f5a8680737e12940bf50ba16f27acb4098a1bb024"
+    },
+    {
+      "path": "summaries/worldcuisines/langonlycond-s577312.json",
+      "bytes": 6612,
+      "sha256": "3e34c57ce8e45fffa27eccb836913b059b6f2fdca21c1ca8536cdb99a8815fff"
+    },
+    {
+      "path": "summaries/worldcuisines/langonlycond-s582885.json",
+      "bytes": 6086,
+      "sha256": "ddf7e6b5219dee1355d7ccd89fb4994bb468442370540ca6e855d8ac104ae067"
+    },
+    {
+      "path": "summaries/worldcuisines/langonlycond-s646616.json",
+      "bytes": 5868,
+      "sha256": "f9ade42267ec18acb07d0101073115353da5cc0c1b4f9a2cadbc6c59b413e05f"
+    },
+    {
+      "path": "summaries/worldcuisines/langonlycond-s686691.json",
+      "bytes": 5878,
+      "sha256": "edcd56fc707ac688970e3c1c04d6ceecbda0e0b5f3b8c5001d1fe067a2585dc5"
+    },
+    {
+      "path": "summaries/worldcuisines/langonlycond-s789563.json",
+      "bytes": 5743,
+      "sha256": "0222317ee1da6626f518468e1790154e1f6a2be8096da4b7834dd20ca3a81f4a"
+    },
+    {
+      "path": "summaries/worldcuisines/langonlycond-s794325.json",
+      "bytes": 6288,
+      "sha256": "f5d8e833fef1d5768dfabc9e9831cd08452442a8f49211223ae1fc7e27d61036"
+    },
+    {
+      "path": "summaries/worldcuisines/langonlycond-s911605.json",
+      "bytes": 5835,
+      "sha256": "e0167eea52f4b44754f4bb2a799007d23fa128353e86c73e98b837303b89ab3e"
+    },
+    {
+      "path": "summaries/worldcuisines/langonlycond-s911974.json",
+      "bytes": 5873,
+      "sha256": "22edae64c8ab3cf07222ea5a7aed54ac68300e308d1c3b827ef52cf08a4411fc"
+    },
+    {
+      "path": "summaries/worldcuisines/langonlycond-s928775.json",
+      "bytes": 6112,
+      "sha256": "0a4ff256e09e0d6592945a03f598a80e1be68f058ff583254fe885705dcec88c"
+    },
+    {
+      "path": "summaries/worldcuisines/lowocc-s137059.json",
+      "bytes": 6099,
+      "sha256": "2211802887d2eeb037bb4038fe7a98d7b795593ce113cc756d1ca994f6345856"
+    },
+    {
+      "path": "summaries/worldcuisines/lowocc-s149937.json",
+      "bytes": 5902,
+      "sha256": "cfff46b1777f94e21b8ad201a518c91584947127c3ba95c1124fa20a0c80cce5"
+    },
+    {
+      "path": "summaries/worldcuisines/lowocc-s247841.json",
+      "bytes": 6297,
+      "sha256": "2ec86e9565b4c4f7dfd1928b745db458fcbcf18d29caa15cf11a18271ea4a453"
+    },
+    {
+      "path": "summaries/worldcuisines/lowocc-s272874.json",
+      "bytes": 6110,
+      "sha256": "7505aa9e9aaaa5512d4c74bc965d08e6867ed810baa2d786570d030d0b6a3f88"
+    },
+    {
+      "path": "summaries/worldcuisines/lowocc-s325511.json",
+      "bytes": 6295,
+      "sha256": "369975253931ff309207d24389599d3a0e1f3c02dfac8eb7e0b6a96d82750b93"
+    },
+    {
+      "path": "summaries/worldcuisines/lowocc-s344247.json",
+      "bytes": 5883,
+      "sha256": "62b47e308b19cfa8c87255dbc16339d422518b699add0b2c4de45a8795ef47be"
+    },
+    {
+      "path": "summaries/worldcuisines/lowocc-s391118.json",
+      "bytes": 5644,
+      "sha256": "995bf11cc3fc66eb6f68e7e43841be6ffc9a89f3e23d8b5e2d148a9d65415770"
+    },
+    {
+      "path": "summaries/worldcuisines/lowocc-s4823.json",
+      "bytes": 6220,
+      "sha256": "586b49fb61d80ccc511f89fd4c0c0592bc2bcc2b406e52040079365531134d6f"
+    },
+    {
+      "path": "summaries/worldcuisines/lowocc-s570526.json",
+      "bytes": 6487,
+      "sha256": "9fb33c573de90b6dfa0456b70597aad89ee193b863178c0d3075752b0ae5bf64"
+    },
+    {
+      "path": "summaries/worldcuisines/lowocc-s577312.json",
+      "bytes": 5872,
+      "sha256": "5cfca16a2cb99a33dd6053e3b6222b0d879f08cb74a14980ea1a0fa5909c4575"
+    },
+    {
+      "path": "summaries/worldcuisines/lowocc-s582885.json",
+      "bytes": 5489,
+      "sha256": "1e36dad8cf6ed16b5803ce565e5de2c9ae80fa5c61073403579b9ff50780f49a"
+    },
+    {
+      "path": "summaries/worldcuisines/lowocc-s646616.json",
+      "bytes": 5671,
+      "sha256": "8ba96242f9f2859e7767749c0f250d12bcee6341bc5c72c1cf608f9e3a597d3c"
+    },
+    {
+      "path": "summaries/worldcuisines/lowocc-s686691.json",
+      "bytes": 5504,
+      "sha256": "eb40a70447a50fa5de05aa741e02bbd314f4db586acca2f12fb694894e328420"
+    },
+    {
+      "path": "summaries/worldcuisines/lowocc-s789563.json",
+      "bytes": 6301,
+      "sha256": "5b88404a4c946a5d744688bb0178e7bc0366867ade05eaa68f221dd28214190e"
+    },
+    {
+      "path": "summaries/worldcuisines/lowocc-s794325.json",
+      "bytes": 5888,
+      "sha256": "06f6c9ca4c6156685f552ff79c2ece3d9c1381f8b9c849f87ef87c7cc8cd1e37"
+    },
+    {
+      "path": "summaries/worldcuisines/lowocc-s911605.json",
+      "bytes": 6051,
+      "sha256": "b0c9b4e318e9795902c4569e8069fd43ba1ce473b3169c0ef43c2793ede2c433"
+    },
+    {
+      "path": "summaries/worldcuisines/lowocc-s911974.json",
+      "bytes": 5715,
+      "sha256": "030fc20bb49e9628eae02474cc6959d8fa18e7bd53555d0cddef06af3c477566"
+    },
+    {
+      "path": "summaries/worldcuisines/lowocc-s928775.json",
+      "bytes": 5507,
+      "sha256": "eced8d648bd710823bfee9eb35a11ea2553205ddd96ea4ca1c6e23c90a8c4048"
+    },
+    {
+      "path": "summaries/worldcuisines/natnat-s137059.json",
+      "bytes": 5912,
+      "sha256": "4fe7ef658b6d4bd7f11a9a5ed09b292436792b163c8eeede9c932dcc9359d904"
+    },
+    {
+      "path": "summaries/worldcuisines/natnat-s149937.json",
+      "bytes": 5511,
+      "sha256": "2faef28b807b3ad046dbbc9d920b539c144a46cd78a1bca693ab6fe9507ae209"
+    },
+    {
+      "path": "summaries/worldcuisines/natnat-s247841.json",
+      "bytes": 6334,
+      "sha256": "053f875ac32921f0535910c0b31fe54f53c226c7935cac793eaa38a80f7b8ee5"
+    },
+    {
+      "path": "summaries/worldcuisines/natnat-s272874.json",
+      "bytes": 5707,
+      "sha256": "e6734b3e07e605d4f67e333f6955e24fafc60df4ebdff996246b918f090dd0e1"
+    },
+    {
+      "path": "summaries/worldcuisines/natnat-s325511.json",
+      "bytes": 6090,
+      "sha256": "f3988e5c47369ba4807bbe8f4cfef92f4d890067605f0969e201f4533f8542fb"
+    },
+    {
+      "path": "summaries/worldcuisines/natnat-s344247.json",
+      "bytes": 6092,
+      "sha256": "2da25e02d7deb08ed7c998292c41b60be7b8d86142b287f00212cce4cb9e01a5"
+    },
+    {
+      "path": "summaries/worldcuisines/natnat-s391118.json",
+      "bytes": 6429,
+      "sha256": "6e54a9bc8615c8d5ea39f028c77dfe3b669023ec781048df3e7c99751ff26352"
+    },
+    {
+      "path": "summaries/worldcuisines/natnat-s4823.json",
+      "bytes": 6644,
+      "sha256": "a143e75ec1bd751e915926808d60e4da34dc7f0521cac7154112d7b91f675f7f"
+    },
+    {
+      "path": "summaries/worldcuisines/natnat-s570526.json",
+      "bytes": 6052,
+      "sha256": "5ffbaa5a55408cae7fdb77ec0f6eb13c099e957ee6b43c9e608adb32f76d9969"
+    },
+    {
+      "path": "summaries/worldcuisines/natnat-s577312.json",
+      "bytes": 6292,
+      "sha256": "2ae0e1d65b38db6bbe2629ce4c52fdbfa6175042a7e5cfbb946c1e56d9542557"
+    },
+    {
+      "path": "summaries/worldcuisines/natnat-s582885.json",
+      "bytes": 5879,
+      "sha256": "83a21adc10fcddafdaecb61c121f24baf4c607abf7f3805390d8305df7c79a11"
+    },
+    {
+      "path": "summaries/worldcuisines/natnat-s646616.json",
+      "bytes": 6078,
+      "sha256": "8c5afe37738b1cf30b028c6d0830d1e2d6b6129183a130c669826c1d626e708f"
+    },
+    {
+      "path": "summaries/worldcuisines/natnat-s686691.json",
+      "bytes": 5488,
+      "sha256": "23546bc0f7766b1c3e79bf193a766a76cb3b4366c8360c903d7d7fea74dd1d7e"
+    },
+    {
+      "path": "summaries/worldcuisines/natnat-s789563.json",
+      "bytes": 5704,
+      "sha256": "5b3e24cb1543363d6713bc20686cc0e998766f5fa0d734f40ac9246169cd7563"
+    },
+    {
+      "path": "summaries/worldcuisines/natnat-s794325.json",
+      "bytes": 5921,
+      "sha256": "ffebe01216a6fc2c390175fffbdda1f03792282e83d0491c42f9ee6547691c50"
+    },
+    {
+      "path": "summaries/worldcuisines/natnat-s911605.json",
+      "bytes": 6638,
+      "sha256": "970b4e1f361ed4876378f31013c0866bfaa120dd10fd6cc0385176f4c9256e75"
+    },
+    {
+      "path": "summaries/worldcuisines/natnat-s911974.json",
+      "bytes": 6276,
+      "sha256": "7fa6853c4ba380e7ccca73efa9f120450d30f02a6d78e0c81998cb7fbceb00a4"
+    },
+    {
+      "path": "summaries/worldcuisines/natnat-s928775.json",
+      "bytes": 5917,
+      "sha256": "1e9bc390778e318c0f622f6b5a5c00541bc3b73e69eb2533dac7cce02bd4fa4c"
+    },
+    {
+      "path": "summaries/worldcuisines/random-s137059.json",
+      "bytes": 6101,
+      "sha256": "cce8f975f60d28cd054a6b95e36cad0aa1cd61402c8e3f6d830b428baceb50bb"
+    },
+    {
+      "path": "summaries/worldcuisines/random-s149937.json",
+      "bytes": 6708,
+      "sha256": "f851953096bd13cead6c0600a80382d8642d9971728e69bd54d7e09ff7743c6e"
+    },
+    {
+      "path": "summaries/worldcuisines/random-s247841.json",
+      "bytes": 5887,
+      "sha256": "86c53b6435919c866f51568b4f7ab2938fd00ef91e6e3cad1e838502985b588f"
+    },
+    {
+      "path": "summaries/worldcuisines/random-s272874.json",
+      "bytes": 6108,
+      "sha256": "5c7ea49b90e16eb69dfa0caa03cc0f8f7b9d19f21dcd512b3176b7bead0379aa"
+    },
+    {
+      "path": "summaries/worldcuisines/random-s325511.json",
+      "bytes": 6091,
+      "sha256": "9074f60550b6b602d443e7eaa1fa177129add6fe8a1890e3bcfaef40321c4e26"
+    },
+    {
+      "path": "summaries/worldcuisines/random-s344247.json",
+      "bytes": 5671,
+      "sha256": "714861c7338c87f8634a123910cd83555cc984f7cec98c5b99e495973e7400bd"
+    },
+    {
+      "path": "summaries/worldcuisines/random-s391118.json",
+      "bytes": 6073,
+      "sha256": "ac8909f4a7decd7028b7f67d30d1100dc277d39d8867333d9a7eead994badeeb"
+    },
+    {
+      "path": "summaries/worldcuisines/random-s4823.json",
+      "bytes": 6045,
+      "sha256": "f9cbfb083fa59d4a867625770c5463c8c5d657fec37b3adb758f54da47c15e15"
+    },
+    {
+      "path": "summaries/worldcuisines/random-s570526.json",
+      "bytes": 6081,
+      "sha256": "ae42a1aeab35b98d5aca345515b203dec8def4ded97107af848f17fa1d8b2f11"
+    },
+    {
+      "path": "summaries/worldcuisines/random-s577312.json",
+      "bytes": 6705,
+      "sha256": "be78872192866808bc461972155934a8d7fb6782d3ec9c13db30231e39599f9c"
+    },
+    {
+      "path": "summaries/worldcuisines/random-s582885.json",
+      "bytes": 5895,
+      "sha256": "1c5351bee06fe20c55559dc1125f724ad12221ddc45e4470a3754ec765ffa72d"
+    },
+    {
+      "path": "summaries/worldcuisines/random-s646616.json",
+      "bytes": 6053,
+      "sha256": "33dd4fd979766581645fa309644b1c3800678a74d2715a72ad7f4a139f826af0"
+    },
+    {
+      "path": "summaries/worldcuisines/random-s686691.json",
+      "bytes": 6267,
+      "sha256": "bc60bcf0e123cc3c4b0789e19143e097a3801f3377a6b599b3a41d4503ef5bd8"
+    },
+    {
+      "path": "summaries/worldcuisines/random-s789563.json",
+      "bytes": 6113,
+      "sha256": "cc10ebb954cd570d8a241299c74115f74a5c0f696c90286dac11a06549224eb4"
+    },
+    {
+      "path": "summaries/worldcuisines/random-s794325.json",
+      "bytes": 6117,
+      "sha256": "96015dfa1fb05401173149bef97d6cf7319ac9a2f10a1cddaec3a18c96186893"
+    },
+    {
+      "path": "summaries/worldcuisines/random-s911605.json",
+      "bytes": 6252,
+      "sha256": "35fff5f6c84539e467fb371a1cc1eac13cfb22e272c801b5f6819e9f06598851"
+    },
+    {
+      "path": "summaries/worldcuisines/random-s911974.json",
+      "bytes": 6495,
+      "sha256": "e6066e075627232c25bf1e4b98849971433e1e97add986189fcb21fe82f3ad18"
+    },
+    {
+      "path": "summaries/worldcuisines/random-s928775.json",
+      "bytes": 5933,
+      "sha256": "1afbed5d6510f7bc8bf7848eccac3db693747862af695e3936b813951e366950"
+    },
+    {
+      "path": "training/conceptonly-s137059.json",
+      "bytes": 1114,
+      "sha256": "0af55ec3000489f94bef563d85036ef887f2177687bc7b76874ff8e0cd8626e9"
+    },
+    {
+      "path": "training/conceptonly-s149937.json",
+      "bytes": 1116,
+      "sha256": "f4ba5af8373935f10a4acf3b618756c3f693ad97fedf3dcde2ba1389ce022e2b"
+    },
+    {
+      "path": "training/conceptonly-s247841.json",
+      "bytes": 1116,
+      "sha256": "21969277eda7c38f404a83cd865c0c7407bc2d9d221c3a3175f3f96df35919bf"
+    },
+    {
+      "path": "training/conceptonly-s272874.json",
+      "bytes": 1114,
+      "sha256": "ee1c0c00df3b8a7ec7d077af478ed228a757bde862f9555ee345f51f6ecd9a0b"
+    },
+    {
+      "path": "training/conceptonly-s325511.json",
+      "bytes": 1117,
+      "sha256": "d7ff3b9a1ed0341e7c632447e2b31825e21346fed88d76a46b09349a2c32e870"
+    },
+    {
+      "path": "training/conceptonly-s344247.json",
+      "bytes": 1116,
+      "sha256": "8201bc5d9d70c0abc25e2bc5caeefa8c34385b90c4b9e15e95c70f4da18b18db"
+    },
+    {
+      "path": "training/conceptonly-s391118.json",
+      "bytes": 1116,
+      "sha256": "b5ad5ab31795d654cac664351167985eb15d02f9e09ab86515d29ea10ef6edd5"
+    },
+    {
+      "path": "training/conceptonly-s4823.json",
+      "bytes": 1114,
+      "sha256": "6f7aaaca22d4413dfd1a3f7488688fa540d5bf140bd21b45d5ea536d7bf4cd9f"
+    },
+    {
+      "path": "training/conceptonly-s570526.json",
+      "bytes": 1114,
+      "sha256": "0af31130f1d343ab58ff3f42f244c77a968ef7a49c4dc373d0a3b72b2187c1eb"
+    },
+    {
+      "path": "training/conceptonly-s577312.json",
+      "bytes": 1116,
+      "sha256": "e7874c26b521d5dba9c2d25e1a78208243508406ce28f092c76f12976e8bc274"
+    },
+    {
+      "path": "training/conceptonly-s582885.json",
+      "bytes": 1115,
+      "sha256": "9194279edd7214ce294b77f23a354e81a4b8d47124227ca374fdd257aa1efdc2"
+    },
+    {
+      "path": "training/conceptonly-s646616.json",
+      "bytes": 1117,
+      "sha256": "5ae2c55debe9bc0156cfab1710a6c91dfce7520d8c481663f5b4b1519aee5b0a"
+    },
+    {
+      "path": "training/conceptonly-s686691.json",
+      "bytes": 1115,
+      "sha256": "95efea9f2a7c89af0ce1933243c1e24ac73cd03c2bff1bcc2622a671643a30c7"
+    },
+    {
+      "path": "training/conceptonly-s789563.json",
+      "bytes": 1115,
+      "sha256": "7e8d5a1c781cb37ca7d7ca21197f97dd6c0aa0232a12d5e6a736649d70a2b4a3"
+    },
+    {
+      "path": "training/conceptonly-s794325.json",
+      "bytes": 1117,
+      "sha256": "716e4428feaaf38d98319ed0350e30c3671e059e9574cc446253ce1453940ab9"
+    },
+    {
+      "path": "training/conceptonly-s911605.json",
+      "bytes": 1117,
+      "sha256": "c8298ba1044b6c4d36c3dea4c5c522ee76e7afa07084571e760be7d6b9541c56"
+    },
+    {
+      "path": "training/conceptonly-s911974.json",
+      "bytes": 1115,
+      "sha256": "6347af3acffda676cb84dda1915123fca611a20d084c22c249e70ae8978610d6"
+    },
+    {
+      "path": "training/conceptonly-s928775.json",
+      "bytes": 1114,
+      "sha256": "9edc22d39e8b3ed28782e247c0ad9ff8d8827d27e6f9eac3ee2c87f94a1799ba"
+    },
+    {
+      "path": "training/englishheavy-s137059.json",
+      "bytes": 1114,
+      "sha256": "1225b5f146ac1339dfe8083b03445a009c60d93fd54e819983369303f75b7805"
+    },
+    {
+      "path": "training/englishheavy-s149937.json",
+      "bytes": 1115,
+      "sha256": "e7321375d602bc05e98c799db4e231f76b33c58163767792a166be23b5b649cb"
+    },
+    {
+      "path": "training/englishheavy-s247841.json",
+      "bytes": 1117,
+      "sha256": "a8fb9bc90ce1caebf586e18a754f2b9de101da169046d0ce31abf5bbf170594a"
+    },
+    {
+      "path": "training/englishheavy-s272874.json",
+      "bytes": 1117,
+      "sha256": "adb2f24433de326922738e05a1583e232ba930d3fc9e28d6b002ece230701604"
+    },
+    {
+      "path": "training/englishheavy-s325511.json",
+      "bytes": 1116,
+      "sha256": "9bffdc096087500b87b3cc6f94ac9285a2a1122ee2712799d1f1ac993d771851"
+    },
+    {
+      "path": "training/englishheavy-s344247.json",
+      "bytes": 1115,
+      "sha256": "ccf77b62e3183a47019740e4fb804e0d5e19969b4dc18bde40a0681cb98a5798"
+    },
+    {
+      "path": "training/englishheavy-s391118.json",
+      "bytes": 1117,
+      "sha256": "b6c63ad7e1e4c38e7c5f385ec41af7da5dc038b4739cf8135375615b086b6463"
+    },
+    {
+      "path": "training/englishheavy-s4823.json",
+      "bytes": 1114,
+      "sha256": "46ea2e424693535f7c2d509f40f4bd94969c5d037a97e7ae200c4f873867f065"
+    },
+    {
+      "path": "training/englishheavy-s570526.json",
+      "bytes": 1115,
+      "sha256": "65a22f5fd05ab638f4d18c562cafadc4ddc30998a90ca36020197439477ced10"
+    },
+    {
+      "path": "training/englishheavy-s577312.json",
+      "bytes": 1115,
+      "sha256": "823365cb96c1152a02cfa9d262a8268d75f3f2cd38ec6c5a6d27b8eb1a57ef4f"
+    },
+    {
+      "path": "training/englishheavy-s582885.json",
+      "bytes": 1117,
+      "sha256": "34f3c847a643cf29b086dffb878f72904504f6460369c83de7bb6cd3d28b2b12"
+    },
+    {
+      "path": "training/englishheavy-s646616.json",
+      "bytes": 1117,
+      "sha256": "b266f1dc11d05ae95dcbbf08d5700533bd955e4e422fe47feecbc97dc7627797"
+    },
+    {
+      "path": "training/englishheavy-s686691.json",
+      "bytes": 1117,
+      "sha256": "52e6d6a0d2c46fd14d430d01c00285f67ee7fd059d0a166dfc37dc193f0b6581"
+    },
+    {
+      "path": "training/englishheavy-s789563.json",
+      "bytes": 1115,
+      "sha256": "94cafd9568186f2731586a0f776fdc33be45a5a01fd98ee28b3d01b28e648422"
+    },
+    {
+      "path": "training/englishheavy-s794325.json",
+      "bytes": 1115,
+      "sha256": "9c729bfd3c58083d07dea899f3f2333e500eac98883bd70965dae7faf878db1e"
+    },
+    {
+      "path": "training/englishheavy-s911605.json",
+      "bytes": 1115,
+      "sha256": "a896a6f887bfcffbab2c53190e9366f68df9c24c08385aff52f1afb4fce37658"
+    },
+    {
+      "path": "training/englishheavy-s911974.json",
+      "bytes": 1116,
+      "sha256": "cbcfe8061f33c06dedfd6c3ce73bef0d5b72702feaf9c421f19b90a77690a70b"
+    },
+    {
+      "path": "training/englishheavy-s928775.json",
+      "bytes": 1115,
+      "sha256": "4e9d469e2e915239695f1de75ba3fb5cb954927a421a73702be0162c4628e270"
+    },
+    {
+      "path": "training/highocc-s137059.json",
+      "bytes": 1113,
+      "sha256": "d9ba08fc85dd1e018578608133bdd6baf90a2211bc2a76b97d964ce55c4ab91b"
+    },
+    {
+      "path": "training/highocc-s149937.json",
+      "bytes": 1113,
+      "sha256": "09d7b194e32e18cfa09ef205d764048d318492b7ffba1d70f725794fb164041b"
+    },
+    {
+      "path": "training/highocc-s247841.json",
+      "bytes": 1115,
+      "sha256": "8f7c319da1e440d9d104ca17b8b4ea121aeaf2c88dfee41d8a7c08312f609a92"
+    },
+    {
+      "path": "training/highocc-s272874.json",
+      "bytes": 1117,
+      "sha256": "490fbc0994773bfb1667e92abb8344176ea79fe2ce6969f2d3f87bc1d7912f94"
+    },
+    {
+      "path": "training/highocc-s325511.json",
+      "bytes": 1114,
+      "sha256": "017fbcae3574569ce51fceb434b4eb8623ab457ed421f8c41bac2c66a48acd30"
+    },
+    {
+      "path": "training/highocc-s344247.json",
+      "bytes": 1115,
+      "sha256": "565e40c8f06e99e3fa6ef86ce18925715f26c363dfa7dff11ec61fa61cea7212"
+    },
+    {
+      "path": "training/highocc-s391118.json",
+      "bytes": 1116,
+      "sha256": "0bfaeaa0933a549b4117d6e97a626f597074ae920eb0974354153fe314cd621d"
+    },
+    {
+      "path": "training/highocc-s4823.json",
+      "bytes": 1114,
+      "sha256": "c29c5dc772e446f62f2a1fb8850f10aff6f09e9c0e949875f69f826917c105db"
+    },
+    {
+      "path": "training/highocc-s570526.json",
+      "bytes": 1116,
+      "sha256": "cf28f25dbb16221717f27d3c1e5bf676f1b7f2d85f62ff0d2bc6c2bd49a8a4b9"
+    },
+    {
+      "path": "training/highocc-s577312.json",
+      "bytes": 1115,
+      "sha256": "9abf25fa2fc2616aef82e115e2de684d32771cc95f17cc6826f41f0567eb2a6b"
+    },
+    {
+      "path": "training/highocc-s582885.json",
+      "bytes": 1118,
+      "sha256": "7a562cd6799284541562ea0a61e8cc33da0737a89fc608f9375223073eb57822"
+    },
+    {
+      "path": "training/highocc-s646616.json",
+      "bytes": 1115,
+      "sha256": "8752e8f20213e13ba6d8170bc41927578ea76f2b8ac0c7a5b45d62827a4c6bc2"
+    },
+    {
+      "path": "training/highocc-s686691.json",
+      "bytes": 1115,
+      "sha256": "79b01e08aa147b032d3061621d8d0a6af3d78621a9241b87b98d50cd50106f4c"
+    },
+    {
+      "path": "training/highocc-s789563.json",
+      "bytes": 1115,
+      "sha256": "65e9926528f2c1537bb2ad8d451bb1c4d7df01a5f2aab138f75c5f19a9df5a53"
+    },
+    {
+      "path": "training/highocc-s794325.json",
+      "bytes": 1114,
+      "sha256": "34c045f40c1b6f39b03c95bdf16ba290576fdf0d4ffaf59a32579637943e360a"
+    },
+    {
+      "path": "training/highocc-s911605.json",
+      "bytes": 1115,
+      "sha256": "5e9dde7c933ab200be4e3b6c6cd8c2902dd046da7a3b0a4ad3ae600c66af0991"
+    },
+    {
+      "path": "training/highocc-s911974.json",
+      "bytes": 1115,
+      "sha256": "4ae7748a63fb8e9ca9ea09a8c964e6ff7cc16ff9d3f9bee49ac9f4e9397643e0"
+    },
+    {
+      "path": "training/highocc-s928775.json",
+      "bytes": 1117,
+      "sha256": "e4678cc48d273aba800cbeacbdaa0b4f136f698040db2a247deec36066a0be5a"
+    },
+    {
+      "path": "training/joint-s137059.json",
+      "bytes": 1115,
+      "sha256": "99567cae5731171d9f5234c0fc484de8dcc1667694180b6d948b59eb0170aece"
+    },
+    {
+      "path": "training/joint-s149937.json",
+      "bytes": 1117,
+      "sha256": "93333d6de7e620268e7fe886b05224069bf0419b2bb984a1d992c3b0ed08ee51"
+    },
+    {
+      "path": "training/joint-s247841.json",
+      "bytes": 1116,
+      "sha256": "d4fdcdc2a6a8b20ef3059638fcebdccdae0fbd7ee94d2b2bde924fa5cc4f9772"
+    },
+    {
+      "path": "training/joint-s272874.json",
+      "bytes": 1117,
+      "sha256": "8f7d6ebd0ebb9db3347acdbcadea49c23acdbc3834e7c62b640918d864f0e702"
+    },
+    {
+      "path": "training/joint-s325511.json",
+      "bytes": 1115,
+      "sha256": "1222edcc2691e97569686b41f5d232ef259ebf3c6c15961c12b9c165fbf13f40"
+    },
+    {
+      "path": "training/joint-s344247.json",
+      "bytes": 1117,
+      "sha256": "95580196b6ac7892a8b7e04c2e0029b469b05a68c69a82675231f5bf5b378146"
+    },
+    {
+      "path": "training/joint-s391118.json",
+      "bytes": 1114,
+      "sha256": "ed40fd7438cad6a0ba2ca73976b098ebde7eee951db0446e242db7932df6c3a3"
+    },
+    {
+      "path": "training/joint-s4823.json",
+      "bytes": 1115,
+      "sha256": "e7d9a293c7c11afcff348b35cd08351c504fe64214841134a0b5804a8d85715f"
+    },
+    {
+      "path": "training/joint-s570526.json",
+      "bytes": 1114,
+      "sha256": "ad631cb4e4003dbc954f54d9ca2f3e9ef5b4c3146899fc30587408f1820d3124"
+    },
+    {
+      "path": "training/joint-s577312.json",
+      "bytes": 1116,
+      "sha256": "3b3bc0b4a576a763b0b6d212d637bba77009db31ce71b59d2cf00481ddd50400"
+    },
+    {
+      "path": "training/joint-s582885.json",
+      "bytes": 1114,
+      "sha256": "fc51b3e756b3dedceb07672b1db0c54d81c624e61ace6312f2f455abe29694dc"
+    },
+    {
+      "path": "training/joint-s646616.json",
+      "bytes": 1116,
+      "sha256": "07d9297d7b8a1b7c98d85683b85bd8f2ae3872a736682de83b0380430cd16528"
+    },
+    {
+      "path": "training/joint-s686691.json",
+      "bytes": 1113,
+      "sha256": "c7487ed1d2629c295192f2ff59bb7bf13ed450891ebce72bf97d46b806fde1cc"
+    },
+    {
+      "path": "training/joint-s789563.json",
+      "bytes": 1116,
+      "sha256": "aa52078e4e3c5d0f3032e16026792c6eeda51a76826faa86f3bf5cfe850bc53a"
+    },
+    {
+      "path": "training/joint-s794325.json",
+      "bytes": 1115,
+      "sha256": "2b4f4cf85cc9ee81e61ccadf608fb91b35650f06e129d27657dd7c6615daf849"
+    },
+    {
+      "path": "training/joint-s911605.json",
+      "bytes": 1114,
+      "sha256": "4e7a5c29c1c7863be2f792da3d73084f1bfa683683ca6acc13555f517f1997f8"
+    },
+    {
+      "path": "training/joint-s911974.json",
+      "bytes": 1116,
+      "sha256": "aa857853e31a7513df9d1f28922400a07630e6de070664e11993ba9a29b84213"
+    },
+    {
+      "path": "training/joint-s928775.json",
+      "bytes": 1114,
+      "sha256": "85b5a86b7b23d29579a8bf105ccb33d40fc1fce769d267df4e2894c5c6e3c04c"
+    },
+    {
+      "path": "training/langonly-s137059.json",
+      "bytes": 1116,
+      "sha256": "3b0e2b8ae45aabca2ee0dcc78beede5612a3c3ddf2ea61b8511a60a3b5bf81ec"
+    },
+    {
+      "path": "training/langonly-s149937.json",
+      "bytes": 1117,
+      "sha256": "9e4c53cb520dbd0eb477b61510b0297620a7ab4aacb5885bed411886ea8683e1"
+    },
+    {
+      "path": "training/langonly-s247841.json",
+      "bytes": 1114,
+      "sha256": "d68f31a4b2856b6457204951d9d5c63b9ca55f21483ccd30c3a67c089e7dd339"
+    },
+    {
+      "path": "training/langonly-s272874.json",
+      "bytes": 1115,
+      "sha256": "24ea01f5d69845e630e9db530503212a47974cf0575237b2c3db515232d4dd4e"
+    },
+    {
+      "path": "training/langonly-s325511.json",
+      "bytes": 1117,
+      "sha256": "c9d9909df415d042a44a9a3f81f8363acd84d9dafce4fefc2bb6577a16ce1744"
+    },
+    {
+      "path": "training/langonly-s344247.json",
+      "bytes": 1114,
+      "sha256": "380a9778f1b557d565da1428ed401641b8bed2e0a7d966080f4724b60ca5ea2e"
+    },
+    {
+      "path": "training/langonly-s391118.json",
+      "bytes": 1116,
+      "sha256": "b9caf4dacba69de45da774fdb080b2223cecedd93069dd655d53d0fabbac0cd4"
+    },
+    {
+      "path": "training/langonly-s4823.json",
+      "bytes": 1112,
+      "sha256": "dc711e046358cc07b9ac465d25bfc5cdbbd9cc63cf6950a8797b224c5ab0611f"
+    },
+    {
+      "path": "training/langonly-s570526.json",
+      "bytes": 1113,
+      "sha256": "bd077f511beda8c27df910a7ecf712bae45fb9aa14ff263fdf6971cd7bb65a9d"
+    },
+    {
+      "path": "training/langonly-s577312.json",
+      "bytes": 1116,
+      "sha256": "1b76f87ff5deb6eae75a4161dc92e4d5cb184db82baf96cc4cd55bf9de45d75e"
+    },
+    {
+      "path": "training/langonly-s582885.json",
+      "bytes": 1115,
+      "sha256": "ad3f1cb6aabf0a5bc231e549480f852d4d77c54dc9368cd19c50f626a404f037"
+    },
+    {
+      "path": "training/langonly-s646616.json",
+      "bytes": 1116,
+      "sha256": "a7dd3de2d740e64a3155a60678a2e2129fe43b394a7dc049bbbb2e0b0de07c95"
+    },
+    {
+      "path": "training/langonly-s686691.json",
+      "bytes": 1117,
+      "sha256": "399bffc48507280046f9eb0bf34516e1b9fb52c20f0c599722fdfaa82493eab9"
+    },
+    {
+      "path": "training/langonly-s789563.json",
+      "bytes": 1116,
+      "sha256": "ee2adb2c01e0d04675b21f2c93c3270de39cbbcf60c1996ec805f488816eb862"
+    },
+    {
+      "path": "training/langonly-s794325.json",
+      "bytes": 1115,
+      "sha256": "bd2444ae88fc22e305bd716be2804d8aea38202de4496f17e8b2708832b8d1cd"
+    },
+    {
+      "path": "training/langonly-s911605.json",
+      "bytes": 1116,
+      "sha256": "1b382769a3c8cdcb127d970651265e3224e4914a2dde33277814f6fd29cc8818"
+    },
+    {
+      "path": "training/langonly-s911974.json",
+      "bytes": 1114,
+      "sha256": "1a0e133bde396d6d7e0ac371188252f3e4f20117557c916cc67bba0376fc8d6f"
+    },
+    {
+      "path": "training/langonly-s928775.json",
+      "bytes": 1115,
+      "sha256": "c14558043107197cc332ba2fd7f2c06a75afff36edcd63c3d6fd62c44a6d0538"
+    },
+    {
+      "path": "training/langonlycond-s137059.json",
+      "bytes": 1112,
+      "sha256": "68e0e303da8b56fc69c2c393c4cf6d03d816c16363f204d9c383b93a58171206"
+    },
+    {
+      "path": "training/langonlycond-s149937.json",
+      "bytes": 1115,
+      "sha256": "31d30928c0beee92490bcd5057d1171c6ea6b9fde348f2adc27e7b4a5200213c"
+    },
+    {
+      "path": "training/langonlycond-s247841.json",
+      "bytes": 1118,
+      "sha256": "7fdb51108427babcb866bfa04ea642f30bcac20c94c3a789bab3c10c6678e233"
+    },
+    {
+      "path": "training/langonlycond-s272874.json",
+      "bytes": 1116,
+      "sha256": "76f42a6e9d4f5055c7c737850fd165ed744b6311ab6a193b16d9db459127739a"
+    },
+    {
+      "path": "training/langonlycond-s325511.json",
+      "bytes": 1115,
+      "sha256": "7752c37a36f167810825600febc1120017ae743464cd848f02a7bda4a34e1ffd"
+    },
+    {
+      "path": "training/langonlycond-s344247.json",
+      "bytes": 1114,
+      "sha256": "b6a28222d16b3e6dc57bc0a49457fced4ee3229da180efeea1f6cf0a15d7babf"
+    },
+    {
+      "path": "training/langonlycond-s391118.json",
+      "bytes": 1115,
+      "sha256": "958b4d950fec43740ef9bb201e481125e2d1c258a70e16605666629e7bd3e5ac"
+    },
+    {
+      "path": "training/langonlycond-s4823.json",
+      "bytes": 1115,
+      "sha256": "dea85f29d2ae82606cdac1c474064c5123394e92936c26000804ab95fcef4df6"
+    },
+    {
+      "path": "training/langonlycond-s570526.json",
+      "bytes": 1116,
+      "sha256": "91e9f22a127874ff151908d25eb876d64dc56da7b1606aaf95d20fa220fd3c20"
+    },
+    {
+      "path": "training/langonlycond-s577312.json",
+      "bytes": 1115,
+      "sha256": "dd091d5ac570b365e1c0e2eab1889315e9c962dfe2fc9b2822621654fb1d411d"
+    },
+    {
+      "path": "training/langonlycond-s582885.json",
+      "bytes": 1115,
+      "sha256": "2b0675bba01beca3b65775a6512100ba7795fc6059a90c83e96fc2c431faf0ea"
+    },
+    {
+      "path": "training/langonlycond-s646616.json",
+      "bytes": 1118,
+      "sha256": "ffc5712cc89b7e0e868aab02385e2500293ddab700c076f93cb5ae5b69462fdf"
+    },
+    {
+      "path": "training/langonlycond-s686691.json",
+      "bytes": 1115,
+      "sha256": "4ab2946738b011207b591de9e728114017ba7ef33141b03333ce2947fe5aff3b"
+    },
+    {
+      "path": "training/langonlycond-s789563.json",
+      "bytes": 1116,
+      "sha256": "83b6826c1c11bc65249301a952d8cb039a3c3aedbfe94764c8fd07fd4d9aca16"
+    },
+    {
+      "path": "training/langonlycond-s794325.json",
+      "bytes": 1115,
+      "sha256": "ccc778c3191fa53f7b5a509082e126e4eec8b82199337a78ca003154efd3031d"
+    },
+    {
+      "path": "training/langonlycond-s911605.json",
+      "bytes": 1114,
+      "sha256": "73553be23c5efd8e5fa4ff9cf59f84ff475e38b928d9a9937a41ae22f6e6d4e6"
+    },
+    {
+      "path": "training/langonlycond-s911974.json",
+      "bytes": 1115,
+      "sha256": "e3dabd8f41ef24d029f483e059161fbdca4f5ae262009d61735977cb2c00c6cb"
+    },
+    {
+      "path": "training/langonlycond-s928775.json",
+      "bytes": 1118,
+      "sha256": "0c687a97743fce18197ad83c5f61cbd2db7fe763496c94272dca8332ddccc923"
+    },
+    {
+      "path": "training/lowocc-s137059.json",
+      "bytes": 1118,
+      "sha256": "eab26b28e4d1df3ab915a682d09dbde9b7a9eb36f12ea41a16db0bfa9adc0f5d"
+    },
+    {
+      "path": "training/lowocc-s149937.json",
+      "bytes": 1118,
+      "sha256": "fb9471211ac1f0f2bfc6a6273b2f6456af1c6efcee7274eb703b99aa96a3a71d"
+    },
+    {
+      "path": "training/lowocc-s247841.json",
+      "bytes": 1118,
+      "sha256": "e4de630b29ad1f988382ace2effe0d5f017c3f1670793a90ea168eb3e6b06744"
+    },
+    {
+      "path": "training/lowocc-s272874.json",
+      "bytes": 1115,
+      "sha256": "21c39d72ce1c2ea09a7d21daaf8fd22a6f8bed714dac0f810981dee75590a551"
+    },
+    {
+      "path": "training/lowocc-s325511.json",
+      "bytes": 1117,
+      "sha256": "d8ef82aa920c8727b32ef8ffaadead0f5b732728863d3c6cf5401afb3e29719c"
+    },
+    {
+      "path": "training/lowocc-s344247.json",
+      "bytes": 1117,
+      "sha256": "0fafe9b689e017d99a899039160dd970de82bf2e411985daa746dbb499b27dad"
+    },
+    {
+      "path": "training/lowocc-s391118.json",
+      "bytes": 1118,
+      "sha256": "dd3bf10f34f7152dece22d48e5c0ae90631055fd36cac6ece0e8743ed1753bef"
+    },
+    {
+      "path": "training/lowocc-s4823.json",
+      "bytes": 1114,
+      "sha256": "985fb0db7f1e1ab5a4ab7aa90251891e6e0e1b2cb42b55581ad8c85a64a7f6f8"
+    },
+    {
+      "path": "training/lowocc-s570526.json",
+      "bytes": 1118,
+      "sha256": "6f6ab762a1eb5f4f328f9759196f3f8048f287f4722275e70a33e92a8490ce3e"
+    },
+    {
+      "path": "training/lowocc-s577312.json",
+      "bytes": 1115,
+      "sha256": "cb88b90603814b70df0c445edfac3233529907430b86102cdaaf91296190e081"
+    },
+    {
+      "path": "training/lowocc-s582885.json",
+      "bytes": 1115,
+      "sha256": "d0bc570696d907354d71b3aed340102fa314f01f2e91f164c918b1366dc77cf1"
+    },
+    {
+      "path": "training/lowocc-s646616.json",
+      "bytes": 1116,
+      "sha256": "c2ef54db8efff29a4b2113d41deb14077030c95dc0654cb30f179c2cdb1f0382"
+    },
+    {
+      "path": "training/lowocc-s686691.json",
+      "bytes": 1115,
+      "sha256": "79651713d3d52e8911247550465274d22e0fc75481ca7a48b2543cf1a5dd6a3d"
+    },
+    {
+      "path": "training/lowocc-s789563.json",
+      "bytes": 1117,
+      "sha256": "a5537cec2acf90a2937ea5b525a98e0d35d303c67a982a5e64ea8594a5ce36f9"
+    },
+    {
+      "path": "training/lowocc-s794325.json",
+      "bytes": 1118,
+      "sha256": "6f76527c3be995d56d1c589e3a38c9cda7552190af96457917f85f79480e0d58"
+    },
+    {
+      "path": "training/lowocc-s911605.json",
+      "bytes": 1116,
+      "sha256": "0a1392cbc8b82b0d49efdcab0317bd5a72c2a78e547e73fe31cc2e1932ec7d48"
+    },
+    {
+      "path": "training/lowocc-s911974.json",
+      "bytes": 1116,
+      "sha256": "3cdc27e41bf4ab22fac0551659dae45fa9c88fbd1d18b5a319659dee762921ab"
+    },
+    {
+      "path": "training/lowocc-s928775.json",
+      "bytes": 1115,
+      "sha256": "572d2e1312c10fb14b5362c8de5cc9e9d326e3a0a0d3f760656ede49c4c26304"
+    },
+    {
+      "path": "training/natnat-s137059.json",
+      "bytes": 1115,
+      "sha256": "75af1cc901087e10dd500e6f5e5c014f1d676b70f3f0b5731c4769bd2065e617"
+    },
+    {
+      "path": "training/natnat-s149937.json",
+      "bytes": 1114,
+      "sha256": "6278e8763408931f8735f98e92e50b28e63795c4123f41c0772b8dba2e814e01"
+    },
+    {
+      "path": "training/natnat-s247841.json",
+      "bytes": 1115,
+      "sha256": "8574deb0c98e9f73c9d83c8ed0697c298ff9260ec6ebeb781f511ae742c8c48f"
+    },
+    {
+      "path": "training/natnat-s272874.json",
+      "bytes": 1117,
+      "sha256": "6f39f4f839dc3589c072d8b15ee13f77b902c7c697a61dc06c53607cadc52863"
+    },
+    {
+      "path": "training/natnat-s325511.json",
+      "bytes": 1114,
+      "sha256": "eb4af14907416fe8b4125fa66f52d3d55593707dffd3343a9cdcec7e07e37f87"
+    },
+    {
+      "path": "training/natnat-s344247.json",
+      "bytes": 1115,
+      "sha256": "b3ee1dee66e5400065132ca61aafa6e8eb14977f1d3ed5e1c21e1b5fd6d15373"
+    },
+    {
+      "path": "training/natnat-s391118.json",
+      "bytes": 1115,
+      "sha256": "cb063a38108a2f2ba43468857940bd70f87134f24a3e25c9dc0bc1b2e390471d"
+    },
+    {
+      "path": "training/natnat-s4823.json",
+      "bytes": 1114,
+      "sha256": "bbb33c9b89c454d4ea603ab4fce067ae363ff28123aafb339c581846c6b75fb2"
+    },
+    {
+      "path": "training/natnat-s570526.json",
+      "bytes": 1117,
+      "sha256": "71735c0126b2b8a901412c380a9402c4f8db356f04192d27b30ea41fd4cbdc72"
+    },
+    {
+      "path": "training/natnat-s577312.json",
+      "bytes": 1116,
+      "sha256": "3375ad336a8f7ded3200a9d3583f6d37005c840877207b32ae0e284b30c44aa5"
+    },
+    {
+      "path": "training/natnat-s582885.json",
+      "bytes": 1117,
+      "sha256": "94887d2e80f91b927fa53ca5e02972698f03bed6bc8a75e436e1452979129a0d"
+    },
+    {
+      "path": "training/natnat-s646616.json",
+      "bytes": 1116,
+      "sha256": "8d669eb61a2c63c8537340e5bd656146903dc73115ba47e47134f7b6bb610a9b"
+    },
+    {
+      "path": "training/natnat-s686691.json",
+      "bytes": 1115,
+      "sha256": "ee8932a4c939060c4242353c80b1b71103cf5d70a542b418151247ea98144414"
+    },
+    {
+      "path": "training/natnat-s789563.json",
+      "bytes": 1115,
+      "sha256": "0386b510355c0ec055cc48a890a0a83efcb839a60d856afcf132dc5e85541835"
+    },
+    {
+      "path": "training/natnat-s794325.json",
+      "bytes": 1117,
+      "sha256": "ff4b697f6a9173bf8f6f460a07a3e6930e45d4bd7776e490208dfdb3d8a7e1a8"
+    },
+    {
+      "path": "training/natnat-s911605.json",
+      "bytes": 1116,
+      "sha256": "36e3aea54c383847843542ebff74a2075d98a4cfd313ba8bc52ceaa27360255b"
+    },
+    {
+      "path": "training/natnat-s911974.json",
+      "bytes": 1116,
+      "sha256": "9c777ed4132eae8fa63b3354b335f23718b0274dcb3b4f760549f1a05b83b0aa"
+    },
+    {
+      "path": "training/natnat-s928775.json",
+      "bytes": 1116,
+      "sha256": "f60ea56f34f6d7e8191b7b39cba6f3b022a1fc2b07ae33e00d71d14ac973a8a5"
+    },
+    {
+      "path": "training/random-s137059.json",
+      "bytes": 1114,
+      "sha256": "ebe00f712ec5abf6f62955710da43d155e388392e5aacefe85575978ec702990"
+    },
+    {
+      "path": "training/random-s149937.json",
+      "bytes": 1115,
+      "sha256": "f8d712de3e76a66dfff75b9a1b415d5325add7746cbffeee57c69f1ee66456c1"
+    },
+    {
+      "path": "training/random-s247841.json",
+      "bytes": 1114,
+      "sha256": "aab3c8b63bd24ce3ea91203760abead6f5d3eff09dc63daffde4446d27cae306"
+    },
+    {
+      "path": "training/random-s272874.json",
+      "bytes": 1115,
+      "sha256": "2104a6f356914e26844a0adc100cf2b81a21938e39adcaf784a3a7651b9e2208"
+    },
+    {
+      "path": "training/random-s325511.json",
+      "bytes": 1116,
+      "sha256": "4ad00edb333996238d32c013cd89838675fd35969ad3531a913a8b934ac436d3"
+    },
+    {
+      "path": "training/random-s344247.json",
+      "bytes": 1115,
+      "sha256": "0543f7d96f5b1683ca5b475436e82c62cb34b71c95c597d236f701fc2f809563"
+    },
+    {
+      "path": "training/random-s391118.json",
+      "bytes": 1116,
+      "sha256": "cba0431561a301fd7b80b8a386c45e842b0d12168a2154ca138f486b037cfaa0"
+    },
+    {
+      "path": "training/random-s4823.json",
+      "bytes": 1113,
+      "sha256": "43759b6468fbd04f8727c558db0500e07738afd1512485986dcb91ae9558680c"
+    },
+    {
+      "path": "training/random-s570526.json",
+      "bytes": 1114,
+      "sha256": "0fcd838aa07b75a61fd40441d1ad549648d045a443ddc164acb2171a0518b35b"
+    },
+    {
+      "path": "training/random-s577312.json",
+      "bytes": 1115,
+      "sha256": "b8010239eae62b48fa3649fb653d40dc2c420aaeaa51cdcf4f27032977634a55"
+    },
+    {
+      "path": "training/random-s582885.json",
+      "bytes": 1116,
+      "sha256": "52906b2cdde233cd12de90eaaa1ce09e5f7653b7e1a37b9dbc703b2a9c0cadde"
+    },
+    {
+      "path": "training/random-s646616.json",
+      "bytes": 1114,
+      "sha256": "27d1739ba9272cf5701bbbea9367be063859c88992778e92cd75b9a108610b6f"
+    },
+    {
+      "path": "training/random-s686691.json",
+      "bytes": 1115,
+      "sha256": "1f09ce84a561449b47f850d54c3d4b7c9da915f1f44eb240812a17628e28b715"
+    },
+    {
+      "path": "training/random-s789563.json",
+      "bytes": 1118,
+      "sha256": "9774c25515fd2d6bb69e201808b833caad483f0f92ecf763617dba22af5a3977"
+    },
+    {
+      "path": "training/random-s794325.json",
+      "bytes": 1116,
+      "sha256": "129f525acb3cde4aff20f947fa1debb7b9128148e7d9f09fa3bd5f5d58225be7"
+    },
+    {
+      "path": "training/random-s911605.json",
+      "bytes": 1113,
+      "sha256": "5f19f3b2bffc72d1204bcefa84e48221a636259978af933a5419d248c1b8b1f5"
+    },
+    {
+      "path": "training/random-s911974.json",
+      "bytes": 1116,
+      "sha256": "e98da73ba61b5a77bdf02d05628638ebdf79da70e64918d7401b3ca7ad910a83"
+    },
+    {
+      "path": "training/random-s928775.json",
+      "bytes": 1115,
+      "sha256": "ea9b49c2cdf792c61f9e6a6fec99a486d7a02c60de21bd11b63d36e457ca9010"
+    },
+    {
+      "path": "verification/verification_report.json",
+      "bytes": 15671,
+      "sha256": "f96b1f783c006241f992b10356146dad2e2f33c7ce7bebd5e15b144227d2af90"
+    }
+  ],
+  "excludes_self": [
+    "MANIFEST.json",
+    "CHECKSUMS.sha256"
+  ],
+  "note": "Hashes identify released bytes; provenance/original_sources.json separately identifies original source bytes."
+}

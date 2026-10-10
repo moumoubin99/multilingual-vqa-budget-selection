@@ -1,0 +1,186 @@
+{
+  "status": "completed",
+  "pilot_only": false,
+  "n_items": 3600,
+  "accuracy": 0.6388888888888888,
+  "aurc_secondary": 0.2844183680670094,
+  "brier_secondary": 0.6197222222222222,
+  "headline_lowres_iqm": null,
+  "scope": {
+    "computes": [
+      "full selected run specification"
+    ],
+    "withheld": {}
+  },
+  "target_coverage": 0.8,
+  "per_language_selective_risk": {
+    "ar": 0.3416666666666667,
+    "en": 0.2625,
+    "es": 0.2708333333333333,
+    "fr": 0.2833333333333333,
+    "hi": 0.2875,
+    "id_formal": 0.2625,
+    "jv_krama": 0.2916666666666667,
+    "ko_formal": 0.37916666666666665,
+    "sc": 0.2875,
+    "su_loma": 0.2708333333333333,
+    "yo": 0.3333333333333333,
+    "zh_cn": 0.25416666666666665
+  },
+  "per_language_threshold_report_only": {
+    "ar": 0.5,
+    "en": 1.0,
+    "es": 1.0,
+    "fr": 0.5,
+    "hi": 0.5,
+    "id_formal": 1.0,
+    "jv_krama": 0.5,
+    "ko_formal": 0.5,
+    "sc": 0.5,
+    "su_loma": 1.0,
+    "yo": 0.5,
+    "zh_cn": 0.5
+  },
+  "accepted_counts": {
+    "ar": 240,
+    "en": 240,
+    "es": 240,
+    "fr": 240,
+    "hi": 240,
+    "id_formal": 240,
+    "jv_krama": 240,
+    "ko_formal": 240,
+    "sc": 240,
+    "su_loma": 240,
+    "yo": 240,
+    "zh_cn": 240
+  },
+  "conformance_failures": [
+    {
+      "id": "worldcuisines:small_eval_task1:es:87",
+      "generated_semantic": [
+        1,
+        0
+      ],
+      "shortcut_semantic": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "worldcuisines:small_eval_task1:ar:299",
+      "generated_semantic": [
+        4,
+        4
+      ],
+      "shortcut_semantic": [
+        0,
+        4
+      ]
+    },
+    {
+      "id": "worldcuisines:small_eval_task1:jv_krama:32",
+      "generated_semantic": [
+        4,
+        3
+      ],
+      "shortcut_semantic": [
+        3,
+        3
+      ]
+    }
+  ],
+  "conformance_ids": [
+    "worldcuisines:small_eval_task1:ar:14",
+    "worldcuisines:small_eval_task1:ar:147",
+    "worldcuisines:small_eval_task1:ar:172",
+    "worldcuisines:small_eval_task1:ar:173",
+    "worldcuisines:small_eval_task1:ar:194",
+    "worldcuisines:small_eval_task1:ar:210",
+    "worldcuisines:small_eval_task1:ar:261",
+    "worldcuisines:small_eval_task1:ar:299",
+    "worldcuisines:small_eval_task1:ar:9",
+    "worldcuisines:small_eval_task1:ar:95",
+    "worldcuisines:small_eval_task1:en:144",
+    "worldcuisines:small_eval_task1:en:74",
+    "worldcuisines:small_eval_task1:es:87",
+    "worldcuisines:small_eval_task1:es:95",
+    "worldcuisines:small_eval_task1:fr:136",
+    "worldcuisines:small_eval_task1:fr:149",
+    "worldcuisines:small_eval_task1:fr:175",
+    "worldcuisines:small_eval_task1:fr:254",
+    "worldcuisines:small_eval_task1:fr:270",
+    "worldcuisines:small_eval_task1:hi:107",
+    "worldcuisines:small_eval_task1:hi:112",
+    "worldcuisines:small_eval_task1:hi:187",
+    "worldcuisines:small_eval_task1:hi:212",
+    "worldcuisines:small_eval_task1:hi:217",
+    "worldcuisines:small_eval_task1:hi:218",
+    "worldcuisines:small_eval_task1:hi:272",
+    "worldcuisines:small_eval_task1:hi:294",
+    "worldcuisines:small_eval_task1:hi:39",
+    "worldcuisines:small_eval_task1:id_formal:131",
+    "worldcuisines:small_eval_task1:id_formal:139",
+    "worldcuisines:small_eval_task1:id_formal:212",
+    "worldcuisines:small_eval_task1:id_formal:224",
+    "worldcuisines:small_eval_task1:id_formal:267",
+    "worldcuisines:small_eval_task1:id_formal:279",
+    "worldcuisines:small_eval_task1:id_formal:283",
+    "worldcuisines:small_eval_task1:id_formal:83",
+    "worldcuisines:small_eval_task1:id_formal:86",
+    "worldcuisines:small_eval_task1:jv_krama:103",
+    "worldcuisines:small_eval_task1:jv_krama:134",
+    "worldcuisines:small_eval_task1:jv_krama:32",
+    "worldcuisines:small_eval_task1:jv_krama:92",
+    "worldcuisines:small_eval_task1:ko_formal:110",
+    "worldcuisines:small_eval_task1:ko_formal:116",
+    "worldcuisines:small_eval_task1:ko_formal:187",
+    "worldcuisines:small_eval_task1:ko_formal:246",
+    "worldcuisines:small_eval_task1:ko_formal:247",
+    "worldcuisines:small_eval_task1:sc:102",
+    "worldcuisines:small_eval_task1:sc:155",
+    "worldcuisines:small_eval_task1:sc:216",
+    "worldcuisines:small_eval_task1:sc:23",
+    "worldcuisines:small_eval_task1:sc:231",
+    "worldcuisines:small_eval_task1:sc:25",
+    "worldcuisines:small_eval_task1:sc:288",
+    "worldcuisines:small_eval_task1:sc:55",
+    "worldcuisines:small_eval_task1:su_loma:138",
+    "worldcuisines:small_eval_task1:su_loma:144",
+    "worldcuisines:small_eval_task1:su_loma:274",
+    "worldcuisines:small_eval_task1:su_loma:5",
+    "worldcuisines:small_eval_task1:yo:112",
+    "worldcuisines:small_eval_task1:yo:123",
+    "worldcuisines:small_eval_task1:yo:19",
+    "worldcuisines:small_eval_task1:yo:193",
+    "worldcuisines:small_eval_task1:yo:197",
+    "worldcuisines:small_eval_task1:yo:24",
+    "worldcuisines:small_eval_task1:yo:38",
+    "worldcuisines:small_eval_task1:yo:73",
+    "worldcuisines:small_eval_task1:zh_cn:15",
+    "worldcuisines:small_eval_task1:zh_cn:218",
+    "worldcuisines:small_eval_task1:zh_cn:235",
+    "worldcuisines:small_eval_task1:zh_cn:44",
+    "worldcuisines:small_eval_task1:zh_cn:46",
+    "worldcuisines:small_eval_task1:zh_cn:9"
+  ],
+  "conformance_ids_source": "derived_operator_hard_open",
+  "elapsed_seconds": 4985.831379175186,
+  "gpu_hours": 1.384953160881996,
+  "input_sha256": "868e954c468386d64ee97e62765f91788b28daec843abaf13846c07f5a0120dc",
+  "full_generation": true,
+  "greedy_generation_config": {
+    "loaded_num_beams": 1,
+    "loaded_do_sample": true,
+    "effective_num_beams": 1,
+    "effective_do_sample": false
+  },
+  "torch_version": "2.8.0+cu128",
+  "device": "cuda",
+  "cuda_device": "NVIDIA GeForce RTX 4090",
+  "execution_order_clause": {
+    "frozen_vit_feature_cache": "withdrawn_unimplemented",
+    "image_prefix_kv_cache": "withdrawn_unimplemented",
+    "cost_paid_by_full_recompute": true
+  }
+}

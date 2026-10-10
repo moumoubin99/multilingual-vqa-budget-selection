@@ -1,0 +1,219 @@
+{
+  "status": "completed",
+  "pilot_only": false,
+  "n_items": 3600,
+  "accuracy": 0.6352777777777778,
+  "aurc_secondary": 0.2924721344420533,
+  "brier_secondary": 0.6283333333333333,
+  "headline_lowres_iqm": null,
+  "scope": {
+    "computes": [
+      "full selected run specification"
+    ],
+    "withheld": {}
+  },
+  "target_coverage": 0.8,
+  "per_language_selective_risk": {
+    "ar": 0.325,
+    "en": 0.275,
+    "es": 0.275,
+    "fr": 0.2916666666666667,
+    "hi": 0.30416666666666664,
+    "id_formal": 0.2625,
+    "jv_krama": 0.3,
+    "ko_formal": 0.36666666666666664,
+    "sc": 0.2875,
+    "su_loma": 0.2833333333333333,
+    "yo": 0.325,
+    "zh_cn": 0.275
+  },
+  "per_language_threshold_report_only": {
+    "ar": 1.0,
+    "en": 1.0,
+    "es": 0.5,
+    "fr": 1.0,
+    "hi": 1.0,
+    "id_formal": 1.0,
+    "jv_krama": 0.5,
+    "ko_formal": 0.5,
+    "sc": 1.0,
+    "su_loma": 1.0,
+    "yo": 0.5,
+    "zh_cn": 1.0
+  },
+  "accepted_counts": {
+    "ar": 240,
+    "en": 240,
+    "es": 240,
+    "fr": 240,
+    "hi": 240,
+    "id_formal": 240,
+    "jv_krama": 240,
+    "ko_formal": 240,
+    "sc": 240,
+    "su_loma": 240,
+    "yo": 240,
+    "zh_cn": 240
+  },
+  "conformance_failures": [
+    {
+      "id": "worldcuisines:small_eval_task1:zh_cn:184",
+      "generated_semantic": [
+        4,
+        4
+      ],
+      "shortcut_semantic": [
+        2,
+        4
+      ]
+    },
+    {
+      "id": "worldcuisines:small_eval_task1:hi:62",
+      "generated_semantic": [
+        1,
+        3
+      ],
+      "shortcut_semantic": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "worldcuisines:small_eval_task1:ko_formal:81",
+      "generated_semantic": [
+        4,
+        2
+      ],
+      "shortcut_semantic": [
+        2,
+        2
+      ]
+    },
+    {
+      "id": "worldcuisines:small_eval_task1:su_loma:71",
+      "generated_semantic": [
+        3,
+        3
+      ],
+      "shortcut_semantic": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": "worldcuisines:small_eval_task1:jv_krama:264",
+      "generated_semantic": [
+        2,
+        1
+      ],
+      "shortcut_semantic": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "worldcuisines:small_eval_task1:sc:83",
+      "generated_semantic": [
+        3,
+        4
+      ],
+      "shortcut_semantic": [
+        3,
+        3
+      ]
+    }
+  ],
+  "conformance_ids": [
+    "worldcuisines:small_eval_task1:ar:148",
+    "worldcuisines:small_eval_task1:ar:201",
+    "worldcuisines:small_eval_task1:ar:221",
+    "worldcuisines:small_eval_task1:en:102",
+    "worldcuisines:small_eval_task1:en:151",
+    "worldcuisines:small_eval_task1:en:261",
+    "worldcuisines:small_eval_task1:en:54",
+    "worldcuisines:small_eval_task1:es:207",
+    "worldcuisines:small_eval_task1:es:35",
+    "worldcuisines:small_eval_task1:fr:137",
+    "worldcuisines:small_eval_task1:fr:178",
+    "worldcuisines:small_eval_task1:fr:197",
+    "worldcuisines:small_eval_task1:fr:205",
+    "worldcuisines:small_eval_task1:fr:234",
+    "worldcuisines:small_eval_task1:fr:286",
+    "worldcuisines:small_eval_task1:fr:91",
+    "worldcuisines:small_eval_task1:hi:141",
+    "worldcuisines:small_eval_task1:hi:158",
+    "worldcuisines:small_eval_task1:hi:189",
+    "worldcuisines:small_eval_task1:hi:217",
+    "worldcuisines:small_eval_task1:hi:219",
+    "worldcuisines:small_eval_task1:hi:248",
+    "worldcuisines:small_eval_task1:hi:27",
+    "worldcuisines:small_eval_task1:hi:281",
+    "worldcuisines:small_eval_task1:hi:287",
+    "worldcuisines:small_eval_task1:hi:39",
+    "worldcuisines:small_eval_task1:hi:62",
+    "worldcuisines:small_eval_task1:id_formal:11",
+    "worldcuisines:small_eval_task1:id_formal:137",
+    "worldcuisines:small_eval_task1:id_formal:177",
+    "worldcuisines:small_eval_task1:id_formal:215",
+    "worldcuisines:small_eval_task1:id_formal:229",
+    "worldcuisines:small_eval_task1:id_formal:266",
+    "worldcuisines:small_eval_task1:jv_krama:0",
+    "worldcuisines:small_eval_task1:jv_krama:125",
+    "worldcuisines:small_eval_task1:jv_krama:264",
+    "worldcuisines:small_eval_task1:jv_krama:45",
+    "worldcuisines:small_eval_task1:ko_formal:122",
+    "worldcuisines:small_eval_task1:ko_formal:16",
+    "worldcuisines:small_eval_task1:ko_formal:179",
+    "worldcuisines:small_eval_task1:ko_formal:37",
+    "worldcuisines:small_eval_task1:ko_formal:5",
+    "worldcuisines:small_eval_task1:ko_formal:81",
+    "worldcuisines:small_eval_task1:ko_formal:99",
+    "worldcuisines:small_eval_task1:sc:128",
+    "worldcuisines:small_eval_task1:sc:273",
+    "worldcuisines:small_eval_task1:sc:284",
+    "worldcuisines:small_eval_task1:sc:57",
+    "worldcuisines:small_eval_task1:sc:75",
+    "worldcuisines:small_eval_task1:sc:77",
+    "worldcuisines:small_eval_task1:sc:83",
+    "worldcuisines:small_eval_task1:sc:94",
+    "worldcuisines:small_eval_task1:su_loma:122",
+    "worldcuisines:small_eval_task1:su_loma:124",
+    "worldcuisines:small_eval_task1:su_loma:129",
+    "worldcuisines:small_eval_task1:su_loma:19",
+    "worldcuisines:small_eval_task1:su_loma:49",
+    "worldcuisines:small_eval_task1:su_loma:71",
+    "worldcuisines:small_eval_task1:yo:102",
+    "worldcuisines:small_eval_task1:yo:180",
+    "worldcuisines:small_eval_task1:yo:251",
+    "worldcuisines:small_eval_task1:yo:29",
+    "worldcuisines:small_eval_task1:yo:69",
+    "worldcuisines:small_eval_task1:yo:8",
+    "worldcuisines:small_eval_task1:zh_cn:118",
+    "worldcuisines:small_eval_task1:zh_cn:12",
+    "worldcuisines:small_eval_task1:zh_cn:184",
+    "worldcuisines:small_eval_task1:zh_cn:213",
+    "worldcuisines:small_eval_task1:zh_cn:22",
+    "worldcuisines:small_eval_task1:zh_cn:25",
+    "worldcuisines:small_eval_task1:zh_cn:289",
+    "worldcuisines:small_eval_task1:zh_cn:95"
+  ],
+  "conformance_ids_source": "derived_operator_hard_open",
+  "elapsed_seconds": 5052.3963923454285,
+  "gpu_hours": 1.4034434423181745,
+  "input_sha256": "868e954c468386d64ee97e62765f91788b28daec843abaf13846c07f5a0120dc",
+  "full_generation": true,
+  "greedy_generation_config": {
+    "loaded_num_beams": 1,
+    "loaded_do_sample": true,
+    "effective_num_beams": 1,
+    "effective_do_sample": false
+  },
+  "torch_version": "2.8.0+cu128",
+  "device": "cuda",
+  "cuda_device": "NVIDIA GeForce RTX 4090",
+  "execution_order_clause": {
+    "frozen_vit_feature_cache": "withdrawn_unimplemented",
+    "image_prefix_kv_cache": "withdrawn_unimplemented",
+    "cost_paid_by_full_recompute": true
+  }
+}

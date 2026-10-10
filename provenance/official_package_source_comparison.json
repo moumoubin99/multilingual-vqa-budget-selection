@@ -1,0 +1,148 @@
+{
+  "read_only_server": true,
+  "no_installation": true,
+  "no_torch_import": true,
+  "versions": {
+    "4.57.1": {
+      "metadata_url": "https://pypi.org/pypi/transformers/4.57.1/json",
+      "wheel_filename": "transformers-4.57.1-py3-none-any.whl",
+      "wheel_url": "https://files.pythonhosted.org/packages/71/d3/c16c3b3cf7655a67db1144da94b021c200ac1303f82428f2beef6c2e72bb/transformers-4.57.1-py3-none-any.whl",
+      "wheel_sha256": "b10d05da8fa67dc41644dbbf9bc45a44cb86ae33da6f9295f5fbf5b7890bd267",
+      "selected_module_files_verified": 12,
+      "init_module_verified": true,
+      "files": [
+        {
+          "relative": "transformers/generation/utils.py",
+          "official_sha256": "a20024b1e82ed5361a524d238d2197be5407abc91297dd9888c57e8284d63fef",
+          "matches_actual_server": true
+        },
+        {
+          "relative": "transformers/image_processing_backends.py",
+          "official_sha256": null,
+          "matches_actual_server": true
+        },
+        {
+          "relative": "transformers/image_processing_utils.py",
+          "official_sha256": "740d1fecbdf24983538443b24d9215b50c494b8abed460346bcd8f3c3d69d249",
+          "matches_actual_server": true
+        },
+        {
+          "relative": "transformers/image_transforms.py",
+          "official_sha256": "88e55f70d49404d85b4cca3b0826bf9e29630eb0afb828d37f4347c1fb07986e",
+          "matches_actual_server": true
+        },
+        {
+          "relative": "transformers/integrations/sdpa_attention.py",
+          "official_sha256": "dc5abe49a98dec3b9026739dfbf2e9a8f3e5272b2916b3c2d404727ac931a013",
+          "matches_actual_server": true
+        },
+        {
+          "relative": "transformers/masking_utils.py",
+          "official_sha256": "7a963feed8173b8265298dd24350c166222ce6b4719442fce48ab414d0478a6a",
+          "matches_actual_server": true
+        },
+        {
+          "relative": "transformers/modeling_rope_utils.py",
+          "official_sha256": "55cc0c8cb76f592ab178b4662adcbdf4ad5012bb0b4249c0a96603141f18e9ac",
+          "matches_actual_server": true
+        },
+        {
+          "relative": "transformers/models/qwen2/tokenization_qwen2.py",
+          "official_sha256": "23f05697fcaf26fe5e328abaf524f010510a2b9f4ba2e2edc9dca0a4015a09a2",
+          "matches_actual_server": true
+        },
+        {
+          "relative": "transformers/models/qwen2_5_vl/modeling_qwen2_5_vl.py",
+          "official_sha256": "f5051523300145f66de080765c06bd8080350c15692c096d2c38e73fe9d03099",
+          "matches_actual_server": true
+        },
+        {
+          "relative": "transformers/models/qwen2_5_vl/processing_qwen2_5_vl.py",
+          "official_sha256": "6a88107b85320ca9ee1154731530db584ba048a12aff1ebab2f7bdc77062184d",
+          "matches_actual_server": true
+        },
+        {
+          "relative": "transformers/models/qwen2_vl/image_processing_qwen2_vl.py",
+          "official_sha256": "7820a0fcca107e75605e08d9b774285ca2b0316f857bc0225c779794705ecf4f",
+          "matches_actual_server": true
+        },
+        {
+          "relative": "transformers/vision_utils.py",
+          "official_sha256": null,
+          "matches_actual_server": true
+        }
+      ]
+    },
+    "5.17.0": {
+      "metadata_url": "https://pypi.org/pypi/transformers/5.17.0/json",
+      "wheel_filename": "transformers-5.17.0-py3-none-any.whl",
+      "wheel_url": "https://files.pythonhosted.org/packages/e8/d0/c502b60d684adbd98a8dc7d5bb866842772b816ac4354e4608be240041ae/transformers-5.17.0-py3-none-any.whl",
+      "wheel_sha256": "78ec1ce21579b38dfb83950a0658cd119f87212a2fcfdff478096ce9d6c03801",
+      "selected_module_files_verified": 12,
+      "init_module_verified": true,
+      "files": [
+        {
+          "relative": "transformers/generation/utils.py",
+          "official_sha256": "bb558d8676be95457126c82a32600dad206c13e4fb96b4f5d114f1f2483d7f62",
+          "matches_actual_server": true
+        },
+        {
+          "relative": "transformers/image_processing_backends.py",
+          "official_sha256": "5f3176903638125ee01af36e8c74741a7bab19581f3c13349a775b093cb1bbb0",
+          "matches_actual_server": true
+        },
+        {
+          "relative": "transformers/image_processing_utils.py",
+          "official_sha256": "3328a0e2b38e272e824cad64a50d3e84206dab13d31b96104afa6459e149f7c1",
+          "matches_actual_server": true
+        },
+        {
+          "relative": "transformers/image_transforms.py",
+          "official_sha256": "260fd1b2d3b23811f6be81da20777105d522c0213030580e6cf717a34492ef3b",
+          "matches_actual_server": true
+        },
+        {
+          "relative": "transformers/integrations/sdpa_attention.py",
+          "official_sha256": "53c7229daca9ade4c5df874194448938c1edc925abbc71809f9750dd66381e6f",
+          "matches_actual_server": true
+        },
+        {
+          "relative": "transformers/masking_utils.py",
+          "official_sha256": "50a737f63d8c778a5597fa34ac139049af921f44958205e3e1c29fe2bae77254",
+          "matches_actual_server": true
+        },
+        {
+          "relative": "transformers/modeling_rope_utils.py",
+          "official_sha256": "fd7407b2dc3e16de2507e8619906ff9f84fdda65d49c67a41db4974fd6982a47",
+          "matches_actual_server": true
+        },
+        {
+          "relative": "transformers/models/qwen2/tokenization_qwen2.py",
+          "official_sha256": "fac4e6576bfe2369731be147a4e530f262bdf32f2ac50436f96f0d8bdd2fc628",
+          "matches_actual_server": true
+        },
+        {
+          "relative": "transformers/models/qwen2_5_vl/modeling_qwen2_5_vl.py",
+          "official_sha256": "507cb2c383ead0e0e22b16ec9c8af2eb82703843cd5849112715751d990ff15e",
+          "matches_actual_server": true
+        },
+        {
+          "relative": "transformers/models/qwen2_5_vl/processing_qwen2_5_vl.py",
+          "official_sha256": "a65cba8047b8d2a381d3634b42ee441322d4e885f02b6e84e6787bc9ba3649af",
+          "matches_actual_server": true
+        },
+        {
+          "relative": "transformers/models/qwen2_vl/image_processing_qwen2_vl.py",
+          "official_sha256": "4e1da45f9e7e157ca08aa88243fcc1495ea6a333e40e0c5035ef17ef2747a97d",
+          "matches_actual_server": true
+        },
+        {
+          "relative": "transformers/vision_utils.py",
+          "official_sha256": "bcecd5a92b3266b9926272a549d2b1a0f1fe7646c698c0fa19bd96f976085356",
+          "matches_actual_server": true
+        }
+      ]
+    }
+  },
+  "status": "PASS"
+}

@@ -1,0 +1,186 @@
+{
+  "status": "completed",
+  "pilot_only": false,
+  "n_items": 3600,
+  "accuracy": 0.6352777777777778,
+  "aurc_secondary": 0.28934475996162523,
+  "brier_secondary": 0.6223611111111111,
+  "headline_lowres_iqm": null,
+  "scope": {
+    "computes": [
+      "full selected run specification"
+    ],
+    "withheld": {}
+  },
+  "target_coverage": 0.8,
+  "per_language_selective_risk": {
+    "ar": 0.3541666666666667,
+    "en": 0.25,
+    "es": 0.2791666666666667,
+    "fr": 0.2833333333333333,
+    "hi": 0.2916666666666667,
+    "id_formal": 0.275,
+    "jv_krama": 0.29583333333333334,
+    "ko_formal": 0.4041666666666667,
+    "sc": 0.26666666666666666,
+    "su_loma": 0.25833333333333336,
+    "yo": 0.3125,
+    "zh_cn": 0.2791666666666667
+  },
+  "per_language_threshold_report_only": {
+    "ar": 0.5,
+    "en": 1.0,
+    "es": 0.5,
+    "fr": 1.0,
+    "hi": 0.5,
+    "id_formal": 0.5,
+    "jv_krama": 0.5,
+    "ko_formal": 0.5,
+    "sc": 0.5,
+    "su_loma": 0.5,
+    "yo": 0.5,
+    "zh_cn": 0.5
+  },
+  "accepted_counts": {
+    "ar": 240,
+    "en": 240,
+    "es": 240,
+    "fr": 240,
+    "hi": 240,
+    "id_formal": 240,
+    "jv_krama": 240,
+    "ko_formal": 240,
+    "sc": 240,
+    "su_loma": 240,
+    "yo": 240,
+    "zh_cn": 240
+  },
+  "conformance_failures": [
+    {
+      "id": "worldcuisines:small_eval_task1:ko_formal:246",
+      "generated_semantic": [
+        4,
+        4
+      ],
+      "shortcut_semantic": [
+        4,
+        0
+      ]
+    },
+    {
+      "id": "worldcuisines:small_eval_task1:id_formal:40",
+      "generated_semantic": [
+        1,
+        3
+      ],
+      "shortcut_semantic": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "worldcuisines:small_eval_task1:jv_krama:54",
+      "generated_semantic": [
+        4,
+        2
+      ],
+      "shortcut_semantic": [
+        2,
+        2
+      ]
+    }
+  ],
+  "conformance_ids": [
+    "worldcuisines:small_eval_task1:ar:141",
+    "worldcuisines:small_eval_task1:ar:17",
+    "worldcuisines:small_eval_task1:ar:237",
+    "worldcuisines:small_eval_task1:ar:276",
+    "worldcuisines:small_eval_task1:en:11",
+    "worldcuisines:small_eval_task1:en:19",
+    "worldcuisines:small_eval_task1:en:214",
+    "worldcuisines:small_eval_task1:en:242",
+    "worldcuisines:small_eval_task1:en:259",
+    "worldcuisines:small_eval_task1:es:117",
+    "worldcuisines:small_eval_task1:es:143",
+    "worldcuisines:small_eval_task1:es:156",
+    "worldcuisines:small_eval_task1:es:198",
+    "worldcuisines:small_eval_task1:es:239",
+    "worldcuisines:small_eval_task1:es:255",
+    "worldcuisines:small_eval_task1:es:264",
+    "worldcuisines:small_eval_task1:fr:112",
+    "worldcuisines:small_eval_task1:fr:114",
+    "worldcuisines:small_eval_task1:fr:116",
+    "worldcuisines:small_eval_task1:fr:148",
+    "worldcuisines:small_eval_task1:fr:234",
+    "worldcuisines:small_eval_task1:fr:263",
+    "worldcuisines:small_eval_task1:fr:268",
+    "worldcuisines:small_eval_task1:fr:52",
+    "worldcuisines:small_eval_task1:hi:166",
+    "worldcuisines:small_eval_task1:hi:225",
+    "worldcuisines:small_eval_task1:hi:282",
+    "worldcuisines:small_eval_task1:hi:7",
+    "worldcuisines:small_eval_task1:id_formal:13",
+    "worldcuisines:small_eval_task1:id_formal:175",
+    "worldcuisines:small_eval_task1:id_formal:208",
+    "worldcuisines:small_eval_task1:id_formal:225",
+    "worldcuisines:small_eval_task1:id_formal:236",
+    "worldcuisines:small_eval_task1:id_formal:237",
+    "worldcuisines:small_eval_task1:id_formal:296",
+    "worldcuisines:small_eval_task1:id_formal:4",
+    "worldcuisines:small_eval_task1:id_formal:40",
+    "worldcuisines:small_eval_task1:id_formal:64",
+    "worldcuisines:small_eval_task1:jv_krama:143",
+    "worldcuisines:small_eval_task1:jv_krama:233",
+    "worldcuisines:small_eval_task1:jv_krama:240",
+    "worldcuisines:small_eval_task1:jv_krama:241",
+    "worldcuisines:small_eval_task1:jv_krama:290",
+    "worldcuisines:small_eval_task1:jv_krama:54",
+    "worldcuisines:small_eval_task1:jv_krama:66",
+    "worldcuisines:small_eval_task1:ko_formal:246",
+    "worldcuisines:small_eval_task1:ko_formal:261",
+    "worldcuisines:small_eval_task1:ko_formal:265",
+    "worldcuisines:small_eval_task1:ko_formal:36",
+    "worldcuisines:small_eval_task1:ko_formal:53",
+    "worldcuisines:small_eval_task1:sc:1",
+    "worldcuisines:small_eval_task1:sc:142",
+    "worldcuisines:small_eval_task1:sc:167",
+    "worldcuisines:small_eval_task1:sc:220",
+    "worldcuisines:small_eval_task1:sc:235",
+    "worldcuisines:small_eval_task1:sc:37",
+    "worldcuisines:small_eval_task1:sc:96",
+    "worldcuisines:small_eval_task1:su_loma:115",
+    "worldcuisines:small_eval_task1:su_loma:156",
+    "worldcuisines:small_eval_task1:su_loma:288",
+    "worldcuisines:small_eval_task1:su_loma:34",
+    "worldcuisines:small_eval_task1:yo:117",
+    "worldcuisines:small_eval_task1:yo:2",
+    "worldcuisines:small_eval_task1:yo:205",
+    "worldcuisines:small_eval_task1:yo:218",
+    "worldcuisines:small_eval_task1:yo:265",
+    "worldcuisines:small_eval_task1:yo:32",
+    "worldcuisines:small_eval_task1:zh_cn:125",
+    "worldcuisines:small_eval_task1:zh_cn:135",
+    "worldcuisines:small_eval_task1:zh_cn:2",
+    "worldcuisines:small_eval_task1:zh_cn:223",
+    "worldcuisines:small_eval_task1:zh_cn:67"
+  ],
+  "conformance_ids_source": "derived_operator_hard_open",
+  "elapsed_seconds": 5030.476943254471,
+  "gpu_hours": 1.3973547064595753,
+  "input_sha256": "868e954c468386d64ee97e62765f91788b28daec843abaf13846c07f5a0120dc",
+  "full_generation": true,
+  "greedy_generation_config": {
+    "loaded_num_beams": 1,
+    "loaded_do_sample": true,
+    "effective_num_beams": 1,
+    "effective_do_sample": false
+  },
+  "torch_version": "2.8.0+cu128",
+  "device": "cuda",
+  "cuda_device": "NVIDIA GeForce RTX 4090",
+  "execution_order_clause": {
+    "frozen_vit_feature_cache": "withdrawn_unimplemented",
+    "image_prefix_kv_cache": "withdrawn_unimplemented",
+    "cost_paid_by_full_recompute": true
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "tolerance": 1e-12,
+  "source": "results/analysis/CONTRAST_TABLE.json",
+  "tests": {
+    "T01": {
+      "n": 18,
+      "positive": 7,
+      "negative": 10,
+      "ties": 1,
+      "p_two_sided_ties_excluded": 0.629058837890625,
+      "median": -0.001736111111111105
+    },
+    "T02": {
+      "n": 18,
+      "positive": 10,
+      "negative": 6,
+      "ties": 2,
+      "p_two_sided_ties_excluded": 0.454498291015625,
+      "median": 0.0010416666666666536
+    },
+    "T03": {
+      "n": 18,
+      "positive": 9,
+      "negative": 9,
+      "ties": 0,
+      "p_two_sided_ties_excluded": 1.0,
+      "median": -0.00034722222222222565
+    },
+    "T04": {
+      "n": 18,
+      "positive": 6,
+      "negative": 12,
+      "ties": 0,
+      "p_two_sided_ties_excluded": 0.237884521484375,
+      "median": -0.0020833333333333303
+    },
+    "T05": {
+      "n": 18,
+      "positive": 12,
+      "negative": 6,
+      "ties": 0,
+      "p_two_sided_ties_excluded": 0.237884521484375,
+      "median": 0.0020833333333333303
+    },
+    "T07": {
+      "n": 18,
+      "positive": 3,
+      "negative": 15,
+      "ties": 0,
+      "p_two_sided_ties_excluded": 0.007537841796875,
+      "median": -0.007638888888888898
+    }
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "status": "completed",
+  "pilot_only": false,
+  "n_items": 1800,
+  "accuracy": 0.6255555555555555,
+  "aurc_secondary": 0.33643939109833676,
+  "brier_secondary": 0.6458333333333334,
+  "headline_lowres_iqm": null,
+  "scope": {
+    "computes": [
+      "full selected run specification"
+    ],
+    "withheld": {}
+  },
+  "target_coverage": 0.8,
+  "per_language_selective_risk": {
+    "ar": 0.43125,
+    "en_translated": 0.29375,
+    "es": 0.3,
+    "hi": 0.25625,
+    "id_formal": 0.2875,
+    "jv_krama": 0.425,
+    "ko_formal": 0.21875,
+    "su_loma": 0.4875,
+    "zh_cn": 0.10625
+  },
+  "per_language_threshold_report_only": {
+    "ar": 0.5,
+    "en_translated": 1.0,
+    "es": 1.0,
+    "hi": 0.5,
+    "id_formal": 0.5,
+    "jv_krama": 0.5,
+    "ko_formal": 1.0,
+    "su_loma": 0.5,
+    "zh_cn": 1.0
+  },
+  "accepted_counts": {
+    "ar": 160,
+    "en_translated": 160,
+    "es": 160,
+    "hi": 160,
+    "id_formal": 160,
+    "jv_krama": 160,
+    "ko_formal": 160,
+    "su_loma": 160,
+    "zh_cn": 160
+  },
+  "conformance_failures": [
+    {
+      "id": "cvqa:test:es:125",
+      "generated_semantic": [
+        3,
+        3
+      ],
+      "shortcut_semantic": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": "cvqa:test:jv_krama:109",
+      "generated_semantic": [
+        1,
+        0
+      ],
+      "shortcut_semantic": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "cvqa:test:ko_formal:63",
+      "generated_semantic": [
+        3,
+        3
+      ],
+      "shortcut_semantic": [
+        3,
+        0
+      ]
+    }
+  ],
+  "conformance_ids": [
+    "cvqa:test:ar:101",
+    "cvqa:test:ar:106",
+    "cvqa:test:ar:114",
+    "cvqa:test:ar:130",
+    "cvqa:test:ar:4",
+    "cvqa:test:en_translated:161",
+    "cvqa:test:en_translated:193",
+    "cvqa:test:es:125",
+    "cvqa:test:es:135",
+    "cvqa:test:es:157",
+    "cvqa:test:id_formal:103",
+    "cvqa:test:id_formal:125",
+    "cvqa:test:id_formal:142",
+    "cvqa:test:id_formal:169",
+    "cvqa:test:id_formal:171",
+    "cvqa:test:id_formal:96",
+    "cvqa:test:jv_krama:103",
+    "cvqa:test:jv_krama:109",
+    "cvqa:test:jv_krama:114",
+    "cvqa:test:jv_krama:150",
+    "cvqa:test:jv_krama:30",
+    "cvqa:test:jv_krama:51",
+    "cvqa:test:ko_formal:106",
+    "cvqa:test:ko_formal:46",
+    "cvqa:test:ko_formal:63",
+    "cvqa:test:ko_formal:75",
+    "cvqa:test:su_loma:158",
+    "cvqa:test:su_loma:194",
+    "cvqa:test:su_loma:69",
+    "cvqa:test:su_loma:74",
+    "cvqa:test:zh_cn:121",
+    "cvqa:test:zh_cn:141",
+    "cvqa:test:zh_cn:196",
+    "cvqa:test:zh_cn:197",
+    "cvqa:test:zh_cn:39",
+    "cvqa:test:zh_cn:51"
+  ],
+  "conformance_ids_source": "derived_operator_hard_open",
+  "elapsed_seconds": 3188.5844984054565,
+  "gpu_hours": 0.885717916223738,
+  "input_sha256": "476456d88217fce51df6f96e079332a19ee19ffe0de37b8aabd8089241f17f96",
+  "full_generation": true,
+  "greedy_generation_config": {
+    "loaded_num_beams": 1,
+    "loaded_do_sample": true,
+    "effective_num_beams": 1,
+    "effective_do_sample": false
+  },
+  "torch_version": "2.8.0+cu128",
+  "device": "cuda",
+  "cuda_device": "NVIDIA GeForce RTX 4090",
+  "execution_order_clause": {
+    "frozen_vit_feature_cache": "withdrawn_unimplemented",
+    "image_prefix_kv_cache": "withdrawn_unimplemented",
+    "cost_paid_by_full_recompute": true
+  }
+}

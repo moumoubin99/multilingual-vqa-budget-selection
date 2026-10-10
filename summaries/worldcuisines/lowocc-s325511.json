@@ -1,0 +1,197 @@
+{
+  "status": "completed",
+  "pilot_only": false,
+  "n_items": 3600,
+  "accuracy": 0.6397222222222222,
+  "aurc_secondary": 0.29499754036222964,
+  "brier_secondary": 0.6202777777777778,
+  "headline_lowres_iqm": null,
+  "scope": {
+    "computes": [
+      "full selected run specification"
+    ],
+    "withheld": {}
+  },
+  "target_coverage": 0.8,
+  "per_language_selective_risk": {
+    "ar": 0.3375,
+    "en": 0.2791666666666667,
+    "es": 0.2916666666666667,
+    "fr": 0.26666666666666666,
+    "hi": 0.30833333333333335,
+    "id_formal": 0.26666666666666666,
+    "jv_krama": 0.325,
+    "ko_formal": 0.3625,
+    "sc": 0.2708333333333333,
+    "su_loma": 0.2708333333333333,
+    "yo": 0.3,
+    "zh_cn": 0.2875
+  },
+  "per_language_threshold_report_only": {
+    "ar": 0.5,
+    "en": 1.0,
+    "es": 1.0,
+    "fr": 1.0,
+    "hi": 0.5,
+    "id_formal": 1.0,
+    "jv_krama": 1.0,
+    "ko_formal": 0.5,
+    "sc": 1.0,
+    "su_loma": 0.5,
+    "yo": 0.5,
+    "zh_cn": 1.0
+  },
+  "accepted_counts": {
+    "ar": 240,
+    "en": 240,
+    "es": 240,
+    "fr": 240,
+    "hi": 240,
+    "id_formal": 240,
+    "jv_krama": 240,
+    "ko_formal": 240,
+    "sc": 240,
+    "su_loma": 240,
+    "yo": 240,
+    "zh_cn": 240
+  },
+  "conformance_failures": [
+    {
+      "id": "worldcuisines:small_eval_task1:zh_cn:170",
+      "generated_semantic": [
+        2,
+        2
+      ],
+      "shortcut_semantic": [
+        2,
+        0
+      ]
+    },
+    {
+      "id": "worldcuisines:small_eval_task1:fr:119",
+      "generated_semantic": [
+        3,
+        0
+      ],
+      "shortcut_semantic": [
+        3,
+        3
+      ]
+    },
+    {
+      "id": "worldcuisines:small_eval_task1:ar:231",
+      "generated_semantic": [
+        3,
+        0
+      ],
+      "shortcut_semantic": [
+        3,
+        3
+      ]
+    },
+    {
+      "id": "worldcuisines:small_eval_task1:su_loma:150",
+      "generated_semantic": [
+        1,
+        2
+      ],
+      "shortcut_semantic": [
+        1,
+        1
+      ]
+    }
+  ],
+  "conformance_ids": [
+    "worldcuisines:small_eval_task1:ar:198",
+    "worldcuisines:small_eval_task1:ar:231",
+    "worldcuisines:small_eval_task1:en:136",
+    "worldcuisines:small_eval_task1:en:191",
+    "worldcuisines:small_eval_task1:en:64",
+    "worldcuisines:small_eval_task1:es:19",
+    "worldcuisines:small_eval_task1:es:196",
+    "worldcuisines:small_eval_task1:es:38",
+    "worldcuisines:small_eval_task1:es:75",
+    "worldcuisines:small_eval_task1:es:78",
+    "worldcuisines:small_eval_task1:es:92",
+    "worldcuisines:small_eval_task1:fr:119",
+    "worldcuisines:small_eval_task1:fr:185",
+    "worldcuisines:small_eval_task1:fr:217",
+    "worldcuisines:small_eval_task1:fr:24",
+    "worldcuisines:small_eval_task1:fr:62",
+    "worldcuisines:small_eval_task1:fr:77",
+    "worldcuisines:small_eval_task1:fr:80",
+    "worldcuisines:small_eval_task1:fr:93",
+    "worldcuisines:small_eval_task1:hi:202",
+    "worldcuisines:small_eval_task1:hi:235",
+    "worldcuisines:small_eval_task1:hi:252",
+    "worldcuisines:small_eval_task1:hi:270",
+    "worldcuisines:small_eval_task1:hi:277",
+    "worldcuisines:small_eval_task1:hi:68",
+    "worldcuisines:small_eval_task1:id_formal:125",
+    "worldcuisines:small_eval_task1:id_formal:204",
+    "worldcuisines:small_eval_task1:id_formal:278",
+    "worldcuisines:small_eval_task1:id_formal:280",
+    "worldcuisines:small_eval_task1:id_formal:96",
+    "worldcuisines:small_eval_task1:jv_krama:129",
+    "worldcuisines:small_eval_task1:jv_krama:183",
+    "worldcuisines:small_eval_task1:jv_krama:219",
+    "worldcuisines:small_eval_task1:jv_krama:249",
+    "worldcuisines:small_eval_task1:jv_krama:28",
+    "worldcuisines:small_eval_task1:jv_krama:282",
+    "worldcuisines:small_eval_task1:jv_krama:288",
+    "worldcuisines:small_eval_task1:jv_krama:297",
+    "worldcuisines:small_eval_task1:jv_krama:8",
+    "worldcuisines:small_eval_task1:ko_formal:101",
+    "worldcuisines:small_eval_task1:ko_formal:138",
+    "worldcuisines:small_eval_task1:ko_formal:142",
+    "worldcuisines:small_eval_task1:ko_formal:192",
+    "worldcuisines:small_eval_task1:ko_formal:53",
+    "worldcuisines:small_eval_task1:ko_formal:72",
+    "worldcuisines:small_eval_task1:sc:174",
+    "worldcuisines:small_eval_task1:sc:285",
+    "worldcuisines:small_eval_task1:sc:5",
+    "worldcuisines:small_eval_task1:su_loma:150",
+    "worldcuisines:small_eval_task1:su_loma:179",
+    "worldcuisines:small_eval_task1:su_loma:18",
+    "worldcuisines:small_eval_task1:su_loma:198",
+    "worldcuisines:small_eval_task1:su_loma:206",
+    "worldcuisines:small_eval_task1:su_loma:264",
+    "worldcuisines:small_eval_task1:su_loma:50",
+    "worldcuisines:small_eval_task1:su_loma:55",
+    "worldcuisines:small_eval_task1:su_loma:94",
+    "worldcuisines:small_eval_task1:yo:144",
+    "worldcuisines:small_eval_task1:yo:203",
+    "worldcuisines:small_eval_task1:yo:224",
+    "worldcuisines:small_eval_task1:yo:276",
+    "worldcuisines:small_eval_task1:yo:279",
+    "worldcuisines:small_eval_task1:yo:290",
+    "worldcuisines:small_eval_task1:yo:66",
+    "worldcuisines:small_eval_task1:yo:71",
+    "worldcuisines:small_eval_task1:yo:9",
+    "worldcuisines:small_eval_task1:zh_cn:153",
+    "worldcuisines:small_eval_task1:zh_cn:158",
+    "worldcuisines:small_eval_task1:zh_cn:170",
+    "worldcuisines:small_eval_task1:zh_cn:211",
+    "worldcuisines:small_eval_task1:zh_cn:229",
+    "worldcuisines:small_eval_task1:zh_cn:55"
+  ],
+  "conformance_ids_source": "derived_operator_hard_open",
+  "elapsed_seconds": 4941.581843852997,
+  "gpu_hours": 1.372661623292499,
+  "input_sha256": "868e954c468386d64ee97e62765f91788b28daec843abaf13846c07f5a0120dc",
+  "full_generation": true,
+  "greedy_generation_config": {
+    "loaded_num_beams": 1,
+    "loaded_do_sample": true,
+    "effective_num_beams": 1,
+    "effective_do_sample": false
+  },
+  "torch_version": "2.8.0+cu128",
+  "device": "cuda",
+  "cuda_device": "NVIDIA GeForce RTX 4090",
+  "execution_order_clause": {
+    "frozen_vit_feature_cache": "withdrawn_unimplemented",
+    "image_prefix_kv_cache": "withdrawn_unimplemented",
+    "cost_paid_by_full_recompute": true
+  }
+}

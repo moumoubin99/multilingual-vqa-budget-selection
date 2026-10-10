@@ -1,0 +1,130 @@
+{
+  "status": "completed",
+  "pilot_only": false,
+  "n_items": 1800,
+  "accuracy": 0.6288888888888889,
+  "aurc_secondary": 0.3530464498688663,
+  "brier_secondary": 0.6558333333333334,
+  "headline_lowres_iqm": null,
+  "scope": {
+    "computes": [
+      "full selected run specification"
+    ],
+    "withheld": {}
+  },
+  "target_coverage": 0.8,
+  "per_language_selective_risk": {
+    "ar": 0.45,
+    "en_translated": 0.3,
+    "es": 0.325,
+    "hi": 0.25625,
+    "id_formal": 0.3125,
+    "jv_krama": 0.4375,
+    "ko_formal": 0.2125,
+    "su_loma": 0.4625,
+    "zh_cn": 0.1
+  },
+  "per_language_threshold_report_only": {
+    "ar": 0.5,
+    "en_translated": 1.0,
+    "es": 1.0,
+    "hi": 1.0,
+    "id_formal": 0.5,
+    "jv_krama": 0.5,
+    "ko_formal": 1.0,
+    "su_loma": 0.5,
+    "zh_cn": 1.0
+  },
+  "accepted_counts": {
+    "ar": 160,
+    "en_translated": 160,
+    "es": 160,
+    "hi": 160,
+    "id_formal": 160,
+    "jv_krama": 160,
+    "ko_formal": 160,
+    "su_loma": 160,
+    "zh_cn": 160
+  },
+  "conformance_failures": [
+    {
+      "id": "cvqa:test:ar:80",
+      "generated_semantic": [
+        0,
+        3
+      ],
+      "shortcut_semantic": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "cvqa:test:su_loma:52",
+      "generated_semantic": [
+        0,
+        2
+      ],
+      "shortcut_semantic": [
+        0,
+        0
+      ]
+    }
+  ],
+  "conformance_ids": [
+    "cvqa:test:ar:106",
+    "cvqa:test:ar:162",
+    "cvqa:test:ar:23",
+    "cvqa:test:ar:28",
+    "cvqa:test:ar:7",
+    "cvqa:test:ar:80",
+    "cvqa:test:en_translated:132",
+    "cvqa:test:en_translated:141",
+    "cvqa:test:en_translated:187",
+    "cvqa:test:en_translated:72",
+    "cvqa:test:es:66",
+    "cvqa:test:es:71",
+    "cvqa:test:es:78",
+    "cvqa:test:hi:122",
+    "cvqa:test:hi:57",
+    "cvqa:test:hi:66",
+    "cvqa:test:hi:86",
+    "cvqa:test:hi:99",
+    "cvqa:test:id_formal:102",
+    "cvqa:test:id_formal:17",
+    "cvqa:test:jv_krama:173",
+    "cvqa:test:jv_krama:178",
+    "cvqa:test:jv_krama:44",
+    "cvqa:test:jv_krama:45",
+    "cvqa:test:ko_formal:114",
+    "cvqa:test:ko_formal:131",
+    "cvqa:test:ko_formal:62",
+    "cvqa:test:su_loma:106",
+    "cvqa:test:su_loma:156",
+    "cvqa:test:su_loma:176",
+    "cvqa:test:su_loma:21",
+    "cvqa:test:su_loma:52",
+    "cvqa:test:su_loma:95",
+    "cvqa:test:zh_cn:155",
+    "cvqa:test:zh_cn:38",
+    "cvqa:test:zh_cn:75"
+  ],
+  "conformance_ids_source": "derived_operator_hard_open",
+  "elapsed_seconds": 3243.7263894081116,
+  "gpu_hours": 0.9010351081689199,
+  "input_sha256": "476456d88217fce51df6f96e079332a19ee19ffe0de37b8aabd8089241f17f96",
+  "full_generation": true,
+  "greedy_generation_config": {
+    "loaded_num_beams": 1,
+    "loaded_do_sample": true,
+    "effective_num_beams": 1,
+    "effective_do_sample": false
+  },
+  "torch_version": "2.8.0+cu128",
+  "device": "cuda",
+  "cuda_device": "NVIDIA GeForce RTX 4090",
+  "execution_order_clause": {
+    "frozen_vit_feature_cache": "withdrawn_unimplemented",
+    "image_prefix_kv_cache": "withdrawn_unimplemented",
+    "cost_paid_by_full_recompute": true
+  }
+}

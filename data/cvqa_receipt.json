@@ -1,0 +1,87 @@
+{
+  "built": "scripts/prepare_cvqa_transfer.py",
+  "source": {
+    "dataset": "afaji/cvqa",
+    "split": "test",
+    "mirror": "https://hf-mirror.com/datasets/afaji/cvqa",
+    "shards": [
+      "test-00000-of-00010.parquet",
+      "test-00001-of-00010.parquet",
+      "test-00002-of-00010.parquet",
+      "test-00003-of-00010.parquet",
+      "test-00004-of-00010.parquet",
+      "test-00005-of-00010.parquet",
+      "test-00006-of-00010.parquet",
+      "test-00007-of-00010.parquet",
+      "test-00008-of-00010.parquet",
+      "test-00009-of-00010.parquet"
+    ],
+    "shard_sha256": {
+      "test-00000-of-00010.parquet": "8f292dc7a9bda1f9295f620dfbc6d327a214ed5d8ae24efdec36f95e32f5e451",
+      "test-00001-of-00010.parquet": "df8f0b8053daf70219697e869778f837fb4f1a024d7cf27de7d8a8680fb608e2",
+      "test-00002-of-00010.parquet": "c97e2c28ab8a9d1a28ef1256251c7af28ec250a3ece492be95a16e9aa84b4e05",
+      "test-00003-of-00010.parquet": "7a2f50017a4c1a81e38662f837a5b0e6d3d3c49d0f02cfc28d6da3025dde60bd",
+      "test-00004-of-00010.parquet": "5fa596ba64ed724a4075219c284b3c9c4aaf96df3b5b0b9cec88bdd14a3a3191",
+      "test-00005-of-00010.parquet": "0bd8d3745474ea6a94ceb939c73960028ea63276c754d3709dd4259af2ba3e21",
+      "test-00006-of-00010.parquet": "1cc8458e5619415097f6d86a35b67e003bc0e133402c69cc1f1d5f61ec38d803",
+      "test-00007-of-00010.parquet": "d351635a24c827133a3e3cda1b9f4896c04fa95a249a98383d476c3a719763e3",
+      "test-00008-of-00010.parquet": "a1f6860af32ac794b274f8fda513dfc36c195d6acc64c9addf982dee13d0ffde",
+      "test-00009-of-00010.parquet": "7bb6ac6e9fda6d1699935048a11656fa7cb5688816920001e1dfc4f201699789"
+    }
+  },
+  "seed": 646616,
+  "per_language_target": 200,
+  "items": 1800,
+  "items_per_language": {
+    "ar": 200,
+    "en_translated": 200,
+    "es": 200,
+    "hi": 200,
+    "id_formal": 200,
+    "jv_krama": 200,
+    "ko_formal": 200,
+    "su_loma": 200,
+    "zh_cn": 200
+  },
+  "languages_mapped": {
+    "ar": [
+      "('Egyptian_Arabic', 'Egypt')"
+    ],
+    "es": [
+      "('Spanish', 'Argentina')",
+      "('Spanish', 'Chile')",
+      "('Spanish', 'Colombia')",
+      "('Spanish', 'Ecuador')",
+      "('Spanish', 'Mexico')",
+      "('Spanish', 'Spain')",
+      "('Spanish', 'Uruguay')"
+    ],
+    "hi": [
+      "('Hindi', 'India')"
+    ],
+    "id_formal": [
+      "('Indonesian', 'Indonesia')"
+    ],
+    "jv_krama": [
+      "('Javanese', 'Indonesia')"
+    ],
+    "ko_formal": [
+      "('Korean', 'South Korea')"
+    ],
+    "su_loma": [
+      "('Sundanese', 'Indonesia')"
+    ],
+    "zh_cn": [
+      "('Chinese', 'China')"
+    ]
+  },
+  "languages_unavailable": [
+    "fr",
+    "sc",
+    "yo"
+  ],
+  "ground_truth": "CVQA's own `Label` column. Verified non-masked on shard 0 before this script was written: Counter({3: 286, 2: 275, 0: 249, 1: 228}) over 1038 rows. No model output is used as ground truth anywhere in this file.",
+  "english_stratum": "`en_translated` is built from CVQA's English translations of rows disjoint from every native stratum, round-robin across the 8 source languages. It is translationese, not native English, and is labelled as such.",
+  "scope_limit": "This is a ZERO-SHOT TRANSFER endpoint: the v3 adapters were trained on a WorldCuisines-derived pool and have never seen CVQA. Absolute accuracy is expected to fall for every arm and is NOT comparable to the v3 endpoint -- CVQA items have four options (chance 0.25) against the v3 endpoint's five (chance 0.20), and the task, images and concept inventory all differ. The only readable quantity is the sign and size of BETWEEN-ARM differences within this file, paired within seed. Coverage is 8 of the 12 evaluated languages; fr, sc and yo have no CVQA subset, so the two lowest-resource languages of the study are absent from the transfer check. `ar` is Egyptian Arabic here against MSA on the v3 endpoint. Descriptive, gates nothing.",
+  "public_release_note": "Any original sha256 field identifies original experiment input bytes; this receipt and public metadata are separately hashed release derivatives. The image-filename/hash map is omitted; per-item image hashes remain in derived metadata."
+}
